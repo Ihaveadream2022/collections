@@ -1,0 +1,1 @@
+"use strict";(self["webpackChunk"]=self["webpackChunk"]||[]).push([[432],{6432:function(n,e,u){u.r(e),u.d(e,{default:function(){return c}});var t=function(){var n=this,e=n._self._c;return e("div",[n._v("admin-detail")])},i=[],l={name:"viewAdminList"},r=l,s=u(9917),a=(0,s.Z)(r,t,i,!1,null,null,null),c=a.exports}}]);

@@ -1,0 +1,1 @@
+"use strict";(self["webpackChunk"]=self["webpackChunk"]||[]).push([[560],{4560:function(n,e,u){u.r(e),u.d(e,{default:function(){return o}});var l=function(){var n=this,e=n._self._c;return e("div",[n._v("common-list")])},t=[],s={name:"viewsTableCommonList"},i=s,r=u(9917),c=(0,r.Z)(i,l,t,!1,null,null,null),o=c.exports}}]);
