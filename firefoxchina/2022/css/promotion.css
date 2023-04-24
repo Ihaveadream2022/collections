@@ -1,0 +1,92 @@
+
+/* 对联推广 */
+.th-side-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.th-side-bar .layout {
+    height: 100%;
+    position: relative
+}
+
+.th-side-bar .mod {
+    position: absolute;
+    z-index: 499;
+    overflow: hidden;
+}
+
+.th-side-bar .close {
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    z-index: 5000;
+    top: 85px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px
+}
+/* 对联推广 */
+
+/* 搜索底部 banner */
+.cont-promote {
+    background: transparent;
+    height: 60px;
+    overflow: hidden;
+    clear: both;
+    margin-bottom: 10px;
+}
+
+.cont-promote li {
+    height: 60px;
+    overflow: hidden;
+    float: left;
+}
+
+.cont-promote li img {
+    width: 570px;
+    height: 60px
+}
+
+.cont-promote li .promote-bg {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.cont-promote .right {
+    float: right
+}
+/* 搜索底部 banner */
+
+
+/* 左侧浮动广告 */
+#ad-float-banner {
+    width: 200px;
+    z-index: 500;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -785px;
+    text-align: right;
+}
+#ad-float-banner a {
+    display: inline-block;
+    position: relative;
+}
+#ad-float-banner .btn-close {
+    font-size: 24px;
+    position: absolute;
+    left: -16px;
+    top: -20px;
+    color: #a7a4a4;
+    cursor: pointer;
+    z-index: 10;
+}
+/* 左侧浮动广告 */

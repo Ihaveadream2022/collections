@@ -1,0 +1,10002 @@
+var a = [
+    {
+    id: "1",
+    name: "北京",
+    parent_id: "0"
+    },
+    {
+    id: "2",
+    name: "上海",
+    parent_id: "0"
+
+    },
+    {
+    id: "3",
+    name: "天津",
+    parent_id: "0"
+    },
+    {
+    id: "4",
+    name: "重庆",
+    parent_id: "0"
+}, {
+    id: "5",
+    name: "河北",
+    parent_id: "0"
+}, {
+    id: "6",
+    name: "山西",
+    parent_id: "0"
+}, {
+    id: "7",
+    name: "内蒙古",
+    parent_id: "0"
+}, {
+    id: "8",
+    name: "辽宁",
+    parent_id: "0"
+}, {
+    id: "9",
+    name: "吉林",
+    parent_id: "0"
+}, {
+    id: "10",
+    name: "黑龙江",
+    parent_id: "0"
+}, {
+    id: "11",
+    name: "江苏",
+    parent_id: "0"
+}, {
+    id: "12",
+    name: "浙江",
+    parent_id: "0"
+}, {
+    id: "13",
+    name: "安徽",
+    parent_id: "0"
+}, {
+    id: "14",
+    name: "福建",
+    parent_id: "0"
+}, {
+    id: "15",
+    name: "江西",
+    parent_id: "0"
+}, {
+    id: "16",
+    name: "山东",
+    parent_id: "0"
+}, {
+    id: "17",
+    name: "河南",
+    parent_id: "0"
+}, {
+    id: "18",
+    name: "湖北",
+    parent_id: "0"
+}, {
+    id: "19",
+    name: "湖南",
+    parent_id: "0"
+}, {
+    id: "20",
+    name: "广东",
+    parent_id: "0"
+}, {
+    id: "21",
+    name: "广西",
+    parent_id: "0"
+}, {
+    id: "22",
+    name: "海南",
+    parent_id: "0"
+}, {
+    id: "23",
+    name: "四川",
+    parent_id: "0"
+}, {
+    id: "24",
+    name: "贵州",
+    parent_id: "0"
+}, {
+    id: "25",
+    name: "云南",
+    parent_id: "0"
+}, {
+    id: "26",
+    name: "西藏",
+    parent_id: "0"
+}, {
+    id: "27",
+    name: "陕西",
+    parent_id: "0"
+}, {
+    id: "28",
+    name: "甘肃",
+    parent_id: "0"
+}, {
+    id: "29",
+    name: "宁夏",
+    parent_id: "0"
+}, {
+    id: "30",
+    name: "青海",
+    parent_id: "0"
+}, {
+    id: "31",
+    name: "新疆",
+    parent_id: "0"
+}, {
+    id: "32",
+    name: "香港",
+    parent_id: "0"
+}, {
+    id: "33",
+    name: "澳门",
+    parent_id: "0"
+}, {
+    id: "34",
+    name: "台湾",
+    parent_id: "0"
+}, {
+    id: "CHXX0008",
+    name: "北京",
+    parent_id: "1"
+}, {
+    id: "WMXX2971",
+    name: "海淀",
+    parent_id: "CHXX0008"
+}, {
+    id: "WMXX2972",
+    name: "朝阳",
+    parent_id: "CHXX0008"
+}, {
+    id: "WMXX1307",
+    name: "通州",
+    parent_id: "CHXX0008"
+}, {
+    id: "CHXX0012",
+    name: "昌平",
+    parent_id: "CHXX0008"
+}, {
+    id: "CHXX0023",
+    name: "大兴",
+    parent_id: "CHXX0008"
+}, {
+    id: "WMXX2974",
+    name: "石景山",
+    parent_id: "CHXX0008"
+}, {
+    id: "WMXX1302",
+    name: "房山",
+    parent_id: "CHXX0008"
+}, {
+    id: "CHXX0027",
+    name: "丰台",
+    parent_id: "CHXX0008"
+}, {
+    id: "WMXX1303",
+    name: "怀柔",
+    parent_id: "CHXX0008"
+}, {
+    id: "WMXX1304",
+    name: "门头沟",
+    parent_id: "CHXX0008"
+}, {
+    id: "CHXX0096",
+    name: "密云",
+    parent_id: "CHXX0008"
+}, {
+    id: "WMXX1305",
+    name: "平谷",
+    parent_id: "CHXX0008"
+}, {
+    id: "WMXX1306",
+    name: "顺义",
+    parent_id: "CHXX0008"
+}, {
+    id: "WMXX1308",
+    name: "延庆",
+    parent_id: "CHXX0008"
+}, {
+    id: "CHXX0116",
+    name: "上海",
+    parent_id: "2"
+}, {
+    id: "WMXX1336",
+    name: "浦东",
+    parent_id: "CHXX0116"
+}, {
+    id: "CHXX0093",
+    name: "闵行",
+    parent_id: "CHXX0116"
+}, {
+    id: "WMXX1294",
+    name: "宝山",
+    parent_id: "CHXX0116"
+}, {
+    id: "WMXX1295",
+    name: "崇明",
+    parent_id: "CHXX0116"
+}, {
+    id: "WMXX1296",
+    name: "奉贤",
+    parent_id: "CHXX0116"
+}, {
+    id: "WMXX1297",
+    name: "嘉定",
+    parent_id: "CHXX0116"
+}, {
+    id: "WMXX1298",
+    name: "金山",
+    parent_id: "CHXX0116"
+}, {
+    id: "WMXX1299",
+    name: "南汇",
+    parent_id: "CHXX0116"
+}, {
+    id: "WMXX1300",
+    name: "青浦",
+    parent_id: "CHXX0116"
+}, {
+    id: "WMXX2973",
+    name: "徐家汇",
+    parent_id: "CHXX0116"
+}, {
+    id: "WMXX1301",
+    name: "松江",
+    parent_id: "CHXX0116"
+}, {
+    id: "CHXX0037",
+    name: "广州",
+    parent_id: "20"
+}, {
+    id: "WMXX1337",
+    name: "番禺",
+    parent_id: "CHXX0037"
+}, {
+    id: "WMXX1338",
+    name: "花都",
+    parent_id: "CHXX0037"
+}, {
+    id: "WMXX1339",
+    name: "增城",
+    parent_id: "CHXX0037"
+}, {
+    id: "WMXX1340",
+    name: "从化",
+    parent_id: "CHXX0037"
+}, {
+    id: "CHXX0120",
+    name: "深圳",
+    parent_id: "20"
+}, {
+    id: "CHXX0123",
+    name: "东莞",
+    parent_id: "20"
+}, {
+    id: "WMXX1000",
+    name: "珠海",
+    parent_id: "20"
+}, {
+    id: "WMXX2953",
+    name: "斗门",
+    parent_id: "WMXX1000"
+}, {
+    id: "WMXX2954",
+    name: "金湾",
+    parent_id: "WMXX1000"
+}, {
+    id: "WMXX1002",
+    name: "中山",
+    parent_id: "20"
+}, {
+    id: "CHXX0493",
+    name: "汕头",
+    parent_id: "20"
+}, {
+    id: "WMXX1341",
+    name: "潮阳",
+    parent_id: "CHXX0493"
+}, {
+    id: "WMXX1342",
+    name: "澄海",
+    parent_id: "CHXX0493"
+}, {
+    id: "WMXX1343",
+    name: "南澳",
+    parent_id: "CHXX0493"
+}, {
+    id: "CHXX0482",
+    name: "韶关",
+    parent_id: "20"
+}, {
+    id: "WMXX2955",
+    name: "曲江",
+    parent_id: "CHXX0482"
+}, {
+    id: "WMXX1344",
+    name: "乐昌",
+    parent_id: "CHXX0482"
+}, {
+    id: "WMXX1156",
+    name: "南雄",
+    parent_id: "CHXX0482"
+}, {
+    id: "WMXX1345",
+    name: "始兴",
+    parent_id: "CHXX0482"
+}, {
+    id: "WMXX1346",
+    name: "仁化",
+    parent_id: "CHXX0482"
+}, {
+    id: "WMXX1347",
+    name: "翁源",
+    parent_id: "CHXX0482"
+}, {
+    id: "WMXX1348",
+    name: "新丰",
+    parent_id: "CHXX0482"
+}, {
+    id: "WMXX1349",
+    name: "乳源",
+    parent_id: "CHXX0482"
+}, {
+    id: "CHXX0028",
+    name: "佛山",
+    parent_id: "20"
+}, {
+    id: "WMXX1350",
+    name: "南海",
+    parent_id: "CHXX0028"
+}, {
+    id: "WMXX1351",
+    name: "顺德",
+    parent_id: "CHXX0028"
+}, {
+    id: "WMXX1352",
+    name: "三水",
+    parent_id: "CHXX0028"
+}, {
+    id: "WMXX2952",
+    name: "高明",
+    parent_id: "CHXX0028"
+}, {
+    id: "CHXX0058",
+    name: "江门",
+    parent_id: "20"
+}, {
+    id: "WMXX1353",
+    name: "新会",
+    parent_id: "CHXX0058"
+}, {
+    id: "WMXX1354",
+    name: "台山",
+    parent_id: "CHXX0058"
+}, {
+    id: "WMXX1355",
+    name: "开平",
+    parent_id: "CHXX0058"
+}, {
+    id: "WMXX1356",
+    name: "鹤山",
+    parent_id: "CHXX0058"
+}, {
+    id: "WMXX1357",
+    name: "恩平",
+    parent_id: "CHXX0058"
+}, {
+    id: "CHXX0163",
+    name: "湛江",
+    parent_id: "20"
+}, {
+    id: "WMXX1358",
+    name: "廉江",
+    parent_id: "CHXX0163"
+}, {
+    id: "WMXX1359",
+    name: "雷州",
+    parent_id: "CHXX0163"
+}, {
+    id: "WMXX1360",
+    name: "吴川",
+    parent_id: "CHXX0163"
+}, {
+    id: "WMXX1361",
+    name: "遂溪",
+    parent_id: "CHXX0163"
+}, {
+    id: "CHXX0150",
+    name: "徐闻",
+    parent_id: "CHXX0163"
+}, {
+    id: "CHXX0090",
+    name: "茂名",
+    parent_id: "20"
+}, {
+    id: "WMXX1362",
+    name: "高州",
+    parent_id: "CHXX0090"
+}, {
+    id: "WMXX1363",
+    name: "化州",
+    parent_id: "CHXX0090"
+}, {
+    id: "CHXX0495",
+    name: "信宜",
+    parent_id: "CHXX0090"
+}, {
+    id: "WMXX1364",
+    name: "电白",
+    parent_id: "CHXX0090"
+}, {
+    id: "WMXX1003",
+    name: "肇庆",
+    parent_id: "20"
+}, {
+    id: "CHXX0491",
+    name: "高要",
+    parent_id: "WMXX1003"
+}, {
+    id: "WMXX1365",
+    name: "四会",
+    parent_id: "WMXX1003"
+}, {
+    id: "WMXX1366",
+    name: "广宁",
+    parent_id: "WMXX1003"
+}, {
+    id: "WMXX1367",
+    name: "怀集",
+    parent_id: "WMXX1003"
+}, {
+    id: "WMXX1368",
+    name: "封开",
+    parent_id: "WMXX1003"
+}, {
+    id: "WMXX1369",
+    name: "德庆",
+    parent_id: "WMXX1003"
+}, {
+    id: "CHXX0053",
+    name: "惠州",
+    parent_id: "20"
+}, {
+    id: "WMXX2949",
+    name: "惠阳",
+    parent_id: "CHXX0053"
+}, {
+    id: "WMXX1370",
+    name: "博罗",
+    parent_id: "CHXX0053"
+}, {
+    id: "WMXX1371",
+    name: "惠东",
+    parent_id: "CHXX0053"
+}, {
+    id: "WMXX1372",
+    name: "龙门",
+    parent_id: "CHXX0053"
+}, {
+    id: "CHXX0486",
+    name: "梅州",
+    parent_id: "20"
+}, {
+    id: "WMXX1373",
+    name: "兴宁",
+    parent_id: "CHXX0486"
+}, {
+    id: "WMXX1374",
+    name: "梅县",
+    parent_id: "CHXX0486"
+}, {
+    id: "WMXX1375",
+    name: "大埔",
+    parent_id: "CHXX0486"
+}, {
+    id: "WMXX1376",
+    name: "丰顺",
+    parent_id: "CHXX0486"
+}, {
+    id: "WMXX1377",
+    name: "五华",
+    parent_id: "CHXX0486"
+}, {
+    id: "WMXX1378",
+    name: "平远",
+    parent_id: "CHXX0486"
+}, {
+    id: "WMXX1379",
+    name: "蕉岭",
+    parent_id: "CHXX0486"
+}, {
+    id: "CHXX0496",
+    name: "汕尾",
+    parent_id: "20"
+}, {
+    id: "WMXX1380",
+    name: "陆丰",
+    parent_id: "CHXX0496"
+}, {
+    id: "WMXX1381",
+    name: "海丰",
+    parent_id: "CHXX0496"
+}, {
+    id: "WMXX1382",
+    name: "陆河",
+    parent_id: "CHXX0496"
+}, {
+    id: "CHXX0492",
+    name: "河源",
+    parent_id: "20"
+}, {
+    id: "WMXX1383",
+    name: "紫金",
+    parent_id: "CHXX0492"
+}, {
+    id: "WMXX1384",
+    name: "龙川",
+    parent_id: "CHXX0492"
+}, {
+    id: "CHXX0484",
+    name: "连平",
+    parent_id: "CHXX0492"
+}, {
+    id: "WMXX1385",
+    name: "和平",
+    parent_id: "CHXX0492"
+}, {
+    id: "WMXX1386",
+    name: "东源",
+    parent_id: "CHXX0492"
+}, {
+    id: "CHXX0500",
+    name: "阳江",
+    parent_id: "20"
+}, {
+    id: "WMXX1387",
+    name: "阳春",
+    parent_id: "CHXX0500"
+}, {
+    id: "WMXX1388",
+    name: "阳西",
+    parent_id: "CHXX0500"
+}, {
+    id: "WMXX1389",
+    name: "阳东",
+    parent_id: "CHXX0500"
+}, {
+    id: "WMXX1259",
+    name: "清远",
+    parent_id: "20"
+}, {
+    id: "WMXX1318",
+    name: "英德",
+    parent_id: "WMXX1259"
+}, {
+    id: "CHXX0481",
+    name: "连州",
+    parent_id: "WMXX1259"
+}, {
+    id: "CHXX0483",
+    name: "佛冈",
+    parent_id: "WMXX1259"
+}, {
+    id: "WMXX1390",
+    name: "阳山",
+    parent_id: "WMXX1259"
+}, {
+    id: "WMXX1391",
+    name: "清新",
+    parent_id: "WMXX1259"
+}, {
+    id: "WMXX1392",
+    name: "连山",
+    parent_id: "WMXX1259"
+}, {
+    id: "WMXX1393",
+    name: "连南",
+    parent_id: "WMXX1259"
+}, {
+    id: "WMXX1001",
+    name: "潮州",
+    parent_id: "20"
+}, {
+    id: "WMXX1394",
+    name: "潮安",
+    parent_id: "WMXX1001"
+}, {
+    id: "WMXX1395",
+    name: "饶平",
+    parent_id: "WMXX1001"
+}, {
+    id: "WMXX1260",
+    name: "揭阳",
+    parent_id: "20"
+}, {
+    id: "WMXX1396",
+    name: "普宁",
+    parent_id: "WMXX1260"
+}, {
+    id: "WMXX1397",
+    name: "揭东",
+    parent_id: "WMXX1260"
+}, {
+    id: "WMXX1398",
+    name: "揭西",
+    parent_id: "WMXX1260"
+}, {
+    id: "WMXX1399",
+    name: "惠来",
+    parent_id: "WMXX1260"
+}, {
+    id: "WMXX1261",
+    name: "云浮",
+    parent_id: "20"
+}, {
+    id: "WMXX1400",
+    name: "罗定",
+    parent_id: "WMXX1261"
+}, {
+    id: "WMXX1401",
+    name: "新兴",
+    parent_id: "WMXX1261"
+}, {
+    id: "WMXX1402",
+    name: "郁南",
+    parent_id: "WMXX1261"
+}, {
+    id: "WMXX1403",
+    name: "云安",
+    parent_id: "WMXX1261"
+}, {
+    id: "CHXX0031",
+    name: "福州",
+    parent_id: "14"
+}, {
+    id: "WMXX1404",
+    name: "闽侯",
+    parent_id: "CHXX0031"
+}, {
+    id: "WMXX1405",
+    name: "连江",
+    parent_id: "CHXX0031"
+}, {
+    id: "WMXX1406",
+    name: "罗源",
+    parent_id: "CHXX0031"
+}, {
+    id: "CHXX0094",
+    name: "闽清",
+    parent_id: "CHXX0031"
+}, {
+    id: "WMXX1407",
+    name: "永泰",
+    parent_id: "CHXX0031"
+}, {
+    id: "CHXX0476",
+    name: "平潭",
+    parent_id: "CHXX0031"
+}, {
+    id: "WMXX1408",
+    name: "福清",
+    parent_id: "CHXX0031"
+}, {
+    id: "WMXX1409",
+    name: "长乐",
+    parent_id: "CHXX0031"
+}, {
+    id: "CHXX0140",
+    name: "厦门",
+    parent_id: "14"
+}, {
+    id: "WMXX1410",
+    name: "同安",
+    parent_id: "CHXX0140"
+}, {
+    id: "CHXX0045",
+    name: "莆田",
+    parent_id: "14"
+}, {
+    id: "WMXX2958",
+    name: "涵江",
+    parent_id: "CHXX0045"
+}, {
+    id: "WMXX1411",
+    name: "仙游",
+    parent_id: "CHXX0045"
+}, {
+    id: "WMXX2957",
+    name: "秀屿",
+    parent_id: "CHXX0045"
+}, {
+    id: "WMXX2956",
+    name: "秀屿港",
+    parent_id: "CHXX0045"
+}, {
+    id: "WMXX1005",
+    name: "三明",
+    parent_id: "14"
+}, {
+    id: "WMXX1412",
+    name: "明溪",
+    parent_id: "WMXX1005"
+}, {
+    id: "WMXX1413",
+    name: "清流",
+    parent_id: "WMXX1005"
+}, {
+    id: "WMXX1133",
+    name: "宁化",
+    parent_id: "WMXX1005"
+}, {
+    id: "WMXX1414",
+    name: "大田",
+    parent_id: "WMXX1005"
+}, {
+    id: "WMXX1415",
+    name: "尤溪",
+    parent_id: "WMXX1005"
+}, {
+    id: "WMXX1416",
+    name: "沙县",
+    parent_id: "WMXX1005"
+}, {
+    id: "WMXX1417",
+    name: "将乐",
+    parent_id: "WMXX1005"
+}, {
+    id: "WMXX1134",
+    name: "泰宁",
+    parent_id: "WMXX1005"
+}, {
+    id: "WMXX1135",
+    name: "建宁",
+    parent_id: "WMXX1005"
+}, {
+    id: "CHXX0473",
+    name: "永安",
+    parent_id: "WMXX1005"
+}, {
+    id: "CHXX0114",
+    name: "泉州",
+    parent_id: "14"
+}, {
+    id: "WMXX1418",
+    name: "惠安",
+    parent_id: "CHXX0114"
+}, {
+    id: "WMXX1419",
+    name: "安溪",
+    parent_id: "CHXX0114"
+}, {
+    id: "WMXX1420",
+    name: "永春",
+    parent_id: "CHXX0114"
+}, {
+    id: "CHXX0475",
+    name: "德化",
+    parent_id: "CHXX0114"
+}, {
+    id: "WMXX1421",
+    name: "石狮",
+    parent_id: "CHXX0114"
+}, {
+    id: "WMXX1422",
+    name: "晋江",
+    parent_id: "CHXX0114"
+}, {
+    id: "WMXX1423",
+    name: "南安",
+    parent_id: "CHXX0114"
+}, {
+    id: "WMXX2959",
+    name: "崇武",
+    parent_id: "CHXX0114"
+}, {
+    id: "CHXX0162",
+    name: "漳州",
+    parent_id: "14"
+}, {
+    id: "WMXX1424",
+    name: "云霄",
+    parent_id: "CHXX0162"
+}, {
+    id: "WMXX1425",
+    name: "漳浦",
+    parent_id: "CHXX0162"
+}, {
+    id: "WMXX1162",
+    name: "诏安",
+    parent_id: "CHXX0162"
+}, {
+    id: "WMXX1426",
+    name: "长泰",
+    parent_id: "CHXX0162"
+}, {
+    id: "WMXX1427",
+    name: "东山",
+    parent_id: "CHXX0162"
+}, {
+    id: "WMXX1428",
+    name: "南靖",
+    parent_id: "CHXX0162"
+}, {
+    id: "WMXX1429",
+    name: "平和",
+    parent_id: "CHXX0162"
+}, {
+    id: "WMXX1430",
+    name: "华安",
+    parent_id: "CHXX0162"
+}, {
+    id: "WMXX1431",
+    name: "龙海",
+    parent_id: "CHXX0162"
+}, {
+    id: "CHXX0471",
+    name: "南平",
+    parent_id: "14"
+}, {
+    id: "WMXX1432",
+    name: "顺昌",
+    parent_id: "CHXX0471"
+}, {
+    id: "CHXX0468",
+    name: "浦城",
+    parent_id: "CHXX0471"
+}, {
+    id: "WMXX1433",
+    name: "光泽",
+    parent_id: "CHXX0471"
+}, {
+    id: "WMXX1163",
+    name: "松溪",
+    parent_id: "CHXX0471"
+}, {
+    id: "WMXX1434",
+    name: "政和",
+    parent_id: "CHXX0471"
+}, {
+    id: "CHXX0466",
+    name: "邵武",
+    parent_id: "CHXX0471"
+}, {
+    id: "CHXX0467",
+    name: "武夷山",
+    parent_id: "CHXX0471"
+}, {
+    id: "WMXX1164",
+    name: "建瓯",
+    parent_id: "CHXX0471"
+}, {
+    id: "WMXX1435",
+    name: "建阳",
+    parent_id: "CHXX0471"
+}, {
+    id: "WMXX1006",
+    name: "龙岩",
+    parent_id: "14"
+}, {
+    id: "CHXX0472",
+    name: "长汀",
+    parent_id: "WMXX1006"
+}, {
+    id: "WMXX1436",
+    name: "永定",
+    parent_id: "WMXX1006"
+}, {
+    id: "WMXX1139",
+    name: "上杭",
+    parent_id: "WMXX1006"
+}, {
+    id: "WMXX1437",
+    name: "武平",
+    parent_id: "WMXX1006"
+}, {
+    id: "WMXX1438",
+    name: "连城",
+    parent_id: "WMXX1006"
+}, {
+    id: "CHXX0474",
+    name: "漳平",
+    parent_id: "WMXX1006"
+}, {
+    id: "WMXX1262",
+    name: "宁德",
+    parent_id: "14"
+}, {
+    id: "WMXX1439",
+    name: "霞浦",
+    parent_id: "WMXX1262"
+}, {
+    id: "WMXX1440",
+    name: "古田",
+    parent_id: "WMXX1262"
+}, {
+    id: "WMXX1441",
+    name: "屏南",
+    parent_id: "WMXX1262"
+}, {
+    id: "WMXX1442",
+    name: "寿宁",
+    parent_id: "WMXX1262"
+}, {
+    id: "WMXX1443",
+    name: "周宁",
+    parent_id: "WMXX1262"
+}, {
+    id: "WMXX1444",
+    name: "柘荣",
+    parent_id: "WMXX1262"
+}, {
+    id: "WMXX1004",
+    name: "福安",
+    parent_id: "WMXX1262"
+}, {
+    id: "CHXX0469",
+    name: "福鼎",
+    parent_id: "WMXX1262"
+}, {
+    id: "CHXX0099",
+    name: "南京",
+    parent_id: "11"
+}, {
+    id: "CHXX0109",
+    name: "浦口",
+    parent_id: "CHXX0099"
+}, {
+    id: "WMXX1445",
+    name: "江宁",
+    parent_id: "CHXX0099"
+}, {
+    id: "CHXX0085",
+    name: "六合",
+    parent_id: "CHXX0099"
+}, {
+    id: "WMXX1446",
+    name: "溧水",
+    parent_id: "CHXX0099"
+}, {
+    id: "WMXX1149",
+    name: "高淳",
+    parent_id: "CHXX0099"
+}, {
+    id: "WMXX1009",
+    name: "无锡",
+    parent_id: "11"
+}, {
+    id: "WMXX1144",
+    name: "江阴",
+    parent_id: "WMXX1009"
+}, {
+    id: "WMXX1145",
+    name: "宜兴",
+    parent_id: "WMXX1009"
+}, {
+    id: "CHXX0437",
+    name: "徐州",
+    parent_id: "11"
+}, {
+    id: "WMXX1447",
+    name: "新沂",
+    parent_id: "CHXX0437"
+}, {
+    id: "WMXX1448",
+    name: "邳州",
+    parent_id: "CHXX0437"
+}, {
+    id: "WMXX1449",
+    name: "丰县",
+    parent_id: "CHXX0437"
+}, {
+    id: "WMXX1450",
+    name: "沛县",
+    parent_id: "CHXX0437"
+}, {
+    id: "WMXX1451",
+    name: "铜山",
+    parent_id: "CHXX0437"
+}, {
+    id: "WMXX1452",
+    name: "睢宁",
+    parent_id: "CHXX0437"
+}, {
+    id: "CHXX0015",
+    name: "常州",
+    parent_id: "11"
+}, {
+    id: "CHXX0450",
+    name: "溧阳",
+    parent_id: "CHXX0015"
+}, {
+    id: "WMXX1453",
+    name: "金坛",
+    parent_id: "CHXX0015"
+}, {
+    id: "WMXX1007",
+    name: "苏州",
+    parent_id: "11"
+}, {
+    id: "WMXX1454",
+    name: "吴中",
+    parent_id: "WMXX1007"
+}, {
+    id: "CHXX0014",
+    name: "常熟",
+    parent_id: "WMXX1007"
+}, {
+    id: "WMXX1335",
+    name: "张家港",
+    parent_id: "WMXX1007"
+}, {
+    id: "WMXX1455",
+    name: "昆山",
+    parent_id: "WMXX1007"
+}, {
+    id: "WMXX1456",
+    name: "吴江",
+    parent_id: "WMXX1007"
+}, {
+    id: "WMXX1457",
+    name: "太仓",
+    parent_id: "WMXX1007"
+}, {
+    id: "CHXX0101",
+    name: "南通",
+    parent_id: "11"
+}, {
+    id: "CHXX0446",
+    name: "启东",
+    parent_id: "CHXX0101"
+}, {
+    id: "WMXX1458",
+    name: "如皋",
+    parent_id: "CHXX0101"
+}, {
+    id: "WMXX1459",
+    name: "通州",
+    parent_id: "CHXX0101"
+}, {
+    id: "WMXX1460",
+    name: "海门",
+    parent_id: "CHXX0101"
+}, {
+    id: "WMXX1461",
+    name: "海安",
+    parent_id: "CHXX0101"
+}, {
+    id: "WMXX1462",
+    name: "如东",
+    parent_id: "CHXX0101"
+}, {
+    id: "WMXX1012",
+    name: "连云港",
+    parent_id: "11"
+}, {
+    id: "CHXX0438",
+    name: "赣榆",
+    parent_id: "WMXX1012"
+}, {
+    id: "WMXX1463",
+    name: "东海",
+    parent_id: "WMXX1012"
+}, {
+    id: "WMXX1464",
+    name: "灌云",
+    parent_id: "WMXX1012"
+}, {
+    id: "WMXX1158",
+    name: "灌南",
+    parent_id: "WMXX1012"
+}, {
+    id: "WMXX1011",
+    name: "淮安",
+    parent_id: "11"
+}, {
+    id: "WMXX2960",
+    name: "楚州",
+    parent_id: "WMXX1011"
+}, {
+    id: "WMXX1465",
+    name: "淮阴",
+    parent_id: "WMXX1011"
+}, {
+    id: "WMXX1466",
+    name: "涟水",
+    parent_id: "WMXX1011"
+}, {
+    id: "WMXX1467",
+    name: "洪泽",
+    parent_id: "WMXX1011"
+}, {
+    id: "WMXX1468",
+    name: "盱眙",
+    parent_id: "WMXX1011"
+}, {
+    id: "WMXX1159",
+    name: "金湖",
+    parent_id: "WMXX1011"
+}, {
+    id: "WMXX1014",
+    name: "盐城",
+    parent_id: "11"
+}, {
+    id: "CHXX0445",
+    name: "东台",
+    parent_id: "WMXX1014"
+}, {
+    id: "WMXX1469",
+    name: "大丰",
+    parent_id: "WMXX1014"
+}, {
+    id: "WMXX1160",
+    name: "响水",
+    parent_id: "WMXX1014"
+}, {
+    id: "WMXX1470",
+    name: "滨海",
+    parent_id: "WMXX1014"
+}, {
+    id: "WMXX1471",
+    name: "阜宁",
+    parent_id: "WMXX1014"
+}, {
+    id: "CHXX0441",
+    name: "射阳",
+    parent_id: "WMXX1014"
+}, {
+    id: "WMXX1334",
+    name: "建湖",
+    parent_id: "WMXX1014"
+}, {
+    id: "WMXX1013",
+    name: "扬州",
+    parent_id: "11"
+}, {
+    id: "WMXX1472",
+    name: "仪征",
+    parent_id: "WMXX1013"
+}, {
+    id: "WMXX1473",
+    name: "高邮",
+    parent_id: "WMXX1013"
+}, {
+    id: "WMXX1474",
+    name: "江都",
+    parent_id: "WMXX1013"
+}, {
+    id: "WMXX1161",
+    name: "宝应",
+    parent_id: "WMXX1013"
+}, {
+    id: "CHXX0166",
+    name: "镇江",
+    parent_id: "11"
+}, {
+    id: "WMXX1157",
+    name: "丹阳",
+    parent_id: "CHXX0166"
+}, {
+    id: "WMXX1475",
+    name: "扬中",
+    parent_id: "CHXX0166"
+}, {
+    id: "CHXX0071",
+    name: "句容",
+    parent_id: "CHXX0166"
+}, {
+    id: "WMXX1008",
+    name: "泰州",
+    parent_id: "11"
+}, {
+    id: "WMXX1150",
+    name: "兴化",
+    parent_id: "WMXX1008"
+}, {
+    id: "WMXX1476",
+    name: "靖江",
+    parent_id: "WMXX1008"
+}, {
+    id: "WMXX1477",
+    name: "泰兴",
+    parent_id: "WMXX1008"
+}, {
+    id: "WMXX1478",
+    name: "姜堰",
+    parent_id: "WMXX1008"
+}, {
+    id: "WMXX1010",
+    name: "宿迁",
+    parent_id: "11"
+}, {
+    id: "WMXX1479",
+    name: "沭阳",
+    parent_id: "WMXX1010"
+}, {
+    id: "WMXX1480",
+    name: "泗阳",
+    parent_id: "WMXX1010"
+}, {
+    id: "WMXX1481",
+    name: "泗洪",
+    parent_id: "WMXX1010"
+}, {
+    id: "CHXX0044",
+    name: "杭州",
+    parent_id: "12"
+}, {
+    id: "WMXX1482",
+    name: "萧山",
+    parent_id: "CHXX0044"
+}, {
+    id: "WMXX2950",
+    name: "余杭",
+    parent_id: "CHXX0044"
+}, {
+    id: "WMXX1483",
+    name: "建德",
+    parent_id: "CHXX0044"
+}, {
+    id: "WMXX1484",
+    name: "富阳",
+    parent_id: "CHXX0044"
+}, {
+    id: "WMXX1485",
+    name: "临安",
+    parent_id: "CHXX0044"
+}, {
+    id: "WMXX1486",
+    name: "桐庐",
+    parent_id: "CHXX0044"
+}, {
+    id: "WMXX1487",
+    name: "淳安",
+    parent_id: "CHXX0044"
+}, {
+    id: "WMXX1016",
+    name: "宁波",
+    parent_id: "12"
+}, {
+    id: "WMXX2963",
+    name: "镇海",
+    parent_id: "WMXX1016"
+}, {
+    id: "WMXX2964",
+    name: "北仑",
+    parent_id: "WMXX1016"
+}, {
+    id: "WMXX1488",
+    name: "鄞州",
+    parent_id: "WMXX1016"
+}, {
+    id: "WMXX1155",
+    name: "余姚",
+    parent_id: "WMXX1016"
+}, {
+    id: "WMXX1122",
+    name: "慈溪",
+    parent_id: "WMXX1016"
+}, {
+    id: "WMXX1489",
+    name: "奉化",
+    parent_id: "WMXX1016"
+}, {
+    id: "CHXX0459",
+    name: "象山",
+    parent_id: "WMXX1016"
+}, {
+    id: "WMXX1490",
+    name: "宁海",
+    parent_id: "WMXX1016"
+}, {
+    id: "CHXX0462",
+    name: "温州",
+    parent_id: "12"
+}, {
+    id: "WMXX1165",
+    name: "瑞安",
+    parent_id: "CHXX0462"
+}, {
+    id: "WMXX1330",
+    name: "乐清",
+    parent_id: "CHXX0462"
+}, {
+    id: "WMXX1491",
+    name: "洞头",
+    parent_id: "CHXX0462"
+}, {
+    id: "WMXX1492",
+    name: "永嘉",
+    parent_id: "CHXX0462"
+}, {
+    id: "WMXX1493",
+    name: "平阳",
+    parent_id: "CHXX0462"
+}, {
+    id: "WMXX1494",
+    name: "苍南",
+    parent_id: "CHXX0462"
+}, {
+    id: "WMXX1495",
+    name: "文成",
+    parent_id: "CHXX0462"
+}, {
+    id: "WMXX1166",
+    name: "泰顺",
+    parent_id: "CHXX0462"
+}, {
+    id: "CHXX0062",
+    name: "嘉兴",
+    parent_id: "12"
+}, {
+    id: "CHXX0042",
+    name: "海宁",
+    parent_id: "CHXX0062"
+}, {
+    id: "WMXX1496",
+    name: "平湖",
+    parent_id: "CHXX0062"
+}, {
+    id: "WMXX1497",
+    name: "桐乡",
+    parent_id: "CHXX0062"
+}, {
+    id: "WMXX1498",
+    name: "嘉善",
+    parent_id: "CHXX0062"
+}, {
+    id: "WMXX1329",
+    name: "海盐",
+    parent_id: "CHXX0062"
+}, {
+    id: "CHXX0056",
+    name: "湖州",
+    parent_id: "12"
+}, {
+    id: "WMXX1499",
+    name: "德清",
+    parent_id: "CHXX0056"
+}, {
+    id: "WMXX1500",
+    name: "长兴",
+    parent_id: "CHXX0056"
+}, {
+    id: "WMXX1501",
+    name: "安吉",
+    parent_id: "CHXX0056"
+}, {
+    id: "CHXX0117",
+    name: "绍兴",
+    parent_id: "12"
+}, {
+    id: "WMXX1502",
+    name: "诸暨",
+    parent_id: "CHXX0117"
+}, {
+    id: "WMXX1503",
+    name: "上虞",
+    parent_id: "CHXX0117"
+}, {
+    id: "CHXX0458",
+    name: "嵊州",
+    parent_id: "CHXX0117"
+}, {
+    id: "WMXX1504",
+    name: "新昌",
+    parent_id: "CHXX0117"
+}, {
+    id: "WMXX1017",
+    name: "金华",
+    parent_id: "12"
+}, {
+    id: "CHXX0078",
+    name: "兰溪",
+    parent_id: "WMXX1017"
+}, {
+    id: "WMXX1293",
+    name: "义乌",
+    parent_id: "WMXX1017"
+}, {
+    id: "WMXX1505",
+    name: "东阳",
+    parent_id: "WMXX1017"
+}, {
+    id: "WMXX1506",
+    name: "永康",
+    parent_id: "WMXX1017"
+}, {
+    id: "WMXX1507",
+    name: "武义",
+    parent_id: "WMXX1017"
+}, {
+    id: "WMXX1508",
+    name: "浦江",
+    parent_id: "WMXX1017"
+}, {
+    id: "WMXX1509",
+    name: "磐安",
+    parent_id: "WMXX1017"
+}, {
+    id: "CHXX0460",
+    name: "衢州",
+    parent_id: "12"
+}, {
+    id: "WMXX1510",
+    name: "江山",
+    parent_id: "CHXX0460"
+}, {
+    id: "WMXX1167",
+    name: "常山",
+    parent_id: "CHXX0460"
+}, {
+    id: "WMXX1511",
+    name: "开化",
+    parent_id: "CHXX0460"
+}, {
+    id: "WMXX1512",
+    name: "龙游",
+    parent_id: "CHXX0460"
+}, {
+    id: "CHXX0455",
+    name: "舟山",
+    parent_id: "12"
+}, {
+    id: "WMXX1513",
+    name: "普陀",
+    parent_id: "CHXX0455"
+}, {
+    id: "WMXX1514",
+    name: "岱山",
+    parent_id: "CHXX0455"
+}, {
+    id: "CHXX0454",
+    name: "嵊泗",
+    parent_id: "CHXX0455"
+}, {
+    id: "WMXX1263",
+    name: "台州",
+    parent_id: "12"
+}, {
+    id: "WMXX2961",
+    name: "黄岩",
+    parent_id: "WMXX1263"
+}, {
+    id: "WMXX2962",
+    name: "路桥",
+    parent_id: "WMXX1263"
+}, {
+    id: "WMXX1515",
+    name: "温岭",
+    parent_id: "WMXX1263"
+}, {
+    id: "CHXX0463",
+    name: "临海",
+    parent_id: "WMXX1263"
+}, {
+    id: "WMXX1516",
+    name: "玉环",
+    parent_id: "WMXX1263"
+}, {
+    id: "WMXX1015",
+    name: "三门",
+    parent_id: "WMXX1263"
+}, {
+    id: "WMXX1517",
+    name: "天台",
+    parent_id: "WMXX1263"
+}, {
+    id: "WMXX1518",
+    name: "仙居",
+    parent_id: "WMXX1263"
+}, {
+    id: "CHXX0461",
+    name: "丽水",
+    parent_id: "12"
+}, {
+    id: "WMXX1519",
+    name: "龙泉",
+    parent_id: "CHXX0461"
+}, {
+    id: "WMXX1520",
+    name: "青田",
+    parent_id: "CHXX0461"
+}, {
+    id: "WMXX1521",
+    name: "缙云",
+    parent_id: "CHXX0461"
+}, {
+    id: "WMXX1522",
+    name: "遂昌",
+    parent_id: "CHXX0461"
+}, {
+    id: "WMXX1523",
+    name: "松阳",
+    parent_id: "CHXX0461"
+}, {
+    id: "WMXX1524",
+    name: "云和",
+    parent_id: "CHXX0461"
+}, {
+    id: "WMXX1168",
+    name: "庆元",
+    parent_id: "CHXX0461"
+}, {
+    id: "WMXX1525",
+    name: "景宁",
+    parent_id: "CHXX0461"
+}, {
+    id: "CHXX0064",
+    name: "济南",
+    parent_id: "16"
+}, {
+    id: "WMXX1526",
+    name: "长清",
+    parent_id: "CHXX0064"
+}, {
+    id: "CHXX0161",
+    name: "章丘",
+    parent_id: "CHXX0064"
+}, {
+    id: "CHXX0107",
+    name: "平阴",
+    parent_id: "CHXX0064"
+}, {
+    id: "WMXX1527",
+    name: "济阳",
+    parent_id: "CHXX0064"
+}, {
+    id: "WMXX1528",
+    name: "商河",
+    parent_id: "CHXX0064"
+}, {
+    id: "CHXX0110",
+    name: "青岛",
+    parent_id: "16"
+}, {
+    id: "CHXX0061",
+    name: "胶州",
+    parent_id: "CHXX0110"
+}, {
+    id: "WMXX1326",
+    name: "即墨",
+    parent_id: "CHXX0110"
+}, {
+    id: "WMXX1169",
+    name: "平度",
+    parent_id: "CHXX0110"
+}, {
+    id: "CHXX0060",
+    name: "胶南",
+    parent_id: "CHXX0110"
+}, {
+    id: "WMXX1529",
+    name: "莱西",
+    parent_id: "CHXX0110"
+}, {
+    id: "CHXX0169",
+    name: "淄博",
+    parent_id: "16"
+}, {
+    id: "WMXX1530",
+    name: "淄川",
+    parent_id: "CHXX0169"
+}, {
+    id: "WMXX1531",
+    name: "博山",
+    parent_id: "CHXX0169"
+}, {
+    id: "WMXX1532",
+    name: "临淄",
+    parent_id: "CHXX0169"
+}, {
+    id: "CHXX0167",
+    name: "周村",
+    parent_id: "CHXX0169"
+}, {
+    id: "WMXX1533",
+    name: "桓台",
+    parent_id: "CHXX0169"
+}, {
+    id: "WMXX1534",
+    name: "高青",
+    parent_id: "CHXX0169"
+}, {
+    id: "CHXX0317",
+    name: "沂源",
+    parent_id: "CHXX0169"
+}, {
+    id: "WMXX1019",
+    name: "枣庄",
+    parent_id: "16"
+}, {
+    id: "WMXX1535",
+    name: "薛城",
+    parent_id: "WMXX1019"
+}, {
+    id: "WMXX1536",
+    name: "峄城",
+    parent_id: "WMXX1019"
+}, {
+    id: "WMXX1537",
+    name: "台儿庄",
+    parent_id: "WMXX1019"
+}, {
+    id: "WMXX1171",
+    name: "滕州",
+    parent_id: "WMXX1019"
+}, {
+    id: "WMXX1021",
+    name: "东营",
+    parent_id: "16"
+}, {
+    id: "WMXX1538",
+    name: "河口",
+    parent_id: "WMXX1021"
+}, {
+    id: "WMXX1539",
+    name: "垦利",
+    parent_id: "WMXX1021"
+}, {
+    id: "WMXX1540",
+    name: "利津",
+    parent_id: "WMXX1021"
+}, {
+    id: "WMXX1541",
+    name: "广饶",
+    parent_id: "WMXX1021"
+}, {
+    id: "WMXX1018",
+    name: "烟台",
+    parent_id: "16"
+}, {
+    id: "WMXX1542",
+    name: "福山",
+    parent_id: "WMXX1018"
+}, {
+    id: "WMXX1543",
+    name: "牟平",
+    parent_id: "WMXX1018"
+}, {
+    id: "CHXX0313",
+    name: "龙口",
+    parent_id: "WMXX1018"
+}, {
+    id: "WMXX1170",
+    name: "莱阳",
+    parent_id: "WMXX1018"
+}, {
+    id: "WMXX1544",
+    name: "莱州",
+    parent_id: "WMXX1018"
+}, {
+    id: "WMXX1545",
+    name: "蓬莱",
+    parent_id: "WMXX1018"
+}, {
+    id: "WMXX1546",
+    name: "招远",
+    parent_id: "WMXX1018"
+}, {
+    id: "WMXX1547",
+    name: "栖霞",
+    parent_id: "WMXX1018"
+}, {
+    id: "CHXX0319",
+    name: "海阳",
+    parent_id: "WMXX1018"
+}, {
+    id: "CHXX0312",
+    name: "长岛",
+    parent_id: "WMXX1018"
+}, {
+    id: "CHXX0318",
+    name: "潍坊",
+    parent_id: "16"
+}, {
+    id: "CHXX0154",
+    name: "青州",
+    parent_id: "CHXX0318"
+}, {
+    id: "WMXX1172",
+    name: "诸城",
+    parent_id: "CHXX0318"
+}, {
+    id: "WMXX1151",
+    name: "寿光",
+    parent_id: "CHXX0318"
+}, {
+    id: "WMXX1548",
+    name: "安丘",
+    parent_id: "CHXX0318"
+}, {
+    id: "WMXX1549",
+    name: "高密",
+    parent_id: "CHXX0318"
+}, {
+    id: "WMXX1173",
+    name: "昌邑",
+    parent_id: "CHXX0318"
+}, {
+    id: "WMXX1174",
+    name: "临朐",
+    parent_id: "CHXX0318"
+}, {
+    id: "WMXX1327",
+    name: "昌乐",
+    parent_id: "CHXX0318"
+}, {
+    id: "WMXX1024",
+    name: "威海",
+    parent_id: "16"
+}, {
+    id: "WMXX1175",
+    name: "文登",
+    parent_id: "WMXX1024"
+}, {
+    id: "CHXX0314",
+    name: "荣成",
+    parent_id: "WMXX1024"
+}, {
+    id: "WMXX1550",
+    name: "乳山",
+    parent_id: "WMXX1024"
+}, {
+    id: "WMXX2975",
+    name: "石岛",
+    parent_id: "WMXX1024"
+}, {
+    id: "WMXX1022",
+    name: "济宁",
+    parent_id: "16"
+}, {
+    id: "WMXX1551",
+    name: "曲阜",
+    parent_id: "WMXX1022"
+}, {
+    id: "CHXX0321",
+    name: "兖州",
+    parent_id: "WMXX1022"
+}, {
+    id: "WMXX1552",
+    name: "邹城",
+    parent_id: "WMXX1022"
+}, {
+    id: "WMXX1553",
+    name: "微山",
+    parent_id: "WMXX1022"
+}, {
+    id: "WMXX1554",
+    name: "鱼台",
+    parent_id: "WMXX1022"
+}, {
+    id: "WMXX1555",
+    name: "金乡",
+    parent_id: "WMXX1022"
+}, {
+    id: "WMXX1556",
+    name: "嘉祥",
+    parent_id: "WMXX1022"
+}, {
+    id: "WMXX1557",
+    name: "汶上",
+    parent_id: "WMXX1022"
+}, {
+    id: "WMXX1177",
+    name: "泗水",
+    parent_id: "WMXX1022"
+}, {
+    id: "WMXX1178",
+    name: "梁山",
+    parent_id: "WMXX1022"
+}, {
+    id: "WMXX1025",
+    name: "泰安",
+    parent_id: "16"
+}, {
+    id: "WMXX1131",
+    name: "新泰",
+    parent_id: "WMXX1025"
+}, {
+    id: "WMXX1558",
+    name: "肥城",
+    parent_id: "WMXX1025"
+}, {
+    id: "WMXX1176",
+    name: "宁阳",
+    parent_id: "WMXX1025"
+}, {
+    id: "WMXX1559",
+    name: "东平",
+    parent_id: "WMXX1025"
+}, {
+    id: "CHXX0322",
+    name: "日照",
+    parent_id: "16"
+}, {
+    id: "WMXX1179",
+    name: "五莲",
+    parent_id: "CHXX0322"
+}, {
+    id: "WMXX1180",
+    name: "莒县",
+    parent_id: "CHXX0322"
+}, {
+    id: "WMXX1026",
+    name: "莱芜",
+    parent_id: "16"
+}, {
+    id: "WMXX1020",
+    name: "临沂",
+    parent_id: "16"
+}, {
+    id: "WMXX1181",
+    name: "沂南",
+    parent_id: "WMXX1020"
+}, {
+    id: "WMXX1560",
+    name: "郯城",
+    parent_id: "WMXX1020"
+}, {
+    id: "WMXX1561",
+    name: "沂水",
+    parent_id: "WMXX1020"
+}, {
+    id: "WMXX1182",
+    name: "苍山",
+    parent_id: "WMXX1020"
+}, {
+    id: "WMXX1183",
+    name: "费县",
+    parent_id: "WMXX1020"
+}, {
+    id: "WMXX1184",
+    name: "平邑",
+    parent_id: "WMXX1020"
+}, {
+    id: "WMXX1562",
+    name: "莒南",
+    parent_id: "WMXX1020"
+}, {
+    id: "WMXX1563",
+    name: "蒙阴",
+    parent_id: "WMXX1020"
+}, {
+    id: "WMXX1147",
+    name: "临沭",
+    parent_id: "WMXX1020"
+}, {
+    id: "WMXX1027",
+    name: "德州",
+    parent_id: "16"
+}, {
+    id: "WMXX1185",
+    name: "乐陵",
+    parent_id: "WMXX1027"
+}, {
+    id: "CHXX0159",
+    name: "禹城",
+    parent_id: "WMXX1027"
+}, {
+    id: "CHXX0310",
+    name: "陵县",
+    parent_id: "WMXX1027"
+}, {
+    id: "WMXX1564",
+    name: "宁津",
+    parent_id: "WMXX1027"
+}, {
+    id: "WMXX1565",
+    name: "庆云",
+    parent_id: "WMXX1027"
+}, {
+    id: "WMXX1566",
+    name: "临邑",
+    parent_id: "WMXX1027"
+}, {
+    id: "WMXX1567",
+    name: "齐河",
+    parent_id: "WMXX1027"
+}, {
+    id: "WMXX1568",
+    name: "平原",
+    parent_id: "WMXX1027"
+}, {
+    id: "WMXX1569",
+    name: "夏津",
+    parent_id: "WMXX1027"
+}, {
+    id: "WMXX1570",
+    name: "武城",
+    parent_id: "WMXX1027"
+}, {
+    id: "WMXX1023",
+    name: "聊城",
+    parent_id: "16"
+}, {
+    id: "WMXX1186",
+    name: "临清",
+    parent_id: "WMXX1023"
+}, {
+    id: "WMXX1571",
+    name: "阳谷",
+    parent_id: "WMXX1023"
+}, {
+    id: "CHXX0315",
+    name: "莘县",
+    parent_id: "WMXX1023"
+}, {
+    id: "WMXX1328",
+    name: "茌平",
+    parent_id: "WMXX1023"
+}, {
+    id: "WMXX1572",
+    name: "东阿",
+    parent_id: "WMXX1023"
+}, {
+    id: "WMXX1187",
+    name: "冠县",
+    parent_id: "WMXX1023"
+}, {
+    id: "WMXX1573",
+    name: "高唐",
+    parent_id: "WMXX1023"
+}, {
+    id: "WMXX1264",
+    name: "滨州",
+    parent_id: "16"
+}, {
+    id: "CHXX0311",
+    name: "惠民",
+    parent_id: "WMXX1264"
+}, {
+    id: "WMXX1574",
+    name: "阳信",
+    parent_id: "WMXX1264"
+}, {
+    id: "WMXX1188",
+    name: "无棣",
+    parent_id: "WMXX1264"
+}, {
+    id: "WMXX1575",
+    name: "沾化",
+    parent_id: "WMXX1264"
+}, {
+    id: "WMXX1576",
+    name: "博兴",
+    parent_id: "WMXX1264"
+}, {
+    id: "WMXX1577",
+    name: "邹平",
+    parent_id: "WMXX1264"
+}, {
+    id: "WMXX1028",
+    name: "菏泽",
+    parent_id: "16"
+}, {
+    id: "WMXX1578",
+    name: "曹县",
+    parent_id: "WMXX1028"
+}, {
+    id: "WMXX1579",
+    name: "单县",
+    parent_id: "WMXX1028"
+}, {
+    id: "WMXX1189",
+    name: "成武",
+    parent_id: "WMXX1028"
+}, {
+    id: "WMXX1580",
+    name: "巨野",
+    parent_id: "WMXX1028"
+}, {
+    id: "WMXX1190",
+    name: "郓城",
+    parent_id: "WMXX1028"
+}, {
+    id: "WMXX1581",
+    name: "鄄城",
+    parent_id: "WMXX1028"
+}, {
+    id: "CHXX0320",
+    name: "定陶",
+    parent_id: "WMXX1028"
+}, {
+    id: "WMXX1582",
+    name: "东明",
+    parent_id: "WMXX1028"
+}, {
+    id: "CHXX0165",
+    name: "郑州",
+    parent_id: "17"
+}, {
+    id: "CHXX0035",
+    name: "巩义",
+    parent_id: "CHXX0165"
+}, {
+    id: "WMXX1583",
+    name: "荥阳",
+    parent_id: "CHXX0165"
+}, {
+    id: "WMXX1584",
+    name: "新密",
+    parent_id: "CHXX0165"
+}, {
+    id: "WMXX1585",
+    name: "新郑",
+    parent_id: "CHXX0165"
+}, {
+    id: "WMXX1586",
+    name: "登封",
+    parent_id: "CHXX0165"
+}, {
+    id: "WMXX1587",
+    name: "中牟",
+    parent_id: "CHXX0165"
+}, {
+    id: "CHXX0072",
+    name: "开封",
+    parent_id: "17"
+}, {
+    id: "WMXX1588",
+    name: "杞县",
+    parent_id: "CHXX0072"
+}, {
+    id: "WMXX1589",
+    name: "通许",
+    parent_id: "CHXX0072"
+}, {
+    id: "WMXX1590",
+    name: "尉氏",
+    parent_id: "CHXX0072"
+}, {
+    id: "WMXX1591",
+    name: "兰考",
+    parent_id: "CHXX0072"
+}, {
+    id: "CHXX0086",
+    name: "洛阳",
+    parent_id: "17"
+}, {
+    id: "WMXX1592",
+    name: "偃师",
+    parent_id: "CHXX0086"
+}, {
+    id: "WMXX1593",
+    name: "孟津",
+    parent_id: "CHXX0086"
+}, {
+    id: "WMXX1594",
+    name: "新安",
+    parent_id: "CHXX0086"
+}, {
+    id: "WMXX1595",
+    name: "栾川",
+    parent_id: "CHXX0086"
+}, {
+    id: "WMXX1596",
+    name: "嵩县",
+    parent_id: "CHXX0086"
+}, {
+    id: "WMXX1597",
+    name: "汝阳",
+    parent_id: "CHXX0086"
+}, {
+    id: "CHXX0156",
+    name: "宜阳",
+    parent_id: "CHXX0086"
+}, {
+    id: "WMXX1598",
+    name: "洛宁",
+    parent_id: "CHXX0086"
+}, {
+    id: "CHXX0153",
+    name: "伊川",
+    parent_id: "CHXX0086"
+}, {
+    id: "WMXX1031",
+    name: "平顶山",
+    parent_id: "17"
+}, {
+    id: "WMXX1599",
+    name: "舞钢",
+    parent_id: "WMXX1031"
+}, {
+    id: "WMXX1600",
+    name: "汝州",
+    parent_id: "WMXX1031"
+}, {
+    id: "WMXX1601",
+    name: "宝丰",
+    parent_id: "WMXX1031"
+}, {
+    id: "WMXX1320",
+    name: "叶县",
+    parent_id: "WMXX1031"
+}, {
+    id: "WMXX1602",
+    name: "鲁山",
+    parent_id: "WMXX1031"
+}, {
+    id: "WMXX1603",
+    name: "郏县",
+    parent_id: "WMXX1031"
+}, {
+    id: "WMXX1032",
+    name: "焦作",
+    parent_id: "17"
+}, {
+    id: "WMXX1604",
+    name: "沁阳",
+    parent_id: "WMXX1032"
+}, {
+    id: "CHXX0092",
+    name: "孟州",
+    parent_id: "WMXX1032"
+}, {
+    id: "WMXX1605",
+    name: "修武",
+    parent_id: "WMXX1032"
+}, {
+    id: "WMXX1606",
+    name: "博爱",
+    parent_id: "WMXX1032"
+}, {
+    id: "WMXX1607",
+    name: "武陟",
+    parent_id: "WMXX1032"
+}, {
+    id: "WMXX1608",
+    name: "温县",
+    parent_id: "WMXX1032"
+}, {
+    id: "WMXX1033",
+    name: "鹤壁",
+    parent_id: "17"
+}, {
+    id: "WMXX1609",
+    name: "浚县",
+    parent_id: "WMXX1033"
+}, {
+    id: "WMXX1610",
+    name: "淇县",
+    parent_id: "WMXX1033"
+}, {
+    id: "CHXX0148",
+    name: "新乡",
+    parent_id: "17"
+}, {
+    id: "WMXX1611",
+    name: "卫辉",
+    parent_id: "CHXX0148"
+}, {
+    id: "WMXX1612",
+    name: "辉县",
+    parent_id: "CHXX0148"
+}, {
+    id: "WMXX1613",
+    name: "获嘉",
+    parent_id: "CHXX0148"
+}, {
+    id: "WMXX1614",
+    name: "原阳",
+    parent_id: "CHXX0148"
+}, {
+    id: "WMXX1615",
+    name: "延津",
+    parent_id: "CHXX0148"
+}, {
+    id: "WMXX1616",
+    name: "封丘",
+    parent_id: "CHXX0148"
+}, {
+    id: "WMXX1617",
+    name: "长垣",
+    parent_id: "CHXX0148"
+}, {
+    id: "CHXX0269",
+    name: "安阳",
+    parent_id: "17"
+}, {
+    id: "WMXX1618",
+    name: "林州",
+    parent_id: "CHXX0269"
+}, {
+    id: "WMXX1619",
+    name: "汤阴",
+    parent_id: "CHXX0269"
+}, {
+    id: "WMXX1620",
+    name: "滑县",
+    parent_id: "CHXX0269"
+}, {
+    id: "WMXX1621",
+    name: "内黄",
+    parent_id: "CHXX0269"
+}, {
+    id: "WMXX1030",
+    name: "濮阳",
+    parent_id: "17"
+}, {
+    id: "WMXX1622",
+    name: "清丰",
+    parent_id: "WMXX1030"
+}, {
+    id: "WMXX1623",
+    name: "南乐",
+    parent_id: "WMXX1030"
+}, {
+    id: "WMXX1624",
+    name: "范县",
+    parent_id: "WMXX1030"
+}, {
+    id: "WMXX1625",
+    name: "台前",
+    parent_id: "WMXX1030"
+}, {
+    id: "WMXX1034",
+    name: "许昌",
+    parent_id: "17"
+}, {
+    id: "WMXX1627",
+    name: "禹州",
+    parent_id: "WMXX1034"
+}, {
+    id: "WMXX1628",
+    name: "长葛",
+    parent_id: "WMXX1034"
+}, {
+    id: "WMXX1191",
+    name: "鄢陵",
+    parent_id: "WMXX1034"
+}, {
+    id: "WMXX1630",
+    name: "襄城",
+    parent_id: "WMXX1034"
+}, {
+    id: "WMXX1035",
+    name: "漯河",
+    parent_id: "17"
+}, {
+    id: "WMXX1631",
+    name: "舞阳",
+    parent_id: "WMXX1035"
+}, {
+    id: "WMXX1632",
+    name: "临颍",
+    parent_id: "WMXX1035"
+}, {
+    id: "WMXX1265",
+    name: "三门峡",
+    parent_id: "17"
+}, {
+    id: "WMXX1633",
+    name: "义马",
+    parent_id: "WMXX1265"
+}, {
+    id: "WMXX1634",
+    name: "灵宝",
+    parent_id: "WMXX1265"
+}, {
+    id: "WMXX1635",
+    name: "渑池",
+    parent_id: "WMXX1265"
+}, {
+    id: "WMXX1636",
+    name: "陕县",
+    parent_id: "WMXX1265"
+}, {
+    id: "CHXX0389",
+    name: "卢氏",
+    parent_id: "WMXX1265"
+}, {
+    id: "CHXX0391",
+    name: "南阳",
+    parent_id: "17"
+}, {
+    id: "WMXX1637",
+    name: "邓州",
+    parent_id: "CHXX0391"
+}, {
+    id: "WMXX1638",
+    name: "南召",
+    parent_id: "CHXX0391"
+}, {
+    id: "WMXX1639",
+    name: "方城",
+    parent_id: "CHXX0391"
+}, {
+    id: "WMXX1140",
+    name: "西峡",
+    parent_id: "CHXX0391"
+}, {
+    id: "WMXX1640",
+    name: "镇平",
+    parent_id: "CHXX0391"
+}, {
+    id: "WMXX1641",
+    name: "内乡",
+    parent_id: "CHXX0391"
+}, {
+    id: "WMXX1319",
+    name: "淅川",
+    parent_id: "CHXX0391"
+}, {
+    id: "WMXX1642",
+    name: "社旗",
+    parent_id: "CHXX0391"
+}, {
+    id: "WMXX1192",
+    name: "唐河",
+    parent_id: "CHXX0391"
+}, {
+    id: "WMXX1643",
+    name: "新野",
+    parent_id: "CHXX0391"
+}, {
+    id: "WMXX1644",
+    name: "桐柏",
+    parent_id: "CHXX0391"
+}, {
+    id: "WMXX1029",
+    name: "商丘",
+    parent_id: "17"
+}, {
+    id: "WMXX1645",
+    name: "永城",
+    parent_id: "WMXX1029"
+}, {
+    id: "WMXX1646",
+    name: "民权",
+    parent_id: "WMXX1029"
+}, {
+    id: "WMXX1193",
+    name: "睢县",
+    parent_id: "WMXX1029"
+}, {
+    id: "WMXX1647",
+    name: "宁陵",
+    parent_id: "WMXX1029"
+}, {
+    id: "WMXX1648",
+    name: "柘城",
+    parent_id: "WMXX1029"
+}, {
+    id: "WMXX1649",
+    name: "虞城",
+    parent_id: "WMXX1029"
+}, {
+    id: "WMXX1650",
+    name: "夏邑",
+    parent_id: "WMXX1029"
+}, {
+    id: "CHXX0149",
+    name: "信阳",
+    parent_id: "17"
+}, {
+    id: "WMXX1194",
+    name: "罗山",
+    parent_id: "CHXX0149"
+}, {
+    id: "WMXX1651",
+    name: "光山",
+    parent_id: "CHXX0149"
+}, {
+    id: "WMXX1128",
+    name: "新县",
+    parent_id: "CHXX0149"
+}, {
+    id: "WMXX1196",
+    name: "商城",
+    parent_id: "CHXX0149"
+}, {
+    id: "CHXX0443",
+    name: "固始",
+    parent_id: "CHXX0149"
+}, {
+    id: "WMXX1195",
+    name: "潢川",
+    parent_id: "CHXX0149"
+}, {
+    id: "WMXX1197",
+    name: "淮滨",
+    parent_id: "CHXX0149"
+}, {
+    id: "WMXX1652",
+    name: "息县",
+    parent_id: "CHXX0149"
+}, {
+    id: "WMXX1036",
+    name: "周口",
+    parent_id: "17"
+}, {
+    id: "WMXX1653",
+    name: "项城",
+    parent_id: "WMXX1036"
+}, {
+    id: "WMXX1654",
+    name: "扶沟",
+    parent_id: "WMXX1036"
+}, {
+    id: "CHXX0392",
+    name: "西华",
+    parent_id: "WMXX1036"
+}, {
+    id: "WMXX1655",
+    name: "商水",
+    parent_id: "WMXX1036"
+}, {
+    id: "WMXX1656",
+    name: "沈丘",
+    parent_id: "WMXX1036"
+}, {
+    id: "WMXX1198",
+    name: "郸城",
+    parent_id: "WMXX1036"
+}, {
+    id: "WMXX1657",
+    name: "淮阳",
+    parent_id: "WMXX1036"
+}, {
+    id: "WMXX1658",
+    name: "太康",
+    parent_id: "WMXX1036"
+}, {
+    id: "WMXX1659",
+    name: "鹿邑",
+    parent_id: "WMXX1036"
+}, {
+    id: "CHXX0398",
+    name: "驻马店",
+    parent_id: "17"
+}, {
+    id: "WMXX1660",
+    name: "西平",
+    parent_id: "CHXX0398"
+}, {
+    id: "WMXX1661",
+    name: "上蔡",
+    parent_id: "CHXX0398"
+}, {
+    id: "WMXX1662",
+    name: "平舆",
+    parent_id: "CHXX0398"
+}, {
+    id: "WMXX1663",
+    name: "正阳",
+    parent_id: "CHXX0398"
+}, {
+    id: "WMXX1200",
+    name: "确山",
+    parent_id: "CHXX0398"
+}, {
+    id: "WMXX1199",
+    name: "泌阳",
+    parent_id: "CHXX0398"
+}, {
+    id: "WMXX1664",
+    name: "汝南",
+    parent_id: "CHXX0398"
+}, {
+    id: "WMXX1665",
+    name: "遂平",
+    parent_id: "CHXX0398"
+}, {
+    id: "WMXX1201",
+    name: "新蔡",
+    parent_id: "CHXX0398"
+}, {
+    id: "WMXX1266",
+    name: "济源",
+    parent_id: "17"
+}, {
+    id: "CHXX0122",
+    name: "石家庄",
+    parent_id: "5"
+}, {
+    id: "WMXX1666",
+    name: "辛集",
+    parent_id: "CHXX0122"
+}, {
+    id: "WMXX1667",
+    name: "藁城",
+    parent_id: "CHXX0122"
+}, {
+    id: "WMXX1202",
+    name: "晋州",
+    parent_id: "CHXX0122"
+}, {
+    id: "WMXX1668",
+    name: "新乐",
+    parent_id: "CHXX0122"
+}, {
+    id: "WMXX1669",
+    name: "鹿泉",
+    parent_id: "CHXX0122"
+}, {
+    id: "WMXX1670",
+    name: "井陉",
+    parent_id: "CHXX0122"
+}, {
+    id: "CHXX0164",
+    name: "正定",
+    parent_id: "CHXX0122"
+}, {
+    id: "WMXX1671",
+    name: "栾城",
+    parent_id: "CHXX0122"
+}, {
+    id: "WMXX1672",
+    name: "行唐",
+    parent_id: "CHXX0122"
+}, {
+    id: "WMXX1673",
+    name: "灵寿",
+    parent_id: "CHXX0122"
+}, {
+    id: "CHXX0033",
+    name: "高邑",
+    parent_id: "CHXX0122"
+}, {
+    id: "WMXX1674",
+    name: "深泽",
+    parent_id: "CHXX0122"
+}, {
+    id: "WMXX1675",
+    name: "赞皇",
+    parent_id: "CHXX0122"
+}, {
+    id: "WMXX1676",
+    name: "无极",
+    parent_id: "CHXX0122"
+}, {
+    id: "WMXX1677",
+    name: "平山",
+    parent_id: "CHXX0122"
+}, {
+    id: "WMXX1678",
+    name: "元氏",
+    parent_id: "CHXX0122"
+}, {
+    id: "WMXX1679",
+    name: "赵县",
+    parent_id: "CHXX0122"
+}, {
+    id: "CHXX0131",
+    name: "唐山",
+    parent_id: "5"
+}, {
+    id: "WMXX2966",
+    name: "曹妃甸",
+    parent_id: "CHXX0131"
+}, {
+    id: "WMXX1680",
+    name: "丰南",
+    parent_id: "CHXX0131"
+}, {
+    id: "WMXX1681",
+    name: "丰润",
+    parent_id: "CHXX0131"
+}, {
+    id: "WMXX1682",
+    name: "遵化",
+    parent_id: "CHXX0131"
+}, {
+    id: "WMXX1683",
+    name: "迁安",
+    parent_id: "CHXX0131"
+}, {
+    id: "WMXX1684",
+    name: "滦县",
+    parent_id: "CHXX0131"
+}, {
+    id: "WMXX1685",
+    name: "滦南",
+    parent_id: "CHXX0131"
+}, {
+    id: "CHXX0307",
+    name: "乐亭",
+    parent_id: "CHXX0131"
+}, {
+    id: "WMXX1686",
+    name: "迁西",
+    parent_id: "CHXX0131"
+}, {
+    id: "WMXX1687",
+    name: "玉田",
+    parent_id: "CHXX0131"
+}, {
+    id: "WMXX1688",
+    name: "唐海",
+    parent_id: "CHXX0131"
+}, {
+    id: "WMXX1038",
+    name: "秦皇岛",
+    parent_id: "5"
+}, {
+    id: "WMXX1689",
+    name: "北戴河",
+    parent_id: "WMXX1038"
+}, {
+    id: "WMXX1690",
+    name: "昌黎",
+    parent_id: "WMXX1038"
+}, {
+    id: "WMXX1691",
+    name: "抚宁",
+    parent_id: "WMXX1038"
+}, {
+    id: "WMXX1692",
+    name: "卢龙",
+    parent_id: "WMXX1038"
+}, {
+    id: "CHXX0303",
+    name: "青龙",
+    parent_id: "WMXX1038"
+}, {
+    id: "WMXX1037",
+    name: "邯郸",
+    parent_id: "5"
+}, {
+    id: "WMXX1693",
+    name: "峰峰",
+    parent_id: "WMXX1037"
+}, {
+    id: "WMXX1694",
+    name: "武安",
+    parent_id: "WMXX1037"
+}, {
+    id: "WMXX1695",
+    name: "临漳",
+    parent_id: "WMXX1037"
+}, {
+    id: "WMXX1696",
+    name: "成安",
+    parent_id: "WMXX1037"
+}, {
+    id: "WMXX1697",
+    name: "大名",
+    parent_id: "WMXX1037"
+}, {
+    id: "WMXX1203",
+    name: "涉县",
+    parent_id: "WMXX1037"
+}, {
+    id: "WMXX1204",
+    name: "磁县",
+    parent_id: "WMXX1037"
+}, {
+    id: "WMXX1698",
+    name: "肥乡",
+    parent_id: "WMXX1037"
+}, {
+    id: "WMXX1699",
+    name: "永年",
+    parent_id: "WMXX1037"
+}, {
+    id: "WMXX1700",
+    name: "邱县",
+    parent_id: "WMXX1037"
+}, {
+    id: "WMXX1701",
+    name: "鸡泽",
+    parent_id: "WMXX1037"
+}, {
+    id: "WMXX1702",
+    name: "广平",
+    parent_id: "WMXX1037"
+}, {
+    id: "WMXX1703",
+    name: "馆陶",
+    parent_id: "WMXX1037"
+}, {
+    id: "WMXX1704",
+    name: "魏县",
+    parent_id: "WMXX1037"
+}, {
+    id: "WMXX1205",
+    name: "曲周",
+    parent_id: "WMXX1037"
+}, {
+    id: "CHXX0266",
+    name: "邢台",
+    parent_id: "5"
+}, {
+    id: "WMXX1206",
+    name: "南宫",
+    parent_id: "CHXX0266"
+}, {
+    id: "WMXX1705",
+    name: "沙河",
+    parent_id: "CHXX0266"
+}, {
+    id: "WMXX1706",
+    name: "临城",
+    parent_id: "CHXX0266"
+}, {
+    id: "WMXX1707",
+    name: "内丘",
+    parent_id: "CHXX0266"
+}, {
+    id: "WMXX1708",
+    name: "柏乡",
+    parent_id: "CHXX0266"
+}, {
+    id: "WMXX1709",
+    name: "隆尧",
+    parent_id: "CHXX0266"
+}, {
+    id: "WMXX1710",
+    name: "任县",
+    parent_id: "CHXX0266"
+}, {
+    id: "WMXX1711",
+    name: "南和",
+    parent_id: "CHXX0266"
+}, {
+    id: "WMXX1208",
+    name: "宁晋",
+    parent_id: "CHXX0266"
+}, {
+    id: "WMXX1207",
+    name: "巨鹿",
+    parent_id: "CHXX0266"
+}, {
+    id: "WMXX1712",
+    name: "新河",
+    parent_id: "CHXX0266"
+}, {
+    id: "WMXX1713",
+    name: "广宗",
+    parent_id: "CHXX0266"
+}, {
+    id: "WMXX1714",
+    name: "平乡",
+    parent_id: "CHXX0266"
+}, {
+    id: "WMXX1715",
+    name: "威县",
+    parent_id: "CHXX0266"
+}, {
+    id: "WMXX1716",
+    name: "清河",
+    parent_id: "CHXX0266"
+}, {
+    id: "WMXX1717",
+    name: "临西",
+    parent_id: "CHXX0266"
+}, {
+    id: "CHXX0308",
+    name: "保定",
+    parent_id: "5"
+}, {
+    id: "CHXX0168",
+    name: "涿州",
+    parent_id: "CHXX0308"
+}, {
+    id: "CHXX0025",
+    name: "定州",
+    parent_id: "CHXX0308"
+}, {
+    id: "WMXX1718",
+    name: "安国",
+    parent_id: "CHXX0308"
+}, {
+    id: "WMXX1719",
+    name: "高碑店",
+    parent_id: "CHXX0308"
+}, {
+    id: "WMXX1720",
+    name: "满城",
+    parent_id: "CHXX0308"
+}, {
+    id: "WMXX1721",
+    name: "清苑",
+    parent_id: "CHXX0308"
+}, {
+    id: "WMXX1722",
+    name: "涞水",
+    parent_id: "CHXX0308"
+}, {
+    id: "WMXX1723",
+    name: "阜平",
+    parent_id: "CHXX0308"
+}, {
+    id: "WMXX1724",
+    name: "徐水",
+    parent_id: "CHXX0308"
+}, {
+    id: "WMXX1725",
+    name: "定兴",
+    parent_id: "CHXX0308"
+}, {
+    id: "WMXX1726",
+    name: "唐县",
+    parent_id: "CHXX0308"
+}, {
+    id: "WMXX1727",
+    name: "高阳",
+    parent_id: "CHXX0308"
+}, {
+    id: "WMXX1728",
+    name: "容城",
+    parent_id: "CHXX0308"
+}, {
+    id: "WMXX1209",
+    name: "涞源",
+    parent_id: "CHXX0308"
+}, {
+    id: "WMXX1729",
+    name: "望都",
+    parent_id: "CHXX0308"
+}, {
+    id: "WMXX1730",
+    name: "安新",
+    parent_id: "CHXX0308"
+}, {
+    id: "WMXX1731",
+    name: "易县",
+    parent_id: "CHXX0308"
+}, {
+    id: "WMXX1732",
+    name: "曲阳",
+    parent_id: "CHXX0308"
+}, {
+    id: "WMXX1733",
+    name: "蠡县",
+    parent_id: "CHXX0308"
+}, {
+    id: "WMXX1734",
+    name: "顺平",
+    parent_id: "CHXX0308"
+}, {
+    id: "WMXX1735",
+    name: "博野",
+    parent_id: "CHXX0308"
+}, {
+    id: "WMXX1736",
+    name: "雄县",
+    parent_id: "CHXX0308"
+}, {
+    id: "CHXX0300",
+    name: "张家口",
+    parent_id: "5"
+}, {
+    id: "WMXX1210",
+    name: "宣化",
+    parent_id: "CHXX0300"
+}, {
+    id: "WMXX1737",
+    name: "张北",
+    parent_id: "CHXX0300"
+}, {
+    id: "WMXX1211",
+    name: "康保",
+    parent_id: "CHXX0300"
+}, {
+    id: "WMXX1738",
+    name: "沽源",
+    parent_id: "CHXX0300"
+}, {
+    id: "WMXX1739",
+    name: "尚义",
+    parent_id: "CHXX0300"
+}, {
+    id: "CHXX0258",
+    name: "蔚县",
+    parent_id: "CHXX0300"
+}, {
+    id: "WMXX1212",
+    name: "阳原",
+    parent_id: "CHXX0300"
+}, {
+    id: "WMXX1740",
+    name: "怀安",
+    parent_id: "CHXX0300"
+}, {
+    id: "WMXX1741",
+    name: "万全",
+    parent_id: "CHXX0300"
+}, {
+    id: "CHXX0301",
+    name: "怀来",
+    parent_id: "CHXX0300"
+}, {
+    id: "WMXX1742",
+    name: "涿鹿",
+    parent_id: "CHXX0300"
+}, {
+    id: "WMXX1331",
+    name: "赤城",
+    parent_id: "CHXX0300"
+}, {
+    id: "WMXX1743",
+    name: "崇礼",
+    parent_id: "CHXX0300"
+}, {
+    id: "CHXX0302",
+    name: "承德",
+    parent_id: "5"
+}, {
+    id: "WMXX1744",
+    name: "承德县",
+    parent_id: "CHXX0302"
+}, {
+    id: "WMXX1745",
+    name: "兴隆",
+    parent_id: "CHXX0302"
+}, {
+    id: "WMXX1213",
+    name: "平泉",
+    parent_id: "CHXX0302"
+}, {
+    id: "WMXX1746",
+    name: "滦平",
+    parent_id: "CHXX0302"
+}, {
+    id: "WMXX1747",
+    name: "隆化",
+    parent_id: "CHXX0302"
+}, {
+    id: "CHXX0292",
+    name: "丰宁",
+    parent_id: "CHXX0302"
+}, {
+    id: "WMXX1748",
+    name: "宽城",
+    parent_id: "CHXX0302"
+}, {
+    id: "CHXX0293",
+    name: "围场",
+    parent_id: "CHXX0302"
+}, {
+    id: "WMXX1040",
+    name: "沧州",
+    parent_id: "5"
+}, {
+    id: "CHXX0309",
+    name: "泊头",
+    parent_id: "WMXX1040"
+}, {
+    id: "WMXX1154",
+    name: "任丘",
+    parent_id: "WMXX1040"
+}, {
+    id: "WMXX1749",
+    name: "黄骅",
+    parent_id: "WMXX1040"
+}, {
+    id: "WMXX1214",
+    name: "河间",
+    parent_id: "WMXX1040"
+}, {
+    id: "WMXX1750",
+    name: "沧县",
+    parent_id: "WMXX1040"
+}, {
+    id: "WMXX1751",
+    name: "青县",
+    parent_id: "WMXX1040"
+}, {
+    id: "WMXX1752",
+    name: "东光",
+    parent_id: "WMXX1040"
+}, {
+    id: "WMXX1753",
+    name: "海兴",
+    parent_id: "WMXX1040"
+}, {
+    id: "WMXX1754",
+    name: "盐山",
+    parent_id: "WMXX1040"
+}, {
+    id: "WMXX1755",
+    name: "肃宁",
+    parent_id: "WMXX1040"
+}, {
+    id: "WMXX1756",
+    name: "南皮",
+    parent_id: "WMXX1040"
+}, {
+    id: "WMXX1757",
+    name: "吴桥",
+    parent_id: "WMXX1040"
+}, {
+    id: "WMXX1215",
+    name: "献县",
+    parent_id: "WMXX1040"
+}, {
+    id: "WMXX1758",
+    name: "孟村",
+    parent_id: "WMXX1040"
+}, {
+    id: "WMXX1039",
+    name: "廊坊",
+    parent_id: "5"
+}, {
+    id: "WMXX1216",
+    name: "霸州",
+    parent_id: "WMXX1039"
+}, {
+    id: "WMXX1759",
+    name: "三河",
+    parent_id: "WMXX1039"
+}, {
+    id: "WMXX1760",
+    name: "固安",
+    parent_id: "WMXX1039"
+}, {
+    id: "WMXX1761",
+    name: "永清",
+    parent_id: "WMXX1039"
+}, {
+    id: "WMXX1762",
+    name: "香河",
+    parent_id: "WMXX1039"
+}, {
+    id: "WMXX1763",
+    name: "大城",
+    parent_id: "WMXX1039"
+}, {
+    id: "WMXX1217",
+    name: "文安",
+    parent_id: "WMXX1039"
+}, {
+    id: "WMXX1764",
+    name: "大厂",
+    parent_id: "WMXX1039"
+}, {
+    id: "WMXX1041",
+    name: "衡水",
+    parent_id: "5"
+}, {
+    id: "WMXX1765",
+    name: "冀州",
+    parent_id: "WMXX1041"
+}, {
+    id: "WMXX1766",
+    name: "深州",
+    parent_id: "WMXX1041"
+}, {
+    id: "WMXX1767",
+    name: "枣强",
+    parent_id: "WMXX1041"
+}, {
+    id: "WMXX1768",
+    name: "武邑",
+    parent_id: "WMXX1041"
+}, {
+    id: "WMXX1769",
+    name: "武强",
+    parent_id: "WMXX1041"
+}, {
+    id: "WMXX1770",
+    name: "饶阳",
+    parent_id: "WMXX1041"
+}, {
+    id: "WMXX1218",
+    name: "安平",
+    parent_id: "WMXX1041"
+}, {
+    id: "WMXX1771",
+    name: "故城",
+    parent_id: "WMXX1041"
+}, {
+    id: "WMXX1772",
+    name: "景县",
+    parent_id: "WMXX1041"
+}, {
+    id: "WMXX1773",
+    name: "阜城",
+    parent_id: "WMXX1041"
+}, {
+    id: "CHXX0129",
+    name: "太原",
+    parent_id: "6"
+}, {
+    id: "WMXX1774",
+    name: "清徐",
+    parent_id: "CHXX0129"
+}, {
+    id: "WMXX1775",
+    name: "阳曲",
+    parent_id: "CHXX0129"
+}, {
+    id: "WMXX1776",
+    name: "娄烦",
+    parent_id: "CHXX0129"
+}, {
+    id: "WMXX1777",
+    name: "古交",
+    parent_id: "CHXX0129"
+}, {
+    id: "CHXX0251",
+    name: "大同",
+    parent_id: "6"
+}, {
+    id: "WMXX1778",
+    name: "阳高",
+    parent_id: "CHXX0251"
+}, {
+    id: "WMXX1779",
+    name: "天镇",
+    parent_id: "CHXX0251"
+}, {
+    id: "WMXX1780",
+    name: "广灵",
+    parent_id: "CHXX0251"
+}, {
+    id: "WMXX1781",
+    name: "灵邱",
+    parent_id: "CHXX0251"
+}, {
+    id: "WMXX1782",
+    name: "浑源",
+    parent_id: "CHXX0251"
+}, {
+    id: "WMXX1783",
+    name: "左云",
+    parent_id: "CHXX0251"
+}, {
+    id: "WMXX1784",
+    name: "大同县",
+    parent_id: "CHXX0251"
+}, {
+    id: "CHXX0152",
+    name: "阳泉",
+    parent_id: "6"
+}, {
+    id: "WMXX1785",
+    name: "平定",
+    parent_id: "CHXX0152"
+}, {
+    id: "WMXX1786",
+    name: "盂县",
+    parent_id: "CHXX0152"
+}, {
+    id: "WMXX1043",
+    name: "长治",
+    parent_id: "6"
+}, {
+    id: "WMXX1787",
+    name: "襄垣",
+    parent_id: "WMXX1043"
+}, {
+    id: "WMXX1788",
+    name: "屯留",
+    parent_id: "WMXX1043"
+}, {
+    id: "WMXX1789",
+    name: "平顺",
+    parent_id: "WMXX1043"
+}, {
+    id: "WMXX1790",
+    name: "黎城",
+    parent_id: "WMXX1043"
+}, {
+    id: "WMXX1791",
+    name: "壶关",
+    parent_id: "WMXX1043"
+}, {
+    id: "WMXX1792",
+    name: "长子",
+    parent_id: "WMXX1043"
+}, {
+    id: "WMXX1793",
+    name: "武乡",
+    parent_id: "WMXX1043"
+}, {
+    id: "WMXX1794",
+    name: "沁县",
+    parent_id: "WMXX1043"
+}, {
+    id: "WMXX1795",
+    name: "沁源",
+    parent_id: "WMXX1043"
+}, {
+    id: "WMXX1796",
+    name: "潞城",
+    parent_id: "WMXX1043"
+}, {
+    id: "WMXX1044",
+    name: "晋城",
+    parent_id: "6"
+}, {
+    id: "WMXX1797",
+    name: "沁水",
+    parent_id: "WMXX1044"
+}, {
+    id: "CHXX0273",
+    name: "阳城",
+    parent_id: "WMXX1044"
+}, {
+    id: "WMXX1798",
+    name: "陵川",
+    parent_id: "WMXX1044"
+}, {
+    id: "WMXX1799",
+    name: "泽州",
+    parent_id: "WMXX1044"
+}, {
+    id: "WMXX1255",
+    name: "高平",
+    parent_id: "WMXX1044"
+}, {
+    id: "WMXX1267",
+    name: "朔州",
+    parent_id: "6"
+}, {
+    id: "WMXX1800",
+    name: "平鲁",
+    parent_id: "WMXX1267"
+}, {
+    id: "WMXX1801",
+    name: "山阴",
+    parent_id: "WMXX1267"
+}, {
+    id: "WMXX1802",
+    name: "应县",
+    parent_id: "WMXX1267"
+}, {
+    id: "WMXX1803",
+    name: "右玉",
+    parent_id: "WMXX1267"
+}, {
+    id: "WMXX1804",
+    name: "怀仁",
+    parent_id: "WMXX1267"
+}, {
+    id: "WMXX1268",
+    name: "晋中",
+    parent_id: "6"
+}, {
+    id: "CHXX0160",
+    name: "榆次",
+    parent_id: "WMXX1268"
+}, {
+    id: "CHXX0265",
+    name: "榆社",
+    parent_id: "WMXX1268"
+}, {
+    id: "WMXX1805",
+    name: "左权",
+    parent_id: "WMXX1268"
+}, {
+    id: "WMXX1806",
+    name: "和顺",
+    parent_id: "WMXX1268"
+}, {
+    id: "WMXX1807",
+    name: "昔阳",
+    parent_id: "WMXX1268"
+}, {
+    id: "WMXX1808",
+    name: "寿阳",
+    parent_id: "WMXX1268"
+}, {
+    id: "WMXX1809",
+    name: "太谷",
+    parent_id: "WMXX1268"
+}, {
+    id: "WMXX1810",
+    name: "祁县",
+    parent_id: "WMXX1268"
+}, {
+    id: "CHXX0106",
+    name: "平遥",
+    parent_id: "WMXX1268"
+}, {
+    id: "WMXX1811",
+    name: "灵石",
+    parent_id: "WMXX1268"
+}, {
+    id: "CHXX0268",
+    name: "介休",
+    parent_id: "WMXX1268"
+}, {
+    id: "CHXX0272",
+    name: "运城",
+    parent_id: "6"
+}, {
+    id: "WMXX1812",
+    name: "临猗",
+    parent_id: "CHXX0272"
+}, {
+    id: "WMXX1813",
+    name: "万荣",
+    parent_id: "CHXX0272"
+}, {
+    id: "WMXX1814",
+    name: "闻喜",
+    parent_id: "CHXX0272"
+}, {
+    id: "WMXX1815",
+    name: "稷山",
+    parent_id: "CHXX0272"
+}, {
+    id: "WMXX1816",
+    name: "新绛",
+    parent_id: "CHXX0272"
+}, {
+    id: "WMXX1817",
+    name: "绛县",
+    parent_id: "CHXX0272"
+}, {
+    id: "WMXX1818",
+    name: "垣曲",
+    parent_id: "CHXX0272"
+}, {
+    id: "WMXX1819",
+    name: "夏县",
+    parent_id: "CHXX0272"
+}, {
+    id: "WMXX1820",
+    name: "平陆",
+    parent_id: "CHXX0272"
+}, {
+    id: "WMXX1821",
+    name: "芮城",
+    parent_id: "CHXX0272"
+}, {
+    id: "WMXX1822",
+    name: "永济",
+    parent_id: "CHXX0272"
+}, {
+    id: "WMXX1823",
+    name: "河津",
+    parent_id: "CHXX0272"
+}, {
+    id: "WMXX1269",
+    name: "忻州",
+    parent_id: "6"
+}, {
+    id: "WMXX1824",
+    name: "定襄",
+    parent_id: "WMXX1269"
+}, {
+    id: "CHXX0257",
+    name: "五台山",
+    parent_id: "WMXX1269"
+}, {
+    id: "WMXX1825",
+    name: "五台县",
+    parent_id: "WMXX1269"
+}, {
+    id: "WMXX1252",
+    name: "代县",
+    parent_id: "WMXX1269"
+}, {
+    id: "WMXX1253",
+    name: "繁峙",
+    parent_id: "WMXX1269"
+}, {
+    id: "WMXX1254",
+    name: "宁武",
+    parent_id: "WMXX1269"
+}, {
+    id: "WMXX1826",
+    name: "静乐",
+    parent_id: "WMXX1269"
+}, {
+    id: "WMXX1827",
+    name: "神池",
+    parent_id: "WMXX1269"
+}, {
+    id: "WMXX1828",
+    name: "五寨",
+    parent_id: "WMXX1269"
+}, {
+    id: "WMXX1829",
+    name: "岢岚",
+    parent_id: "WMXX1269"
+}, {
+    id: "CHXX0256",
+    name: "河曲",
+    parent_id: "WMXX1269"
+}, {
+    id: "WMXX1830",
+    name: "保德",
+    parent_id: "WMXX1269"
+}, {
+    id: "WMXX1831",
+    name: "偏关",
+    parent_id: "WMXX1269"
+}, {
+    id: "CHXX0261",
+    name: "原平",
+    parent_id: "WMXX1269"
+}, {
+    id: "WMXX1042",
+    name: "临汾",
+    parent_id: "6"
+}, {
+    id: "WMXX1832",
+    name: "曲沃",
+    parent_id: "WMXX1042"
+}, {
+    id: "WMXX1833",
+    name: "翼城",
+    parent_id: "WMXX1042"
+}, {
+    id: "WMXX1834",
+    name: "襄汾",
+    parent_id: "WMXX1042"
+}, {
+    id: "WMXX1835",
+    name: "洪洞",
+    parent_id: "WMXX1042"
+}, {
+    id: "WMXX1836",
+    name: "古县",
+    parent_id: "WMXX1042"
+}, {
+    id: "WMXX1837",
+    name: "安泽",
+    parent_id: "WMXX1042"
+}, {
+    id: "WMXX1838",
+    name: "浮山",
+    parent_id: "WMXX1042"
+}, {
+    id: "WMXX1839",
+    name: "吉县",
+    parent_id: "WMXX1042"
+}, {
+    id: "WMXX1840",
+    name: "乡宁",
+    parent_id: "WMXX1042"
+}, {
+    id: "WMXX1841",
+    name: "大宁",
+    parent_id: "WMXX1042"
+}, {
+    id: "WMXX1842",
+    name: "隰县",
+    parent_id: "WMXX1042"
+}, {
+    id: "WMXX1843",
+    name: "永和",
+    parent_id: "WMXX1042"
+}, {
+    id: "WMXX1844",
+    name: "蒲县",
+    parent_id: "WMXX1042"
+}, {
+    id: "WMXX1845",
+    name: "汾西",
+    parent_id: "WMXX1042"
+}, {
+    id: "WMXX1846",
+    name: "侯马",
+    parent_id: "WMXX1042"
+}, {
+    id: "WMXX1847",
+    name: "霍州",
+    parent_id: "WMXX1042"
+}, {
+    id: "CHXX0264",
+    name: "吕梁",
+    parent_id: "6"
+}, {
+    id: "WMXX1848",
+    name: "文水",
+    parent_id: "CHXX0264"
+}, {
+    id: "WMXX1849",
+    name: "交城",
+    parent_id: "CHXX0264"
+}, {
+    id: "WMXX1850",
+    name: "兴县",
+    parent_id: "CHXX0264"
+}, {
+    id: "WMXX1851",
+    name: "临县",
+    parent_id: "CHXX0264"
+}, {
+    id: "WMXX1852",
+    name: "柳林",
+    parent_id: "CHXX0264"
+}, {
+    id: "WMXX1853",
+    name: "石楼",
+    parent_id: "CHXX0264"
+}, {
+    id: "WMXX1854",
+    name: "岚县",
+    parent_id: "CHXX0264"
+}, {
+    id: "WMXX1855",
+    name: "方山",
+    parent_id: "CHXX0264"
+}, {
+    id: "WMXX1856",
+    name: "中阳",
+    parent_id: "CHXX0264"
+}, {
+    id: "WMXX1857",
+    name: "交口",
+    parent_id: "CHXX0264"
+}, {
+    id: "WMXX1333",
+    name: "孝义",
+    parent_id: "CHXX0264"
+}, {
+    id: "WMXX1858",
+    name: "汾阳",
+    parent_id: "CHXX0264"
+}, {
+    id: "CHXX0249",
+    name: "呼和浩特",
+    parent_id: "7"
+}, {
+    id: "WMXX1859",
+    name: "土左旗",
+    parent_id: "CHXX0249"
+}, {
+    id: "WMXX1860",
+    name: "托克托",
+    parent_id: "CHXX0249"
+}, {
+    id: "WMXX1861",
+    name: "和林格尔",
+    parent_id: "CHXX0249"
+}, {
+    id: "WMXX1862",
+    name: "清水河",
+    parent_id: "CHXX0249"
+}, {
+    id: "WMXX1863",
+    name: "武川",
+    parent_id: "CHXX0249"
+}, {
+    id: "CHXX0007",
+    name: "包头",
+    parent_id: "7"
+}, {
+    id: "WMXX1864",
+    name: "土右旗",
+    parent_id: "CHXX0007"
+}, {
+    id: "CHXX0040",
+    name: "固阳",
+    parent_id: "CHXX0007"
+}, {
+    id: "WMXX1865",
+    name: "达茂旗",
+    parent_id: "CHXX0007"
+}, {
+    id: "WMXX1114",
+    name: "乌海",
+    parent_id: "7"
+}, {
+    id: "CHXX0286",
+    name: "赤峰",
+    parent_id: "7"
+}, {
+    id: "WMXX1866",
+    name: "阿鲁旗",
+    parent_id: "CHXX0286"
+}, {
+    id: "CHXX0276",
+    name: "巴林左旗",
+    parent_id: "CHXX0286"
+}, {
+    id: "WMXX1867",
+    name: "巴林右旗",
+    parent_id: "CHXX0286"
+}, {
+    id: "CHXX0281",
+    name: "林西",
+    parent_id: "CHXX0286"
+}, {
+    id: "WMXX1868",
+    name: "克什旗",
+    parent_id: "CHXX0286"
+}, {
+    id: "WMXX1869",
+    name: "翁牛特旗",
+    parent_id: "CHXX0286"
+}, {
+    id: "WMXX1870",
+    name: "喀喇沁旗",
+    parent_id: "CHXX0286"
+}, {
+    id: "WMXX1871",
+    name: "宁城",
+    parent_id: "CHXX0286"
+}, {
+    id: "WMXX1872",
+    name: "敖汉旗",
+    parent_id: "CHXX0286"
+}, {
+    id: "CHXX0282",
+    name: "通辽",
+    parent_id: "7"
+}, {
+    id: "WMXX1873",
+    name: "霍林郭勒",
+    parent_id: "CHXX0282"
+}, {
+    id: "WMXX1874",
+    name: "科左中旗",
+    parent_id: "CHXX0282"
+}, {
+    id: "WMXX1875",
+    name: "科左后旗",
+    parent_id: "CHXX0282"
+}, {
+    id: "WMXX1876",
+    name: "开鲁",
+    parent_id: "CHXX0282"
+}, {
+    id: "WMXX1877",
+    name: "库伦旗",
+    parent_id: "CHXX0282"
+}, {
+    id: "WMXX1878",
+    name: "奈曼旗",
+    parent_id: "CHXX0282"
+}, {
+    id: "CHXX0275",
+    name: "扎鲁特旗",
+    parent_id: "CHXX0282"
+}, {
+    id: "CHXX0255",
+    name: "鄂尔多斯",
+    parent_id: "7"
+}, {
+    id: "WMXX2977",
+    name: "东胜",
+    parent_id: "CHXX0255"
+}, {
+    id: "CHXX0018",
+    name: "达拉特旗",
+    parent_id: "CHXX0255"
+}, {
+    id: "WMXX1321",
+    name: "准格尔旗",
+    parent_id: "CHXX0255"
+}, {
+    id: "WMXX1879",
+    name: "鄂前旗",
+    parent_id: "CHXX0255"
+}, {
+    id: "CHXX0254",
+    name: "鄂托克旗",
+    parent_id: "CHXX0255"
+}, {
+    id: "WMXX1880",
+    name: "杭锦旗",
+    parent_id: "CHXX0255"
+}, {
+    id: "WMXX1881",
+    name: "乌审旗",
+    parent_id: "CHXX0255"
+}, {
+    id: "WMXX1882",
+    name: "伊金霍洛",
+    parent_id: "CHXX0255"
+}, {
+    id: "CHXX0175",
+    name: "呼伦贝尔",
+    parent_id: "7"
+}, {
+    id: "WMXX1883",
+    name: "海拉尔",
+    parent_id: "CHXX0175"
+}, {
+    id: "WMXX1884",
+    name: "满洲里",
+    parent_id: "CHXX0175"
+}, {
+    id: "WMXX1116",
+    name: "牙克石",
+    parent_id: "CHXX0175"
+}, {
+    id: "WMXX1885",
+    name: "扎兰屯",
+    parent_id: "CHXX0175"
+}, {
+    id: "WMXX1886",
+    name: "额尔古纳",
+    parent_id: "CHXX0175"
+}, {
+    id: "WMXX1887",
+    name: "根河",
+    parent_id: "CHXX0175"
+}, {
+    id: "WMXX1888",
+    name: "阿荣旗",
+    parent_id: "CHXX0175"
+}, {
+    id: "WMXX2951",
+    name: "莫力达瓦",
+    parent_id: "CHXX0175"
+}, {
+    id: "WMXX1889",
+    name: "鄂伦春旗",
+    parent_id: "CHXX0175"
+}, {
+    id: "WMXX1890",
+    name: "鄂温克旗",
+    parent_id: "CHXX0175"
+}, {
+    id: "WMXX1891",
+    name: "陈巴尔虎",
+    parent_id: "CHXX0175"
+}, {
+    id: "WMXX1892",
+    name: "新左旗",
+    parent_id: "CHXX0175"
+}, {
+    id: "CHXX0179",
+    name: "新右旗",
+    parent_id: "CHXX0175"
+}, {
+    id: "0478",
+    name: "巴彦淖尔",
+    parent_id: "7"
+}, {
+    id: "CHXX0253",
+    name: "临河",
+    parent_id: "0478"
+}, {
+    id: "WMXX1893",
+    name: "五原",
+    parent_id: "0478"
+}, {
+    id: "WMXX1894",
+    name: "磴口",
+    parent_id: "0478"
+}, {
+    id: "WMXX1895",
+    name: "乌前旗",
+    parent_id: "0478"
+}, {
+    id: "CHXX0246",
+    name: "乌中旗",
+    parent_id: "0478"
+}, {
+    id: "WMXX1896",
+    name: "乌后旗",
+    parent_id: "0478"
+}, {
+    id: "WMXX1897",
+    name: "杭锦后旗",
+    parent_id: "0478"
+}, {
+    id: "0474",
+    name: "乌兰察布",
+    parent_id: "7"
+}, {
+    id: "CHXX0250",
+    name: "集宁",
+    parent_id: "0474"
+}, {
+    id: "WMXX1898",
+    name: "丰镇",
+    parent_id: "0474"
+}, {
+    id: "WMXX1899",
+    name: "卓资",
+    parent_id: "0474"
+}, {
+    id: "CHXX0248",
+    name: "化德",
+    parent_id: "0474"
+}, {
+    id: "WMXX1900",
+    name: "商都",
+    parent_id: "0474"
+}, {
+    id: "WMXX1901",
+    name: "兴和",
+    parent_id: "0474"
+}, {
+    id: "WMXX1902",
+    name: "凉城",
+    parent_id: "0474"
+}, {
+    id: "WMXX1903",
+    name: "察右前旗",
+    parent_id: "0474"
+}, {
+    id: "WMXX1904",
+    name: "察右中旗",
+    parent_id: "0474"
+}, {
+    id: "WMXX1905",
+    name: "察右后旗",
+    parent_id: "0474"
+}, {
+    id: "WMXX1906",
+    name: "四子王旗",
+    parent_id: "0474"
+}, {
+    id: "0482",
+    name: "兴安盟",
+    parent_id: "7"
+}, {
+    id: "WMXX1115",
+    name: "乌兰浩特",
+    parent_id: "0482"
+}, {
+    id: "CHXX0182",
+    name: "阿尔山",
+    parent_id: "0482"
+}, {
+    id: "WMXX1908",
+    name: "科右中旗",
+    parent_id: "0482"
+}, {
+    id: "WMXX1909",
+    name: "扎赉特旗",
+    parent_id: "0482"
+}, {
+    id: "WMXX1910",
+    name: "突泉",
+    parent_id: "0482"
+}, {
+    id: "0479",
+    name: "锡林郭勒",
+    parent_id: "7"
+}, {
+    id: "CHXX0240",
+    name: "二连浩特",
+    parent_id: "0479"
+}, {
+    id: "CHXX0280",
+    name: "锡林浩特",
+    parent_id: "0479"
+}, {
+    id: "CHXX0243",
+    name: "阿巴嘎旗",
+    parent_id: "0479"
+}, {
+    id: "WMXX1911",
+    name: "苏左旗",
+    parent_id: "0479"
+}, {
+    id: "WMXX1912",
+    name: "苏右旗",
+    parent_id: "0479"
+}, {
+    id: "CHXX0189",
+    name: "东乌旗",
+    parent_id: "0479"
+}, {
+    id: "CHXX0274",
+    name: "西乌旗",
+    parent_id: "0479"
+}, {
+    id: "WMXX1913",
+    name: "太仆寺旗",
+    parent_id: "0479"
+}, {
+    id: "WMXX1914",
+    name: "镶黄旗",
+    parent_id: "0479"
+}, {
+    id: "WMXX1915",
+    name: "正镶白旗",
+    parent_id: "0479"
+}, {
+    id: "WMXX1916",
+    name: "正蓝旗",
+    parent_id: "0479"
+}, {
+    id: "CHXX0285",
+    name: "多伦",
+    parent_id: "0479"
+}, {
+    id: "0483",
+    name: "阿拉善盟",
+    parent_id: "7"
+}, {
+    id: "WMXX1270",
+    name: "阿左旗",
+    parent_id: "0483"
+}, {
+    id: "WMXX1917",
+    name: "阿右旗",
+    parent_id: "0483"
+}, {
+    id: "CHXX0220",
+    name: "额济纳旗",
+    parent_id: "0483"
+}, {
+    id: "CHXX0119",
+    name: "沈阳",
+    parent_id: "8"
+}, {
+    id: "WMXX1918",
+    name: "新民",
+    parent_id: "CHXX0119"
+}, {
+    id: "WMXX1919",
+    name: "辽中",
+    parent_id: "CHXX0119"
+}, {
+    id: "WMXX1920",
+    name: "康平",
+    parent_id: "CHXX0119"
+}, {
+    id: "WMXX1921",
+    name: "法库",
+    parent_id: "CHXX0119"
+}, {
+    id: "CHXX0019",
+    name: "大连",
+    parent_id: "8"
+}, {
+    id: "CHXX0087",
+    name: "旅顺",
+    parent_id: "CHXX0019"
+}, {
+    id: "WMXX1922",
+    name: "金州",
+    parent_id: "CHXX0019"
+}, {
+    id: "WMXX1923",
+    name: "瓦房店",
+    parent_id: "CHXX0019"
+}, {
+    id: "WMXX1924",
+    name: "普兰店",
+    parent_id: "CHXX0019"
+}, {
+    id: "WMXX1925",
+    name: "庄河",
+    parent_id: "CHXX0019"
+}, {
+    id: "WMXX1926",
+    name: "长海",
+    parent_id: "CHXX0019"
+}, {
+    id: "CHXX0004",
+    name: "鞍山",
+    parent_id: "8"
+}, {
+    id: "CHXX0041",
+    name: "海城",
+    parent_id: "CHXX0004"
+}, {
+    id: "WMXX1927",
+    name: "台安",
+    parent_id: "CHXX0004"
+}, {
+    id: "WMXX1928",
+    name: "岫岩",
+    parent_id: "CHXX0004"
+}, {
+    id: "CHXX0029",
+    name: "抚顺",
+    parent_id: "8"
+}, {
+    id: "WMXX1929",
+    name: "新宾",
+    parent_id: "CHXX0029"
+}, {
+    id: "CHXX0289",
+    name: "清原",
+    parent_id: "CHXX0029"
+}, {
+    id: "CHXX0296",
+    name: "本溪",
+    parent_id: "8"
+}, {
+    id: "WMXX1930",
+    name: "本溪县",
+    parent_id: "CHXX0296"
+}, {
+    id: "WMXX1931",
+    name: "桓仁",
+    parent_id: "CHXX0296"
+}, {
+    id: "CHXX0306",
+    name: "丹东",
+    parent_id: "8"
+}, {
+    id: "WMXX1932",
+    name: "东港",
+    parent_id: "CHXX0306"
+}, {
+    id: "WMXX1933",
+    name: "凤城",
+    parent_id: "CHXX0306"
+}, {
+    id: "CHXX0305",
+    name: "宽甸",
+    parent_id: "CHXX0306"
+}, {
+    id: "CHXX0067",
+    name: "锦州",
+    parent_id: "8"
+}, {
+    id: "WMXX1934",
+    name: "凌海",
+    parent_id: "CHXX0067"
+}, {
+    id: "WMXX1935",
+    name: "北镇",
+    parent_id: "CHXX0067"
+}, {
+    id: "WMXX1936",
+    name: "黑山",
+    parent_id: "CHXX0067"
+}, {
+    id: "WMXX1937",
+    name: "义县",
+    parent_id: "CHXX0067"
+}, {
+    id: "CHXX0304",
+    name: "营口",
+    parent_id: "8"
+}, {
+    id: "WMXX1938",
+    name: "盖州",
+    parent_id: "CHXX0304"
+}, {
+    id: "WMXX1939",
+    name: "大石桥",
+    parent_id: "CHXX0304"
+}, {
+    id: "WMXX1045",
+    name: "阜新",
+    parent_id: "8"
+}, {
+    id: "CHXX0288",
+    name: "彰武",
+    parent_id: "WMXX1045"
+}, {
+    id: "CHXX0081",
+    name: "辽阳",
+    parent_id: "8"
+}, {
+    id: "WMXX1940",
+    name: "灯塔",
+    parent_id: "CHXX0081"
+}, {
+    id: "WMXX1941",
+    name: "辽阳县",
+    parent_id: "CHXX0081"
+}, {
+    id: "WMXX1046",
+    name: "盘锦",
+    parent_id: "8"
+}, {
+    id: "WMXX1942",
+    name: "大洼",
+    parent_id: "WMXX1046"
+}, {
+    id: "WMXX1943",
+    name: "盘山",
+    parent_id: "WMXX1046"
+}, {
+    id: "CHXX0134",
+    name: "铁岭",
+    parent_id: "8"
+}, {
+    id: "WMXX1945",
+    name: "开原",
+    parent_id: "CHXX0134"
+}, {
+    id: "WMXX1946",
+    name: "西丰",
+    parent_id: "CHXX0134"
+}, {
+    id: "WMXX1947",
+    name: "昌图",
+    parent_id: "CHXX0134"
+}, {
+    id: "CHXX0294",
+    name: "朝阳市",
+    parent_id: "8"
+}, {
+    id: "WMXX1948",
+    name: "北票",
+    parent_id: "CHXX0294"
+}, {
+    id: "WMXX1949",
+    name: "凌源",
+    parent_id: "CHXX0294"
+}, {
+    id: "WMXX1950",
+    name: "建平",
+    parent_id: "CHXX0294"
+}, {
+    id: "WMXX1951",
+    name: "喀左",
+    parent_id: "CHXX0294"
+}, {
+    id: "WMXX1047",
+    name: "葫芦岛",
+    parent_id: "8"
+}, {
+    id: "WMXX1952",
+    name: "兴城",
+    parent_id: "WMXX1047"
+}, {
+    id: "WMXX1953",
+    name: "绥中",
+    parent_id: "WMXX1047"
+}, {
+    id: "WMXX1954",
+    name: "建昌",
+    parent_id: "WMXX1047"
+}, {
+    id: "CHXX0010",
+    name: "长春",
+    parent_id: "9"
+}, {
+    id: "WMXX1955",
+    name: "双阳",
+    parent_id: "CHXX0010"
+}, {
+    id: "WMXX1956",
+    name: "德惠",
+    parent_id: "CHXX0010"
+}, {
+    id: "CHXX0069",
+    name: "九台",
+    parent_id: "CHXX0010"
+}, {
+    id: "WMXX1957",
+    name: "榆树",
+    parent_id: "CHXX0010"
+}, {
+    id: "WMXX1958",
+    name: "农安",
+    parent_id: "CHXX0010"
+}, {
+    id: "CHXX0063",
+    name: "吉林市",
+    parent_id: "9"
+}, {
+    id: "WMXX1959",
+    name: "蛟河",
+    parent_id: "CHXX0063"
+}, {
+    id: "CHXX0290",
+    name: "桦甸",
+    parent_id: "CHXX0063"
+}, {
+    id: "WMXX1960",
+    name: "舒兰",
+    parent_id: "CHXX0063"
+}, {
+    id: "WMXX1961",
+    name: "磐石",
+    parent_id: "CHXX0063"
+}, {
+    id: "WMXX1962",
+    name: "永吉",
+    parent_id: "CHXX0063"
+}, {
+    id: "CHXX0283",
+    name: "四平",
+    parent_id: "9"
+}, {
+    id: "WMXX1963",
+    name: "公主岭",
+    parent_id: "CHXX0283"
+}, {
+    id: "WMXX1964",
+    name: "双辽",
+    parent_id: "CHXX0283"
+}, {
+    id: "WMXX1965",
+    name: "梨树",
+    parent_id: "CHXX0283"
+}, {
+    id: "WMXX1966",
+    name: "伊通",
+    parent_id: "CHXX0283"
+}, {
+    id: "WMXX1048",
+    name: "辽源",
+    parent_id: "9"
+}, {
+    id: "WMXX1967",
+    name: "东丰",
+    parent_id: "WMXX1048"
+}, {
+    id: "WMXX1968",
+    name: "东辽",
+    parent_id: "WMXX1048"
+}, {
+    id: "WMXX1049",
+    name: "通化",
+    parent_id: "9"
+}, {
+    id: "WMXX1969",
+    name: "梅河口",
+    parent_id: "WMXX1049"
+}, {
+    id: "WMXX1970",
+    name: "集安",
+    parent_id: "WMXX1049"
+}, {
+    id: "WMXX1971",
+    name: "通化县",
+    parent_id: "WMXX1049"
+}, {
+    id: "WMXX1972",
+    name: "辉南",
+    parent_id: "WMXX1049"
+}, {
+    id: "WMXX1973",
+    name: "柳河",
+    parent_id: "WMXX1049"
+}, {
+    id: "WMXX1271",
+    name: "白山",
+    parent_id: "9"
+}, {
+    id: "CHXX0297",
+    name: "临江",
+    parent_id: "WMXX1271"
+}, {
+    id: "WMXX1974",
+    name: "抚松",
+    parent_id: "WMXX1271"
+}, {
+    id: "WMXX1975",
+    name: "靖宇",
+    parent_id: "WMXX1271"
+}, {
+    id: "CHXX0299",
+    name: "长白",
+    parent_id: "WMXX1271"
+}, {
+    id: "WMXX1272",
+    name: "松原",
+    parent_id: "9"
+}, {
+    id: "CHXX0277",
+    name: "长岭",
+    parent_id: "WMXX1272"
+}, {
+    id: "WMXX1976",
+    name: "乾安",
+    parent_id: "WMXX1272"
+}, {
+    id: "WMXX1257",
+    name: "扶余",
+    parent_id: "WMXX1272"
+}, {
+    id: "CHXX0190",
+    name: "前郭",
+    parent_id: "WMXX1272"
+}, {
+    id: "WMXX1050",
+    name: "白城",
+    parent_id: "9"
+}, {
+    id: "WMXX1977",
+    name: "洮南",
+    parent_id: "WMXX1050"
+}, {
+    id: "WMXX1978",
+    name: "大安",
+    parent_id: "WMXX1050"
+}, {
+    id: "WMXX1979",
+    name: "镇赉",
+    parent_id: "WMXX1050"
+}, {
+    id: "WMXX1980",
+    name: "通榆",
+    parent_id: "WMXX1050"
+}, {
+    id: "01433",
+    name: "延边",
+    parent_id: "9"
+}, {
+    id: "CHXX0291",
+    name: "延吉",
+    parent_id: "01433"
+}, {
+    id: "WMXX1981",
+    name: "图们",
+    parent_id: "01433"
+}, {
+    id: "CHXX0284",
+    name: "敦化",
+    parent_id: "01433"
+}, {
+    id: "WMXX1982",
+    name: "珲春",
+    parent_id: "01433"
+}, {
+    id: "WMXX1983",
+    name: "龙井",
+    parent_id: "01433"
+}, {
+    id: "WMXX1984",
+    name: "和龙",
+    parent_id: "01433"
+}, {
+    id: "WMXX1985",
+    name: "汪清",
+    parent_id: "01433"
+}, {
+    id: "WMXX1986",
+    name: "安图",
+    parent_id: "01433"
+}, {
+    id: "CHXX0046",
+    name: "哈尔滨",
+    parent_id: "10"
+}, {
+    id: "CHXX0054",
+    name: "呼兰",
+    parent_id: "CHXX0046"
+}, {
+    id: "CHXX0001",
+    name: "阿城",
+    parent_id: "CHXX0046"
+}, {
+    id: "CHXX0124",
+    name: "双城",
+    parent_id: "CHXX0046"
+}, {
+    id: "CHXX0192",
+    name: "尚志",
+    parent_id: "CHXX0046"
+}, {
+    id: "WMXX1987",
+    name: "五常",
+    parent_id: "CHXX0046"
+}, {
+    id: "WMXX1988",
+    name: "依兰",
+    parent_id: "CHXX0046"
+}, {
+    id: "WMXX1989",
+    name: "方正",
+    parent_id: "CHXX0046"
+}, {
+    id: "WMXX1990",
+    name: "宾县",
+    parent_id: "CHXX0046"
+}, {
+    id: "WMXX1991",
+    name: "巴彦",
+    parent_id: "CHXX0046"
+}, {
+    id: "WMXX1992",
+    name: "木兰",
+    parent_id: "CHXX0046"
+}, {
+    id: "CHXX0191",
+    name: "通河",
+    parent_id: "CHXX0046"
+}, {
+    id: "WMXX1993",
+    name: "延寿",
+    parent_id: "CHXX0046"
+}, {
+    id: "CHXX0112",
+    name: "齐齐哈尔",
+    parent_id: "10"
+}, {
+    id: "WMXX1994",
+    name: "讷河",
+    parent_id: "CHXX0112"
+}, {
+    id: "WMXX1995",
+    name: "龙江",
+    parent_id: "CHXX0112"
+}, {
+    id: "WMXX1996",
+    name: "依安",
+    parent_id: "CHXX0112"
+}, {
+    id: "CHXX0186",
+    name: "泰来",
+    parent_id: "CHXX0112"
+}, {
+    id: "WMXX1997",
+    name: "甘南",
+    parent_id: "CHXX0112"
+}, {
+    id: "WMXX1998",
+    name: "富裕",
+    parent_id: "CHXX0112"
+}, {
+    id: "CHXX0181",
+    name: "克山",
+    parent_id: "CHXX0112"
+}, {
+    id: "WMXX1999",
+    name: "克东",
+    parent_id: "CHXX0112"
+}, {
+    id: "WMXX2000",
+    name: "拜泉",
+    parent_id: "CHXX0112"
+}, {
+    id: "CHXX0193",
+    name: "鸡西",
+    parent_id: "10"
+}, {
+    id: "CHXX0194",
+    name: "虎林",
+    parent_id: "CHXX0193"
+}, {
+    id: "WMXX2001",
+    name: "密山",
+    parent_id: "CHXX0193"
+}, {
+    id: "WMXX2002",
+    name: "鸡东",
+    parent_id: "CHXX0193"
+}, {
+    id: "WMXX1052",
+    name: "鹤岗",
+    parent_id: "10"
+}, {
+    id: "WMXX2003",
+    name: "萝北",
+    parent_id: "WMXX1052"
+}, {
+    id: "WMXX2004",
+    name: "绥滨",
+    parent_id: "WMXX1052"
+}, {
+    id: "WMXX1053",
+    name: "双鸭山",
+    parent_id: "10"
+}, {
+    id: "WMXX2005",
+    name: "集贤",
+    parent_id: "WMXX1053"
+}, {
+    id: "WMXX2006",
+    name: "友谊",
+    parent_id: "WMXX1053"
+}, {
+    id: "CHXX0188",
+    name: "宝清",
+    parent_id: "WMXX1053"
+}, {
+    id: "WMXX2007",
+    name: "饶河",
+    parent_id: "WMXX1053"
+}, {
+    id: "WMXX1051",
+    name: "大庆",
+    parent_id: "10"
+}, {
+    id: "WMXX2008",
+    name: "肇州",
+    parent_id: "WMXX1051"
+}, {
+    id: "WMXX2009",
+    name: "肇源",
+    parent_id: "WMXX1051"
+}, {
+    id: "WMXX2010",
+    name: "林甸",
+    parent_id: "WMXX1051"
+}, {
+    id: "WMXX1054",
+    name: "伊春",
+    parent_id: "10"
+}, {
+    id: "WMXX2012",
+    name: "五营",
+    parent_id: "WMXX1054"
+}, {
+    id: "WMXX2013",
+    name: "乌伊岭",
+    parent_id: "WMXX1054"
+}, {
+    id: "WMXX2014",
+    name: "铁力",
+    parent_id: "WMXX1054"
+}, {
+    id: "WMXX2015",
+    name: "嘉荫",
+    parent_id: "WMXX1054"
+}, {
+    id: "WMXX1055",
+    name: "佳木斯",
+    parent_id: "10"
+}, {
+    id: "WMXX2016",
+    name: "同江",
+    parent_id: "WMXX1055"
+}, {
+    id: "CHXX0185",
+    name: "富锦",
+    parent_id: "WMXX1055"
+}, {
+    id: "WMXX2017",
+    name: "桦南",
+    parent_id: "WMXX1055"
+}, {
+    id: "WMXX2018",
+    name: "桦川",
+    parent_id: "WMXX1055"
+}, {
+    id: "WMXX2019",
+    name: "汤原",
+    parent_id: "WMXX1055"
+}, {
+    id: "WMXX2020",
+    name: "抚远",
+    parent_id: "WMXX1055"
+}, {
+    id: "WMXX1056",
+    name: "七台河",
+    parent_id: "10"
+}, {
+    id: "WMXX2021",
+    name: "勃利",
+    parent_id: "WMXX1056"
+}, {
+    id: "CHXX0278",
+    name: "牡丹江",
+    parent_id: "10"
+}, {
+    id: "CHXX0279",
+    name: "绥芬河",
+    parent_id: "CHXX0278"
+}, {
+    id: "WMXX2022",
+    name: "海林",
+    parent_id: "CHXX0278"
+}, {
+    id: "WMXX2023",
+    name: "宁安",
+    parent_id: "CHXX0278"
+}, {
+    id: "WMXX2024",
+    name: "穆棱",
+    parent_id: "CHXX0278"
+}, {
+    id: "WMXX2025",
+    name: "东宁",
+    parent_id: "CHXX0278"
+}, {
+    id: "WMXX2026",
+    name: "林口",
+    parent_id: "CHXX0278"
+}, {
+    id: "CHXX0174",
+    name: "黑河",
+    parent_id: "10"
+}, {
+    id: "WMXX2027",
+    name: "北安",
+    parent_id: "CHXX0174"
+}, {
+    id: "WMXX2028",
+    name: "五大连池",
+    parent_id: "CHXX0174"
+}, {
+    id: "CHXX0177",
+    name: "嫩江",
+    parent_id: "CHXX0174"
+}, {
+    id: "WMXX2029",
+    name: "逊克",
+    parent_id: "CHXX0174"
+}, {
+    id: "CHXX0178",
+    name: "孙吴",
+    parent_id: "CHXX0174"
+}, {
+    id: "WMXX1057",
+    name: "绥化",
+    parent_id: "10"
+}, {
+    id: "CHXX0187",
+    name: "安达",
+    parent_id: "WMXX1057"
+}, {
+    id: "WMXX2030",
+    name: "肇东",
+    parent_id: "WMXX1057"
+}, {
+    id: "CHXX0183",
+    name: "海伦",
+    parent_id: "WMXX1057"
+}, {
+    id: "WMXX2031",
+    name: "望奎",
+    parent_id: "WMXX1057"
+}, {
+    id: "WMXX2032",
+    name: "兰西",
+    parent_id: "WMXX1057"
+}, {
+    id: "WMXX2033",
+    name: "青冈",
+    parent_id: "WMXX1057"
+}, {
+    id: "WMXX2034",
+    name: "庆安",
+    parent_id: "WMXX1057"
+}, {
+    id: "WMXX2035",
+    name: "明水",
+    parent_id: "WMXX1057"
+}, {
+    id: "WMXX2036",
+    name: "绥棱",
+    parent_id: "WMXX1057"
+}, {
+    id: "0457",
+    name: "大兴安岭",
+    parent_id: "10"
+}, {
+    id: "WMXX1258",
+    name: "加格达奇",
+    parent_id: "0457"
+}, {
+    id: "CHXX0172",
+    name: "呼玛",
+    parent_id: "0457"
+}, {
+    id: "CHXX0128",
+    name: "塔河",
+    parent_id: "0457"
+}, {
+    id: "CHXX0171",
+    name: "漠河",
+    parent_id: "0457"
+}, {
+    id: "WMXX2037",
+    name: "新林",
+    parent_id: "0457"
+}, {
+    id: "WMXX2038",
+    name: "呼中",
+    parent_id: "0457"
+}, {
+    id: "CHXX0448",
+    name: "合肥",
+    parent_id: "13"
+}, {
+    id: "WMXX2039",
+    name: "长丰",
+    parent_id: "CHXX0448"
+}, {
+    id: "WMXX2040",
+    name: "肥东",
+    parent_id: "CHXX0448"
+}, {
+    id: "WMXX2041",
+    name: "肥西",
+    parent_id: "CHXX0448"
+}, {
+    id: "CHXX0449",
+    name: "芜湖",
+    parent_id: "13"
+}, {
+    id: "WMXX2042",
+    name: "芜湖县",
+    parent_id: "CHXX0449"
+}, {
+    id: "WMXX2043",
+    name: "繁昌",
+    parent_id: "CHXX0449"
+}, {
+    id: "WMXX2044",
+    name: "南陵",
+    parent_id: "CHXX0449"
+}, {
+    id: "CHXX0444",
+    name: "蚌埠",
+    parent_id: "13"
+}, {
+    id: "WMXX2045",
+    name: "怀远",
+    parent_id: "CHXX0444"
+}, {
+    id: "WMXX2046",
+    name: "五河",
+    parent_id: "CHXX0444"
+}, {
+    id: "WMXX2047",
+    name: "固镇",
+    parent_id: "CHXX0444"
+}, {
+    id: "WMXX1062",
+    name: "淮南",
+    parent_id: "13"
+}, {
+    id: "WMXX2048",
+    name: "凤台",
+    parent_id: "WMXX1062"
+}, {
+    id: "WMXX1060",
+    name: "马鞍山",
+    parent_id: "13"
+}, {
+    id: "WMXX2049",
+    name: "当涂",
+    parent_id: "WMXX1060"
+}, {
+    id: "WMXX1059",
+    name: "淮北",
+    parent_id: "13"
+}, {
+    id: "WMXX2050",
+    name: "濉溪",
+    parent_id: "WMXX1059"
+}, {
+    id: "WMXX1063",
+    name: "铜陵",
+    parent_id: "13"
+}, {
+    id: "CHXX0452",
+    name: "安庆",
+    parent_id: "13"
+}, {
+    id: "WMXX1138",
+    name: "桐城",
+    parent_id: "CHXX0452"
+}, {
+    id: "WMXX2051",
+    name: "怀宁",
+    parent_id: "CHXX0452"
+}, {
+    id: "WMXX2052",
+    name: "枞阳",
+    parent_id: "CHXX0452"
+}, {
+    id: "WMXX2053",
+    name: "潜山",
+    parent_id: "CHXX0452"
+}, {
+    id: "WMXX2054",
+    name: "太湖",
+    parent_id: "CHXX0452"
+}, {
+    id: "WMXX2055",
+    name: "宿松",
+    parent_id: "CHXX0452"
+}, {
+    id: "WMXX2056",
+    name: "望江",
+    parent_id: "CHXX0452"
+}, {
+    id: "WMXX2057",
+    name: "岳西",
+    parent_id: "CHXX0452"
+}, {
+    id: "CHXX0453",
+    name: "黄山市",
+    parent_id: "13"
+}, {
+    id: "WMXX2058",
+    name: "黄山",
+    parent_id: "CHXX0453"
+}, {
+    id: "WMXX2059",
+    name: "黄山区",
+    parent_id: "CHXX0453"
+}, {
+    id: "WMXX2060",
+    name: "屯溪",
+    parent_id: "CHXX0453"
+}, {
+    id: "WMXX2061",
+    name: "歙县",
+    parent_id: "CHXX0453"
+}, {
+    id: "WMXX2062",
+    name: "休宁",
+    parent_id: "CHXX0453"
+}, {
+    id: "WMXX2063",
+    name: "黟县",
+    parent_id: "CHXX0453"
+}, {
+    id: "WMXX2064",
+    name: "祁门",
+    parent_id: "CHXX0453"
+}, {
+    id: "WMXX1064",
+    name: "滁州",
+    parent_id: "13"
+}, {
+    id: "WMXX1322",
+    name: "天长",
+    parent_id: "WMXX1064"
+}, {
+    id: "WMXX2065",
+    name: "明光",
+    parent_id: "WMXX1064"
+}, {
+    id: "WMXX2066",
+    name: "来安",
+    parent_id: "WMXX1064"
+}, {
+    id: "WMXX2067",
+    name: "全椒",
+    parent_id: "WMXX1064"
+}, {
+    id: "WMXX2068",
+    name: "定远",
+    parent_id: "WMXX1064"
+}, {
+    id: "WMXX2069",
+    name: "凤阳",
+    parent_id: "WMXX1064"
+}, {
+    id: "CHXX0442",
+    name: "阜阳",
+    parent_id: "13"
+}, {
+    id: "WMXX2070",
+    name: "界首",
+    parent_id: "CHXX0442"
+}, {
+    id: "WMXX2071",
+    name: "临泉",
+    parent_id: "CHXX0442"
+}, {
+    id: "WMXX2072",
+    name: "太和",
+    parent_id: "CHXX0442"
+}, {
+    id: "WMXX2073",
+    name: "阜南",
+    parent_id: "CHXX0442"
+}, {
+    id: "WMXX2074",
+    name: "颍上",
+    parent_id: "CHXX0442"
+}, {
+    id: "WMXX1058",
+    name: "宿州",
+    parent_id: "13"
+}, {
+    id: "WMXX1141",
+    name: "砀山",
+    parent_id: "WMXX1058"
+}, {
+    id: "WMXX2075",
+    name: "萧县",
+    parent_id: "WMXX1058"
+}, {
+    id: "WMXX2076",
+    name: "灵璧",
+    parent_id: "WMXX1058"
+}, {
+    id: "WMXX2077",
+    name: "泗县",
+    parent_id: "WMXX1058"
+}, {
+    id: "WMXX1065",
+    name: "巢湖",
+    parent_id: "13"
+}, {
+    id: "WMXX2078",
+    name: "庐江",
+    parent_id: "WMXX1065"
+}, {
+    id: "WMXX2079",
+    name: "无为",
+    parent_id: "WMXX1065"
+}, {
+    id: "WMXX2080",
+    name: "含山",
+    parent_id: "WMXX1065"
+}, {
+    id: "WMXX2081",
+    name: "和县",
+    parent_id: "WMXX1065"
+}, {
+    id: "WMXX1061",
+    name: "六安",
+    parent_id: "13"
+}, {
+    id: "WMXX2082",
+    name: "寿县",
+    parent_id: "WMXX1061"
+}, {
+    id: "WMXX2083",
+    name: "霍邱",
+    parent_id: "WMXX1061"
+}, {
+    id: "WMXX2084",
+    name: "舒城",
+    parent_id: "WMXX1061"
+}, {
+    id: "WMXX2085",
+    name: "金寨",
+    parent_id: "WMXX1061"
+}, {
+    id: "CHXX0447",
+    name: "霍山",
+    parent_id: "WMXX1061"
+}, {
+    id: "CHXX0439",
+    name: "亳州",
+    parent_id: "13"
+}, {
+    id: "WMXX2086",
+    name: "涡阳",
+    parent_id: "CHXX0439"
+}, {
+    id: "WMXX2087",
+    name: "蒙城",
+    parent_id: "CHXX0439"
+}, {
+    id: "WMXX2088",
+    name: "利辛",
+    parent_id: "CHXX0439"
+}, {
+    id: "WMXX1273",
+    name: "池州",
+    parent_id: "13"
+}, {
+    id: "WMXX2089",
+    name: "九华山",
+    parent_id: "WMXX1273"
+}, {
+    id: "WMXX2090",
+    name: "东至",
+    parent_id: "WMXX1273"
+}, {
+    id: "WMXX2091",
+    name: "石台",
+    parent_id: "WMXX1273"
+}, {
+    id: "WMXX2092",
+    name: "青阳",
+    parent_id: "WMXX1273"
+}, {
+    id: "WMXX1066",
+    name: "宣城",
+    parent_id: "13"
+}, {
+    id: "WMXX2093",
+    name: "宁国",
+    parent_id: "WMXX1066"
+}, {
+    id: "WMXX2094",
+    name: "郎溪",
+    parent_id: "WMXX1066"
+}, {
+    id: "WMXX2095",
+    name: "广德",
+    parent_id: "WMXX1066"
+}, {
+    id: "WMXX2096",
+    name: "泾县",
+    parent_id: "WMXX1066"
+}, {
+    id: "WMXX2097",
+    name: "绩溪",
+    parent_id: "WMXX1066"
+}, {
+    id: "WMXX2098",
+    name: "旌德",
+    parent_id: "WMXX1066"
+}, {
+    id: "CHXX0097",
+    name: "南昌",
+    parent_id: "15"
+}, {
+    id: "WMXX2099",
+    name: "南昌县",
+    parent_id: "CHXX0097"
+}, {
+    id: "WMXX2100",
+    name: "新建",
+    parent_id: "CHXX0097"
+}, {
+    id: "WMXX2101",
+    name: "安义",
+    parent_id: "CHXX0097"
+}, {
+    id: "WMXX2102",
+    name: "进贤",
+    parent_id: "CHXX0097"
+}, {
+    id: "CHXX0457",
+    name: "景德镇",
+    parent_id: "15"
+}, {
+    id: "WMXX2103",
+    name: "乐平",
+    parent_id: "CHXX0457"
+}, {
+    id: "WMXX2104",
+    name: "浮梁",
+    parent_id: "CHXX0457"
+}, {
+    id: "WMXX1067",
+    name: "萍乡",
+    parent_id: "15"
+}, {
+    id: "WMXX2105",
+    name: "莲花",
+    parent_id: "WMXX1067"
+}, {
+    id: "WMXX2106",
+    name: "芦溪",
+    parent_id: "WMXX1067"
+}, {
+    id: "WMXX2107",
+    name: "上栗",
+    parent_id: "WMXX1067"
+}, {
+    id: "CHXX0068",
+    name: "九江",
+    parent_id: "15"
+}, {
+    id: "CHXX0456",
+    name: "庐山",
+    parent_id: "CHXX0068"
+}, {
+    id: "WMXX2108",
+    name: "瑞昌",
+    parent_id: "CHXX0068"
+}, {
+    id: "WMXX2109",
+    name: "武宁",
+    parent_id: "CHXX0068"
+}, {
+    id: "CHXX0412",
+    name: "修水",
+    parent_id: "CHXX0068"
+}, {
+    id: "WMXX2110",
+    name: "永修",
+    parent_id: "CHXX0068"
+}, {
+    id: "WMXX2111",
+    name: "德安",
+    parent_id: "CHXX0068"
+}, {
+    id: "WMXX2112",
+    name: "星子",
+    parent_id: "CHXX0068"
+}, {
+    id: "WMXX2113",
+    name: "都昌",
+    parent_id: "CHXX0068"
+}, {
+    id: "WMXX2114",
+    name: "湖口",
+    parent_id: "CHXX0068"
+}, {
+    id: "WMXX2115",
+    name: "彭泽",
+    parent_id: "CHXX0068"
+}, {
+    id: "WMXX1069",
+    name: "新余",
+    parent_id: "15"
+}, {
+    id: "WMXX2116",
+    name: "分宜",
+    parent_id: "WMXX1069"
+}, {
+    id: "WMXX1070",
+    name: "鹰潭",
+    parent_id: "15"
+}, {
+    id: "WMXX2117",
+    name: "贵溪",
+    parent_id: "WMXX1070"
+}, {
+    id: "WMXX2118",
+    name: "余江",
+    parent_id: "WMXX1070"
+}, {
+    id: "CHXX0436",
+    name: "赣州",
+    parent_id: "15"
+}, {
+    id: "WMXX2119",
+    name: "瑞金",
+    parent_id: "CHXX0436"
+}, {
+    id: "WMXX2120",
+    name: "南康",
+    parent_id: "CHXX0436"
+}, {
+    id: "WMXX2121",
+    name: "赣县",
+    parent_id: "CHXX0436"
+}, {
+    id: "WMXX2122",
+    name: "信丰",
+    parent_id: "CHXX0436"
+}, {
+    id: "WMXX2123",
+    name: "大余",
+    parent_id: "CHXX0436"
+}, {
+    id: "WMXX2124",
+    name: "上犹",
+    parent_id: "CHXX0436"
+}, {
+    id: "WMXX2125",
+    name: "崇义",
+    parent_id: "CHXX0436"
+}, {
+    id: "WMXX2126",
+    name: "安远",
+    parent_id: "CHXX0436"
+}, {
+    id: "WMXX2127",
+    name: "龙南",
+    parent_id: "CHXX0436"
+}, {
+    id: "WMXX2128",
+    name: "定南",
+    parent_id: "CHXX0436"
+}, {
+    id: "WMXX2129",
+    name: "全南",
+    parent_id: "CHXX0436"
+}, {
+    id: "WMXX2130",
+    name: "宁都",
+    parent_id: "CHXX0436"
+}, {
+    id: "WMXX2131",
+    name: "于都",
+    parent_id: "CHXX0436"
+}, {
+    id: "WMXX2132",
+    name: "兴国",
+    parent_id: "CHXX0436"
+}, {
+    id: "WMXX2133",
+    name: "会昌",
+    parent_id: "CHXX0436"
+}, {
+    id: "CHXX0485",
+    name: "寻乌",
+    parent_id: "CHXX0436"
+}, {
+    id: "WMXX2134",
+    name: "石城",
+    parent_id: "CHXX0436"
+}, {
+    id: "CHXX0425",
+    name: "吉安",
+    parent_id: "15"
+}, {
+    id: "WMXX2968",
+    name: "吉安县",
+    parent_id: "CHXX0425"
+}, {
+    id: "WMXX2135",
+    name: "井冈山",
+    parent_id: "CHXX0425"
+}, {
+    id: "WMXX2136",
+    name: "吉水",
+    parent_id: "CHXX0425"
+}, {
+    id: "WMXX2137",
+    name: "峡江",
+    parent_id: "CHXX0425"
+}, {
+    id: "WMXX2138",
+    name: "新干",
+    parent_id: "CHXX0425"
+}, {
+    id: "WMXX2139",
+    name: "永丰",
+    parent_id: "CHXX0425"
+}, {
+    id: "WMXX2140",
+    name: "泰和",
+    parent_id: "CHXX0425"
+}, {
+    id: "WMXX2141",
+    name: "遂川",
+    parent_id: "CHXX0425"
+}, {
+    id: "WMXX2142",
+    name: "万安",
+    parent_id: "CHXX0425"
+}, {
+    id: "WMXX2143",
+    name: "安福",
+    parent_id: "CHXX0425"
+}, {
+    id: "WMXX1127",
+    name: "永新",
+    parent_id: "CHXX0425"
+}, {
+    id: "WMXX1068",
+    name: "宜春",
+    parent_id: "15"
+}, {
+    id: "CHXX0026",
+    name: "丰城",
+    parent_id: "WMXX1068"
+}, {
+    id: "CHXX0111",
+    name: "樟树",
+    parent_id: "WMXX1068"
+}, {
+    id: "WMXX2144",
+    name: "高安",
+    parent_id: "WMXX1068"
+}, {
+    id: "WMXX2145",
+    name: "奉新",
+    parent_id: "WMXX1068"
+}, {
+    id: "WMXX2146",
+    name: "万载",
+    parent_id: "WMXX1068"
+}, {
+    id: "WMXX2147",
+    name: "上高",
+    parent_id: "WMXX1068"
+}, {
+    id: "WMXX2148",
+    name: "宜丰",
+    parent_id: "WMXX1068"
+}, {
+    id: "WMXX2149",
+    name: "靖安",
+    parent_id: "WMXX1068"
+}, {
+    id: "WMXX2150",
+    name: "铜鼓",
+    parent_id: "WMXX1068"
+}, {
+    id: "WMXX1071",
+    name: "抚州",
+    parent_id: "15"
+}, {
+    id: "CHXX0465",
+    name: "南城",
+    parent_id: "WMXX1071"
+}, {
+    id: "WMXX2151",
+    name: "黎川",
+    parent_id: "WMXX1071"
+}, {
+    id: "WMXX2152",
+    name: "南丰",
+    parent_id: "WMXX1071"
+}, {
+    id: "WMXX2153",
+    name: "崇仁",
+    parent_id: "WMXX1071"
+}, {
+    id: "WMXX2154",
+    name: "乐安",
+    parent_id: "WMXX1071"
+}, {
+    id: "WMXX2155",
+    name: "宜黄",
+    parent_id: "WMXX1071"
+}, {
+    id: "WMXX2156",
+    name: "金溪",
+    parent_id: "WMXX1071"
+}, {
+    id: "WMXX2157",
+    name: "资溪",
+    parent_id: "WMXX1071"
+}, {
+    id: "WMXX2158",
+    name: "东乡",
+    parent_id: "WMXX1071"
+}, {
+    id: "CHXX0470",
+    name: "广昌",
+    parent_id: "WMXX1071"
+}, {
+    id: "WMXX1072",
+    name: "上饶",
+    parent_id: "15"
+}, {
+    id: "WMXX2159",
+    name: "德兴",
+    parent_id: "WMXX1072"
+}, {
+    id: "WMXX2160",
+    name: "上饶县",
+    parent_id: "WMXX1072"
+}, {
+    id: "WMXX2161",
+    name: "广丰",
+    parent_id: "WMXX1072"
+}, {
+    id: "WMXX2162",
+    name: "玉山",
+    parent_id: "WMXX1072"
+}, {
+    id: "WMXX2163",
+    name: "铅山",
+    parent_id: "WMXX1072"
+}, {
+    id: "WMXX2164",
+    name: "横峰",
+    parent_id: "WMXX1072"
+}, {
+    id: "WMXX2165",
+    name: "弋阳",
+    parent_id: "WMXX1072"
+}, {
+    id: "WMXX1129",
+    name: "余干",
+    parent_id: "WMXX1072"
+}, {
+    id: "CHXX0009",
+    name: "鄱阳",
+    parent_id: "WMXX1072"
+}, {
+    id: "WMXX2166",
+    name: "万年",
+    parent_id: "WMXX1072"
+}, {
+    id: "WMXX2167",
+    name: "婺源",
+    parent_id: "WMXX1072"
+}, {
+    id: "CHXX0138",
+    name: "武汉",
+    parent_id: "18"
+}, {
+    id: "WMXX2168",
+    name: "蔡甸",
+    parent_id: "CHXX0138"
+}, {
+    id: "WMXX2169",
+    name: "江夏",
+    parent_id: "CHXX0138"
+}, {
+    id: "CHXX0050",
+    name: "黄陂",
+    parent_id: "CHXX0138"
+}, {
+    id: "WMXX2170",
+    name: "新洲",
+    parent_id: "CHXX0138"
+}, {
+    id: "CHXX0051",
+    name: "黄石",
+    parent_id: "18"
+}, {
+    id: "WMXX2171",
+    name: "大冶",
+    parent_id: "CHXX0051"
+}, {
+    id: "WMXX2172",
+    name: "阳新",
+    parent_id: "CHXX0051"
+}, {
+    id: "WMXX1074",
+    name: "襄阳",
+    parent_id: "18"
+}, {
+    id: "CHXX0396",
+    name: "老河口",
+    parent_id: "WMXX1074"
+}, {
+    id: "CHXX0397",
+    name: "枣阳",
+    parent_id: "WMXX1074"
+}, {
+    id: "WMXX1219",
+    name: "宜城",
+    parent_id: "WMXX1074"
+}, {
+    id: "WMXX2173",
+    name: "南漳",
+    parent_id: "WMXX1074"
+}, {
+    id: "WMXX2174",
+    name: "谷城",
+    parent_id: "WMXX1074"
+}, {
+    id: "WMXX2175",
+    name: "保康",
+    parent_id: "WMXX1074"
+}, {
+    id: "WMXX1075",
+    name: "十堰",
+    parent_id: "18"
+}, {
+    id: "WMXX1220",
+    name: "丹江口",
+    parent_id: "WMXX1075"
+}, {
+    id: "WMXX2176",
+    name: "郧县",
+    parent_id: "WMXX1075"
+}, {
+    id: "WMXX2177",
+    name: "郧西",
+    parent_id: "WMXX1075"
+}, {
+    id: "WMXX1221",
+    name: "竹山",
+    parent_id: "WMXX1075"
+}, {
+    id: "WMXX2178",
+    name: "竹溪",
+    parent_id: "WMXX1075"
+}, {
+    id: "CHXX0395",
+    name: "房县",
+    parent_id: "WMXX1075"
+}, {
+    id: "CHXX0408",
+    name: "荆州",
+    parent_id: "18"
+}, {
+    id: "CHXX0118",
+    name: "沙市",
+    parent_id: "CHXX0408"
+}, {
+    id: "WMXX1222",
+    name: "石首",
+    parent_id: "CHXX0408"
+}, {
+    id: "WMXX2179",
+    name: "洪湖",
+    parent_id: "CHXX0408"
+}, {
+    id: "WMXX2180",
+    name: "松滋",
+    parent_id: "CHXX0408"
+}, {
+    id: "WMXX2181",
+    name: "公安",
+    parent_id: "CHXX0408"
+}, {
+    id: "WMXX1223",
+    name: "监利",
+    parent_id: "CHXX0408"
+}, {
+    id: "WMXX2182",
+    name: "江陵",
+    parent_id: "CHXX0408"
+}, {
+    id: "CHXX0407",
+    name: "宜昌",
+    parent_id: "18"
+}, {
+    id: "WMXX2969",
+    name: "夷陵",
+    parent_id: "CHXX0407"
+}, {
+    id: "WMXX2183",
+    name: "三峡",
+    parent_id: "CHXX0407"
+}, {
+    id: "WMXX2184",
+    name: "宜昌县",
+    parent_id: "CHXX0407"
+}, {
+    id: "WMXX2185",
+    name: "宜都",
+    parent_id: "CHXX0407"
+}, {
+    id: "WMXX2186",
+    name: "当阳",
+    parent_id: "CHXX0407"
+}, {
+    id: "WMXX2187",
+    name: "枝江",
+    parent_id: "CHXX0407"
+}, {
+    id: "WMXX1148",
+    name: "远安",
+    parent_id: "CHXX0407"
+}, {
+    id: "WMXX2188",
+    name: "兴山",
+    parent_id: "CHXX0407"
+}, {
+    id: "WMXX1224",
+    name: "秭归",
+    parent_id: "CHXX0407"
+}, {
+    id: "WMXX2189",
+    name: "长阳",
+    parent_id: "CHXX0407"
+}, {
+    id: "WMXX1225",
+    name: "五峰",
+    parent_id: "CHXX0407"
+}, {
+    id: "WMXX1076",
+    name: "荆门",
+    parent_id: "18"
+}, {
+    id: "CHXX0402",
+    name: "钟祥",
+    parent_id: "WMXX1076"
+}, {
+    id: "WMXX2190",
+    name: "京山",
+    parent_id: "WMXX1076"
+}, {
+    id: "WMXX2191",
+    name: "沙洋",
+    parent_id: "WMXX1076"
+}, {
+    id: "WMXX1274",
+    name: "鄂州",
+    parent_id: "18"
+}, {
+    id: "CHXX0144",
+    name: "孝感",
+    parent_id: "18"
+}, {
+    id: "WMXX2192",
+    name: "应城",
+    parent_id: "CHXX0144"
+}, {
+    id: "WMXX2193",
+    name: "安陆",
+    parent_id: "CHXX0144"
+}, {
+    id: "WMXX2194",
+    name: "汉川",
+    parent_id: "CHXX0144"
+}, {
+    id: "WMXX2195",
+    name: "孝昌",
+    parent_id: "CHXX0144"
+}, {
+    id: "WMXX2196",
+    name: "大悟",
+    parent_id: "CHXX0144"
+}, {
+    id: "WMXX2197",
+    name: "云梦",
+    parent_id: "CHXX0144"
+}, {
+    id: "WMXX1275",
+    name: "黄冈",
+    parent_id: "18"
+}, {
+    id: "CHXX0403",
+    name: "麻城",
+    parent_id: "WMXX1275"
+}, {
+    id: "WMXX1332",
+    name: "武穴",
+    parent_id: "WMXX1275"
+}, {
+    id: "WMXX2198",
+    name: "团风",
+    parent_id: "WMXX1275"
+}, {
+    id: "WMXX2199",
+    name: "红安",
+    parent_id: "WMXX1275"
+}, {
+    id: "WMXX2200",
+    name: "罗田",
+    parent_id: "WMXX1275"
+}, {
+    id: "WMXX1226",
+    name: "英山",
+    parent_id: "WMXX1275"
+}, {
+    id: "WMXX2201",
+    name: "浠水",
+    parent_id: "WMXX1275"
+}, {
+    id: "WMXX2202",
+    name: "蕲春",
+    parent_id: "WMXX1275"
+}, {
+    id: "WMXX2203",
+    name: "黄梅",
+    parent_id: "WMXX1275"
+}, {
+    id: "WMXX1077",
+    name: "咸宁",
+    parent_id: "18"
+}, {
+    id: "WMXX1227",
+    name: "赤壁",
+    parent_id: "WMXX1077"
+}, {
+    id: "WMXX2204",
+    name: "嘉鱼",
+    parent_id: "WMXX1077"
+}, {
+    id: "WMXX2205",
+    name: "通城",
+    parent_id: "WMXX1077"
+}, {
+    id: "WMXX2206",
+    name: "崇阳",
+    parent_id: "WMXX1077"
+}, {
+    id: "WMXX2207",
+    name: "通山",
+    parent_id: "WMXX1077"
+}, {
+    id: "WMXX1078",
+    name: "随州",
+    parent_id: "18"
+}, {
+    id: "WMXX1228",
+    name: "广水",
+    parent_id: "WMXX1078"
+}, {
+    id: "CHXX0406",
+    name: "恩施",
+    parent_id: "18"
+}, {
+    id: "WMXX1229",
+    name: "利川",
+    parent_id: "CHXX0406"
+}, {
+    id: "WMXX1230",
+    name: "建始",
+    parent_id: "CHXX0406"
+}, {
+    id: "WMXX1073",
+    name: "巴东",
+    parent_id: "CHXX0406"
+}, {
+    id: "WMXX2208",
+    name: "宣恩",
+    parent_id: "CHXX0406"
+}, {
+    id: "WMXX2209",
+    name: "咸丰",
+    parent_id: "CHXX0406"
+}, {
+    id: "WMXX1231",
+    name: "来凤",
+    parent_id: "CHXX0406"
+}, {
+    id: "WMXX1232",
+    name: "鹤峰",
+    parent_id: "CHXX0406"
+}, {
+    id: "WMXX1124",
+    name: "仙桃",
+    parent_id: "18"
+}, {
+    id: "WMXX1276",
+    name: "潜江",
+    parent_id: "18"
+}, {
+    id: "WMXX1125",
+    name: "天门",
+    parent_id: "18"
+}, {
+    id: "WMXX1277",
+    name: "神农架",
+    parent_id: "18"
+}, {
+    id: "CHXX0013",
+    name: "长沙",
+    parent_id: "19"
+}, {
+    id: "CHXX0083",
+    name: "浏阳",
+    parent_id: "CHXX0013"
+}, {
+    id: "WMXX2210",
+    name: "望城",
+    parent_id: "CHXX0013"
+}, {
+    id: "CHXX0021",
+    name: "宁乡",
+    parent_id: "CHXX0013"
+}, {
+    id: "WMXX1079",
+    name: "株洲",
+    parent_id: "19"
+}, {
+    id: "WMXX2211",
+    name: "醴陵",
+    parent_id: "WMXX1079"
+}, {
+    id: "WMXX2212",
+    name: "攸县",
+    parent_id: "WMXX1079"
+}, {
+    id: "WMXX2213",
+    name: "茶陵",
+    parent_id: "WMXX1079"
+}, {
+    id: "WMXX2214",
+    name: "炎陵",
+    parent_id: "WMXX1079"
+}, {
+    id: "CHXX0142",
+    name: "湘潭",
+    parent_id: "19"
+}, {
+    id: "WMXX2215",
+    name: "湘乡",
+    parent_id: "CHXX0142"
+}, {
+    id: "WMXX2216",
+    name: "韶山",
+    parent_id: "CHXX0142"
+}, {
+    id: "WMXX1081",
+    name: "衡阳",
+    parent_id: "19"
+}, {
+    id: "CHXX0423",
+    name: "南岳",
+    parent_id: "WMXX1081"
+}, {
+    id: "WMXX2217",
+    name: "耒阳",
+    parent_id: "WMXX1081"
+}, {
+    id: "WMXX2218",
+    name: "常宁",
+    parent_id: "WMXX1081"
+}, {
+    id: "WMXX2219",
+    name: "衡阳县",
+    parent_id: "WMXX1081"
+}, {
+    id: "WMXX2220",
+    name: "衡南",
+    parent_id: "WMXX1081"
+}, {
+    id: "WMXX2221",
+    name: "衡山",
+    parent_id: "WMXX1081"
+}, {
+    id: "WMXX2222",
+    name: "衡东",
+    parent_id: "WMXX1081"
+}, {
+    id: "WMXX2223",
+    name: "祁东",
+    parent_id: "WMXX1081"
+}, {
+    id: "CHXX0422",
+    name: "邵阳",
+    parent_id: "19"
+}, {
+    id: "CHXX0428",
+    name: "武冈",
+    parent_id: "CHXX0422"
+}, {
+    id: "WMXX2224",
+    name: "邵东",
+    parent_id: "CHXX0422"
+}, {
+    id: "WMXX2225",
+    name: "新邵",
+    parent_id: "CHXX0422"
+}, {
+    id: "WMXX2226",
+    name: "邵阳县",
+    parent_id: "CHXX0422"
+}, {
+    id: "WMXX2227",
+    name: "隆回",
+    parent_id: "CHXX0422"
+}, {
+    id: "WMXX2228",
+    name: "洞口",
+    parent_id: "CHXX0422"
+}, {
+    id: "WMXX2229",
+    name: "绥宁",
+    parent_id: "CHXX0422"
+}, {
+    id: "WMXX2230",
+    name: "新宁",
+    parent_id: "CHXX0422"
+}, {
+    id: "WMXX2231",
+    name: "城步",
+    parent_id: "CHXX0422"
+}, {
+    id: "CHXX0411",
+    name: "岳阳",
+    parent_id: "19"
+}, {
+    id: "WMXX2232",
+    name: "汨罗",
+    parent_id: "CHXX0411"
+}, {
+    id: "WMXX2233",
+    name: "临湘",
+    parent_id: "CHXX0411"
+}, {
+    id: "WMXX2234",
+    name: "华容",
+    parent_id: "CHXX0411"
+}, {
+    id: "WMXX2235",
+    name: "湘阴",
+    parent_id: "CHXX0411"
+}, {
+    id: "WMXX2236",
+    name: "平江",
+    parent_id: "CHXX0411"
+}, {
+    id: "CHXX0416",
+    name: "常德",
+    parent_id: "19"
+}, {
+    id: "WMXX2237",
+    name: "安乡",
+    parent_id: "CHXX0416"
+}, {
+    id: "WMXX2238",
+    name: "汉寿",
+    parent_id: "CHXX0416"
+}, {
+    id: "WMXX2239",
+    name: "澧县",
+    parent_id: "CHXX0416"
+}, {
+    id: "WMXX2240",
+    name: "临澧",
+    parent_id: "CHXX0416"
+}, {
+    id: "WMXX2241",
+    name: "桃源",
+    parent_id: "CHXX0416"
+}, {
+    id: "WMXX2242",
+    name: "石门",
+    parent_id: "CHXX0416"
+}, {
+    id: "WMXX1278",
+    name: "张家界",
+    parent_id: "19"
+}, {
+    id: "WMXX2243",
+    name: "慈利",
+    parent_id: "WMXX1278"
+}, {
+    id: "CHXX0410",
+    name: "桑植",
+    parent_id: "WMXX1278"
+}, {
+    id: "WMXX1126",
+    name: "益阳",
+    parent_id: "19"
+}, {
+    id: "WMXX2244",
+    name: "沅江",
+    parent_id: "WMXX1126"
+}, {
+    id: "WMXX2245",
+    name: "南县",
+    parent_id: "WMXX1126"
+}, {
+    id: "WMXX2246",
+    name: "桃江",
+    parent_id: "WMXX1126"
+}, {
+    id: "WMXX2247",
+    name: "安化",
+    parent_id: "WMXX1126"
+}, {
+    id: "CHXX0435",
+    name: "郴州",
+    parent_id: "19"
+}, {
+    id: "WMXX2248",
+    name: "资兴",
+    parent_id: "CHXX0435"
+}, {
+    id: "WMXX2249",
+    name: "桂阳",
+    parent_id: "CHXX0435"
+}, {
+    id: "WMXX2250",
+    name: "宜章",
+    parent_id: "CHXX0435"
+}, {
+    id: "WMXX2251",
+    name: "永兴",
+    parent_id: "CHXX0435"
+}, {
+    id: "WMXX2252",
+    name: "嘉禾",
+    parent_id: "CHXX0435"
+}, {
+    id: "WMXX2253",
+    name: "临武",
+    parent_id: "CHXX0435"
+}, {
+    id: "WMXX1152",
+    name: "汝城",
+    parent_id: "CHXX0435"
+}, {
+    id: "WMXX2254",
+    name: "桂东",
+    parent_id: "CHXX0435"
+}, {
+    id: "WMXX2255",
+    name: "安仁",
+    parent_id: "CHXX0435"
+}, {
+    id: "CHXX0429",
+    name: "永州",
+    parent_id: "19"
+}, {
+    id: "WMXX2256",
+    name: "冷水滩",
+    parent_id: "CHXX0429"
+}, {
+    id: "WMXX2257",
+    name: "祁阳",
+    parent_id: "CHXX0429"
+}, {
+    id: "WMXX2258",
+    name: "东安",
+    parent_id: "CHXX0429"
+}, {
+    id: "WMXX2259",
+    name: "双牌",
+    parent_id: "CHXX0429"
+}, {
+    id: "WMXX2260",
+    name: "道县",
+    parent_id: "CHXX0429"
+}, {
+    id: "WMXX2261",
+    name: "江永",
+    parent_id: "CHXX0429"
+}, {
+    id: "WMXX2262",
+    name: "宁远",
+    parent_id: "CHXX0429"
+}, {
+    id: "WMXX2263",
+    name: "蓝山",
+    parent_id: "CHXX0429"
+}, {
+    id: "WMXX2264",
+    name: "新田",
+    parent_id: "CHXX0429"
+}, {
+    id: "WMXX2265",
+    name: "江华",
+    parent_id: "CHXX0429"
+}, {
+    id: "WMXX1082",
+    name: "怀化",
+    parent_id: "19"
+}, {
+    id: "WMXX2266",
+    name: "洪江",
+    parent_id: "WMXX1082"
+}, {
+    id: "CHXX0415",
+    name: "沅陵",
+    parent_id: "WMXX1082"
+}, {
+    id: "WMXX2267",
+    name: "辰溪",
+    parent_id: "WMXX1082"
+}, {
+    id: "WMXX2268",
+    name: "溆浦",
+    parent_id: "WMXX1082"
+}, {
+    id: "WMXX2269",
+    name: "中方",
+    parent_id: "WMXX1082"
+}, {
+    id: "WMXX2270",
+    name: "会同",
+    parent_id: "WMXX1082"
+}, {
+    id: "WMXX2271",
+    name: "麻阳",
+    parent_id: "WMXX1082"
+}, {
+    id: "WMXX2272",
+    name: "新晃",
+    parent_id: "WMXX1082"
+}, {
+    id: "CHXX0421",
+    name: "芷江",
+    parent_id: "WMXX1082"
+}, {
+    id: "WMXX2273",
+    name: "靖州",
+    parent_id: "WMXX1082"
+}, {
+    id: "CHXX0427",
+    name: "通道",
+    parent_id: "WMXX1082"
+}, {
+    id: "WMXX1080",
+    name: "娄底",
+    parent_id: "19"
+}, {
+    id: "WMXX1256",
+    name: "冷水江",
+    parent_id: "WMXX1080"
+}, {
+    id: "WMXX2274",
+    name: "涟源",
+    parent_id: "WMXX1080"
+}, {
+    id: "WMXX2275",
+    name: "双峰",
+    parent_id: "WMXX1080"
+}, {
+    id: "WMXX2276",
+    name: "新化",
+    parent_id: "WMXX1080"
+}, {
+    id: "0743",
+    name: "湘西",
+    parent_id: "19"
+}, {
+    id: "WMXX1153",
+    name: "吉首",
+    parent_id: "0743"
+}, {
+    id: "WMXX2277",
+    name: "泸溪",
+    parent_id: "0743"
+}, {
+    id: "WMXX2278",
+    name: "凤凰",
+    parent_id: "0743"
+}, {
+    id: "WMXX2279",
+    name: "花垣",
+    parent_id: "0743"
+}, {
+    id: "WMXX2280",
+    name: "保靖",
+    parent_id: "0743"
+}, {
+    id: "WMXX2281",
+    name: "古丈",
+    parent_id: "0743"
+}, {
+    id: "WMXX2282",
+    name: "永顺",
+    parent_id: "0743"
+}, {
+    id: "WMXX2283",
+    name: "龙山",
+    parent_id: "0743"
+}, {
+    id: "CHXX0100",
+    name: "南宁",
+    parent_id: "21"
+}, {
+    id: "CHXX0158",
+    name: "邕宁",
+    parent_id: "CHXX0100"
+}, {
+    id: "CHXX0139",
+    name: "武鸣",
+    parent_id: "CHXX0100"
+}, {
+    id: "WMXX2284",
+    name: "隆安",
+    parent_id: "CHXX0100"
+}, {
+    id: "WMXX2285",
+    name: "马山",
+    parent_id: "CHXX0100"
+}, {
+    id: "WMXX2286",
+    name: "上林",
+    parent_id: "CHXX0100"
+}, {
+    id: "WMXX2287",
+    name: "宾阳",
+    parent_id: "CHXX0100"
+}, {
+    id: "WMXX2288",
+    name: "横县",
+    parent_id: "CHXX0100"
+}, {
+    id: "CHXX0479",
+    name: "柳州",
+    parent_id: "21"
+}, {
+    id: "WMXX2289",
+    name: "柳江",
+    parent_id: "CHXX0479"
+}, {
+    id: "WMXX2290",
+    name: "柳城",
+    parent_id: "CHXX0479"
+}, {
+    id: "WMXX2291",
+    name: "鹿寨",
+    parent_id: "CHXX0479"
+}, {
+    id: "WMXX2292",
+    name: "融安",
+    parent_id: "CHXX0479"
+}, {
+    id: "WMXX2293",
+    name: "融水",
+    parent_id: "CHXX0479"
+}, {
+    id: "WMXX2294",
+    name: "三江",
+    parent_id: "CHXX0479"
+}, {
+    id: "CHXX0434",
+    name: "桂林",
+    parent_id: "21"
+}, {
+    id: "WMXX2295",
+    name: "阳朔",
+    parent_id: "CHXX0434"
+}, {
+    id: "WMXX2296",
+    name: "临桂",
+    parent_id: "CHXX0434"
+}, {
+    id: "WMXX2297",
+    name: "灵川",
+    parent_id: "CHXX0434"
+}, {
+    id: "WMXX2298",
+    name: "全州",
+    parent_id: "CHXX0434"
+}, {
+    id: "WMXX2299",
+    name: "平乐",
+    parent_id: "CHXX0434"
+}, {
+    id: "WMXX2300",
+    name: "兴安",
+    parent_id: "CHXX0434"
+}, {
+    id: "WMXX2301",
+    name: "灌阳",
+    parent_id: "CHXX0434"
+}, {
+    id: "WMXX2302",
+    name: "荔浦",
+    parent_id: "CHXX0434"
+}, {
+    id: "WMXX2303",
+    name: "资源",
+    parent_id: "CHXX0434"
+}, {
+    id: "WMXX2304",
+    name: "永福",
+    parent_id: "CHXX0434"
+}, {
+    id: "WMXX2305",
+    name: "龙胜",
+    parent_id: "CHXX0434"
+}, {
+    id: "WMXX2306",
+    name: "恭城",
+    parent_id: "CHXX0434"
+}, {
+    id: "CHXX0490",
+    name: "梧州",
+    parent_id: "21"
+}, {
+    id: "WMXX2307",
+    name: "岑溪",
+    parent_id: "CHXX0490"
+}, {
+    id: "WMXX2308",
+    name: "苍梧",
+    parent_id: "CHXX0490"
+}, {
+    id: "WMXX2309",
+    name: "藤县",
+    parent_id: "CHXX0490"
+}, {
+    id: "CHXX0480",
+    name: "蒙山",
+    parent_id: "CHXX0490"
+}, {
+    id: "CHXX0499",
+    name: "北海",
+    parent_id: "21"
+}, {
+    id: "WMXX2310",
+    name: "合浦",
+    parent_id: "CHXX0499"
+}, {
+    id: "WMXX2970",
+    name: "涠洲岛",
+    parent_id: "CHXX0499"
+}, {
+    id: "WMXX1279",
+    name: "防城港",
+    parent_id: "21"
+}, {
+    id: "WMXX2311",
+    name: "防城",
+    parent_id: "WMXX1279"
+}, {
+    id: "WMXX2312",
+    name: "东兴",
+    parent_id: "WMXX1279"
+}, {
+    id: "WMXX2313",
+    name: "上思",
+    parent_id: "WMXX1279"
+}, {
+    id: "CHXX0498",
+    name: "钦州",
+    parent_id: "21"
+}, {
+    id: "WMXX2314",
+    name: "灵山",
+    parent_id: "CHXX0498"
+}, {
+    id: "WMXX2315",
+    name: "浦北",
+    parent_id: "CHXX0498"
+}, {
+    id: "WMXX1280",
+    name: "贵港",
+    parent_id: "21"
+}, {
+    id: "CHXX0489",
+    name: "桂平",
+    parent_id: "WMXX1280"
+}, {
+    id: "WMXX2316",
+    name: "平南",
+    parent_id: "WMXX1280"
+}, {
+    id: "WMXX1083",
+    name: "玉林",
+    parent_id: "21"
+}, {
+    id: "WMXX2317",
+    name: "北流",
+    parent_id: "WMXX1083"
+}, {
+    id: "WMXX2318",
+    name: "容县",
+    parent_id: "WMXX1083"
+}, {
+    id: "WMXX2319",
+    name: "陆川",
+    parent_id: "WMXX1083"
+}, {
+    id: "WMXX2320",
+    name: "博白",
+    parent_id: "WMXX1083"
+}, {
+    id: "WMXX2321",
+    name: "兴业",
+    parent_id: "WMXX1083"
+}, {
+    id: "CHXX0488",
+    name: "百色",
+    parent_id: "21"
+}, {
+    id: "WMXX2322",
+    name: "凌云",
+    parent_id: "CHXX0488"
+}, {
+    id: "WMXX2323",
+    name: "平果",
+    parent_id: "CHXX0488"
+}, {
+    id: "WMXX2324",
+    name: "西林",
+    parent_id: "CHXX0488"
+}, {
+    id: "WMXX2325",
+    name: "乐业",
+    parent_id: "CHXX0488"
+}, {
+    id: "WMXX2326",
+    name: "德保",
+    parent_id: "CHXX0488"
+}, {
+    id: "WMXX2327",
+    name: "田林",
+    parent_id: "CHXX0488"
+}, {
+    id: "WMXX2328",
+    name: "田阳",
+    parent_id: "CHXX0488"
+}, {
+    id: "WMXX2329",
+    name: "靖西",
+    parent_id: "CHXX0488"
+}, {
+    id: "WMXX2330",
+    name: "田东",
+    parent_id: "CHXX0488"
+}, {
+    id: "CHXX0487",
+    name: "那坡",
+    parent_id: "CHXX0488"
+}, {
+    id: "WMXX2331",
+    name: "隆林",
+    parent_id: "CHXX0488"
+}, {
+    id: "WMXX1281",
+    name: "贺州",
+    parent_id: "21"
+}, {
+    id: "WMXX2332",
+    name: "钟山",
+    parent_id: "WMXX1281"
+}, {
+    id: "WMXX2333",
+    name: "昭平",
+    parent_id: "WMXX1281"
+}, {
+    id: "WMXX2334",
+    name: "富川",
+    parent_id: "WMXX1281"
+}, {
+    id: "CHXX0478",
+    name: "河池",
+    parent_id: "21"
+}, {
+    id: "WMXX2335",
+    name: "宜州",
+    parent_id: "CHXX0478"
+}, {
+    id: "WMXX2336",
+    name: "天峨",
+    parent_id: "CHXX0478"
+}, {
+    id: "WMXX2337",
+    name: "凤山",
+    parent_id: "CHXX0478"
+}, {
+    id: "WMXX2338",
+    name: "南丹",
+    parent_id: "CHXX0478"
+}, {
+    id: "WMXX2339",
+    name: "东兰",
+    parent_id: "CHXX0478"
+}, {
+    id: "WMXX2340",
+    name: "都安",
+    parent_id: "CHXX0478"
+}, {
+    id: "WMXX2341",
+    name: "罗城",
+    parent_id: "CHXX0478"
+}, {
+    id: "WMXX2342",
+    name: "巴马",
+    parent_id: "CHXX0478"
+}, {
+    id: "WMXX2343",
+    name: "环江",
+    parent_id: "CHXX0478"
+}, {
+    id: "WMXX2344",
+    name: "大化",
+    parent_id: "CHXX0478"
+}, {
+    id: "WMXX1282",
+    name: "来宾",
+    parent_id: "21"
+}, {
+    id: "WMXX2345",
+    name: "合山",
+    parent_id: "WMXX1282"
+}, {
+    id: "WMXX2346",
+    name: "象州",
+    parent_id: "WMXX1282"
+}, {
+    id: "WMXX2347",
+    name: "武宣",
+    parent_id: "WMXX1282"
+}, {
+    id: "WMXX2348",
+    name: "忻城",
+    parent_id: "WMXX1282"
+}, {
+    id: "WMXX2349",
+    name: "金秀",
+    parent_id: "WMXX1282"
+}, {
+    id: "WMXX1283",
+    name: "崇左",
+    parent_id: "21"
+}, {
+    id: "WMXX2350",
+    name: "凭祥",
+    parent_id: "WMXX1283"
+}, {
+    id: "WMXX2351",
+    name: "宁明",
+    parent_id: "WMXX1283"
+}, {
+    id: "CHXX0030",
+    name: "扶绥",
+    parent_id: "WMXX1283"
+}, {
+    id: "CHXX0494",
+    name: "龙州",
+    parent_id: "WMXX1283"
+}, {
+    id: "WMXX2352",
+    name: "大新",
+    parent_id: "WMXX1283"
+}, {
+    id: "WMXX2353",
+    name: "天等",
+    parent_id: "WMXX1283"
+}, {
+    id: "CHXX0502",
+    name: "海口",
+    parent_id: "22"
+}, {
+    id: "CHXX0507",
+    name: "三亚",
+    parent_id: "22"
+}, {
+    id: "WMXX1312",
+    name: "文昌",
+    parent_id: "22"
+}, {
+    id: "CHXX0506",
+    name: "琼海",
+    parent_id: "22"
+}, {
+    id: "WMXX1313",
+    name: "万宁",
+    parent_id: "22"
+}, {
+    id: "WMXX2354",
+    name: "五指山",
+    parent_id: "22"
+}, {
+    id: "CHXX0504",
+    name: "东方",
+    parent_id: "22"
+}, {
+    id: "CHXX0505",
+    name: "儋州",
+    parent_id: "22"
+}, {
+    id: "WMXX1317",
+    name: "临高",
+    parent_id: "22"
+}, {
+    id: "WMXX1314",
+    name: "澄迈",
+    parent_id: "22"
+}, {
+    id: "WMXX1315",
+    name: "定安",
+    parent_id: "22"
+}, {
+    id: "WMXX1316",
+    name: "屯昌",
+    parent_id: "22"
+}, {
+    id: "WMXX2355",
+    name: "昌江",
+    parent_id: "22"
+}, {
+    id: "WMXX2356",
+    name: "白沙",
+    parent_id: "22"
+}, {
+    id: "WMXX2357",
+    name: "琼中",
+    parent_id: "22"
+}, {
+    id: "WMXX2358",
+    name: "陵水",
+    parent_id: "22"
+}, {
+    id: "WMXX2359",
+    name: "保亭",
+    parent_id: "22"
+}, {
+    id: "WMXX2360",
+    name: "乐东",
+    parent_id: "22"
+}, {
+    id: "CHXX0016",
+    name: "成都",
+    parent_id: "23"
+}, {
+    id: "WMXX2361",
+    name: "龙泉驿",
+    parent_id: "CHXX0016"
+}, {
+    id: "WMXX2362",
+    name: "新都",
+    parent_id: "CHXX0016"
+}, {
+    id: "WMXX2363",
+    name: "温江",
+    parent_id: "CHXX0016"
+}, {
+    id: "WMXX2364",
+    name: "都江堰",
+    parent_id: "CHXX0016"
+}, {
+    id: "WMXX2365",
+    name: "彭州",
+    parent_id: "CHXX0016"
+}, {
+    id: "WMXX2366",
+    name: "邛崃",
+    parent_id: "CHXX0016"
+}, {
+    id: "WMXX2367",
+    name: "崇州",
+    parent_id: "CHXX0016"
+}, {
+    id: "WMXX2368",
+    name: "金堂",
+    parent_id: "CHXX0016"
+}, {
+    id: "WMXX1325",
+    name: "双流",
+    parent_id: "CHXX0016"
+}, {
+    id: "WMXX2369",
+    name: "郫县",
+    parent_id: "CHXX0016"
+}, {
+    id: "WMXX2370",
+    name: "大邑",
+    parent_id: "CHXX0016"
+}, {
+    id: "WMXX2371",
+    name: "蒲江",
+    parent_id: "CHXX0016"
+}, {
+    id: "CHXX0147",
+    name: "新津",
+    parent_id: "CHXX0016"
+}, {
+    id: "WMXX1084",
+    name: "自贡",
+    parent_id: "23"
+}, {
+    id: "WMXX2372",
+    name: "荣县",
+    parent_id: "WMXX1084"
+}, {
+    id: "WMXX2373",
+    name: "富顺",
+    parent_id: "WMXX1084"
+}, {
+    id: "WMXX1085",
+    name: "攀枝花",
+    parent_id: "23"
+}, {
+    id: "WMXX2374",
+    name: "仁和",
+    parent_id: "WMXX1085"
+}, {
+    id: "WMXX2375",
+    name: "米易",
+    parent_id: "WMXX1085"
+}, {
+    id: "WMXX2376",
+    name: "盐边",
+    parent_id: "WMXX1085"
+}, {
+    id: "CHXX0088",
+    name: "泸州",
+    parent_id: "23"
+}, {
+    id: "WMXX2377",
+    name: "纳溪",
+    parent_id: "CHXX0088"
+}, {
+    id: "WMXX2378",
+    name: "泸县",
+    parent_id: "CHXX0088"
+}, {
+    id: "CHXX0048",
+    name: "合江",
+    parent_id: "CHXX0088"
+}, {
+    id: "WMXX2379",
+    name: "叙永",
+    parent_id: "CHXX0088"
+}, {
+    id: "WMXX2380",
+    name: "古蔺",
+    parent_id: "CHXX0088"
+}, {
+    id: "WMXX1086",
+    name: "德阳",
+    parent_id: "23"
+}, {
+    id: "WMXX2381",
+    name: "广汉",
+    parent_id: "WMXX1086"
+}, {
+    id: "WMXX2382",
+    name: "什邡",
+    parent_id: "WMXX1086"
+}, {
+    id: "WMXX2383",
+    name: "绵竹",
+    parent_id: "WMXX1086"
+}, {
+    id: "WMXX2384",
+    name: "罗江",
+    parent_id: "WMXX1086"
+}, {
+    id: "WMXX2385",
+    name: "中江",
+    parent_id: "WMXX1086"
+}, {
+    id: "CHXX0351",
+    name: "绵阳",
+    parent_id: "23"
+}, {
+    id: "WMXX1136",
+    name: "江油",
+    parent_id: "CHXX0351"
+}, {
+    id: "WMXX2386",
+    name: "三台",
+    parent_id: "CHXX0351"
+}, {
+    id: "WMXX2387",
+    name: "盐亭",
+    parent_id: "CHXX0351"
+}, {
+    id: "WMXX2388",
+    name: "安县",
+    parent_id: "CHXX0351"
+}, {
+    id: "WMXX2389",
+    name: "梓潼",
+    parent_id: "CHXX0351"
+}, {
+    id: "CHXX0350",
+    name: "平武",
+    parent_id: "CHXX0351"
+}, {
+    id: "WMXX2390",
+    name: "北川",
+    parent_id: "CHXX0351"
+}, {
+    id: "WMXX1087",
+    name: "广元",
+    parent_id: "23"
+}, {
+    id: "WMXX2391",
+    name: "旺苍",
+    parent_id: "WMXX1087"
+}, {
+    id: "WMXX2392",
+    name: "青川",
+    parent_id: "WMXX1087"
+}, {
+    id: "WMXX2393",
+    name: "剑阁",
+    parent_id: "WMXX1087"
+}, {
+    id: "WMXX1233",
+    name: "苍溪",
+    parent_id: "WMXX1087"
+}, {
+    id: "CHXX0127",
+    name: "遂宁",
+    parent_id: "23"
+}, {
+    id: "WMXX2394",
+    name: "蓬溪",
+    parent_id: "CHXX0127"
+}, {
+    id: "WMXX2395",
+    name: "射洪",
+    parent_id: "CHXX0127"
+}, {
+    id: "CHXX0103",
+    name: "内江",
+    parent_id: "23"
+}, {
+    id: "WMXX2397",
+    name: "东兴",
+    parent_id: "CHXX0103"
+}, {
+    id: "WMXX2398",
+    name: "威远",
+    parent_id: "CHXX0103"
+}, {
+    id: "WMXX2399",
+    name: "资中",
+    parent_id: "CHXX0103"
+}, {
+    id: "WMXX2400",
+    name: "隆昌",
+    parent_id: "CHXX0103"
+}, {
+    id: "WMXX1088",
+    name: "乐山",
+    parent_id: "23"
+}, {
+    id: "CHXX0359",
+    name: "峨眉山",
+    parent_id: "WMXX1088"
+}, {
+    id: "WMXX2401",
+    name: "峨眉山市",
+    parent_id: "WMXX1088"
+}, {
+    id: "WMXX2402",
+    name: "犍为",
+    parent_id: "WMXX1088"
+}, {
+    id: "WMXX2403",
+    name: "井研",
+    parent_id: "WMXX1088"
+}, {
+    id: "WMXX2404",
+    name: "夹江",
+    parent_id: "WMXX1088"
+}, {
+    id: "WMXX2405",
+    name: "沐川",
+    parent_id: "WMXX1088"
+}, {
+    id: "WMXX2406",
+    name: "峨边",
+    parent_id: "WMXX1088"
+}, {
+    id: "WMXX2407",
+    name: "马边",
+    parent_id: "WMXX1088"
+}, {
+    id: "CHXX0098",
+    name: "南充",
+    parent_id: "23"
+}, {
+    id: "CHXX0399",
+    name: "阆中",
+    parent_id: "CHXX0098"
+}, {
+    id: "WMXX1234",
+    name: "南部",
+    parent_id: "CHXX0098"
+}, {
+    id: "WMXX1235",
+    name: "营山",
+    parent_id: "CHXX0098"
+}, {
+    id: "WMXX1236",
+    name: "蓬安",
+    parent_id: "CHXX0098"
+}, {
+    id: "WMXX1237",
+    name: "仪陇",
+    parent_id: "CHXX0098"
+}, {
+    id: "WMXX2408",
+    name: "西充",
+    parent_id: "CHXX0098"
+}, {
+    id: "CHXX0362",
+    name: "宜宾",
+    parent_id: "23"
+}, {
+    id: "WMXX2409",
+    name: "宜宾县",
+    parent_id: "CHXX0362"
+}, {
+    id: "WMXX2410",
+    name: "南溪",
+    parent_id: "CHXX0362"
+}, {
+    id: "WMXX2411",
+    name: "江安",
+    parent_id: "CHXX0362"
+}, {
+    id: "WMXX2412",
+    name: "长宁",
+    parent_id: "CHXX0362"
+}, {
+    id: "WMXX2413",
+    name: "高县",
+    parent_id: "CHXX0362"
+}, {
+    id: "WMXX2414",
+    name: "珙县",
+    parent_id: "CHXX0362"
+}, {
+    id: "WMXX2415",
+    name: "筠连",
+    parent_id: "CHXX0362"
+}, {
+    id: "WMXX2416",
+    name: "兴文",
+    parent_id: "CHXX0362"
+}, {
+    id: "WMXX2417",
+    name: "屏山",
+    parent_id: "CHXX0362"
+}, {
+    id: "CHXX0036",
+    name: "广安",
+    parent_id: "23"
+}, {
+    id: "WMXX1238",
+    name: "华蓥",
+    parent_id: "CHXX0036"
+}, {
+    id: "WMXX2418",
+    name: "岳池",
+    parent_id: "CHXX0036"
+}, {
+    id: "WMXX2419",
+    name: "武胜",
+    parent_id: "CHXX0036"
+}, {
+    id: "WMXX1239",
+    name: "邻水",
+    parent_id: "CHXX0036"
+}, {
+    id: "CHXX0400",
+    name: "达州",
+    parent_id: "23"
+}, {
+    id: "CHXX0393",
+    name: "万源",
+    parent_id: "CHXX0400"
+}, {
+    id: "WMXX2420",
+    name: "宣汉",
+    parent_id: "CHXX0400"
+}, {
+    id: "WMXX2421",
+    name: "开江",
+    parent_id: "CHXX0400"
+}, {
+    id: "WMXX1146",
+    name: "大竹",
+    parent_id: "CHXX0400"
+}, {
+    id: "WMXX1240",
+    name: "渠县",
+    parent_id: "CHXX0400"
+}, {
+    id: "CHXX0091",
+    name: "眉山",
+    parent_id: "23"
+}, {
+    id: "WMXX2422",
+    name: "仁寿",
+    parent_id: "CHXX0091"
+}, {
+    id: "WMXX2423",
+    name: "彭山",
+    parent_id: "CHXX0091"
+}, {
+    id: "WMXX2424",
+    name: "洪雅",
+    parent_id: "CHXX0091"
+}, {
+    id: "WMXX2425",
+    name: "丹棱",
+    parent_id: "CHXX0091"
+}, {
+    id: "WMXX2426",
+    name: "青神",
+    parent_id: "CHXX0091"
+}, {
+    id: "CHXX0354",
+    name: "雅安",
+    parent_id: "23"
+}, {
+    id: "WMXX2427",
+    name: "名山",
+    parent_id: "CHXX0354"
+}, {
+    id: "WMXX2428",
+    name: "荥经",
+    parent_id: "CHXX0354"
+}, {
+    id: "WMXX1241",
+    name: "汉源",
+    parent_id: "CHXX0354"
+}, {
+    id: "WMXX1242",
+    name: "石棉",
+    parent_id: "CHXX0354"
+}, {
+    id: "WMXX2429",
+    name: "天全",
+    parent_id: "CHXX0354"
+}, {
+    id: "WMXX2430",
+    name: "芦山",
+    parent_id: "CHXX0354"
+}, {
+    id: "WMXX2431",
+    name: "宝兴",
+    parent_id: "CHXX0354"
+}, {
+    id: "WMXX1089",
+    name: "巴中",
+    parent_id: "23"
+}, {
+    id: "WMXX2432",
+    name: "通江",
+    parent_id: "WMXX1089"
+}, {
+    id: "WMXX2433",
+    name: "南江",
+    parent_id: "WMXX1089"
+}, {
+    id: "WMXX2434",
+    name: "平昌",
+    parent_id: "WMXX1089"
+}, {
+    id: "WMXX1090",
+    name: "资阳",
+    parent_id: "23"
+}, {
+    id: "CHXX0059",
+    name: "简阳",
+    parent_id: "WMXX1090"
+}, {
+    id: "WMXX2435",
+    name: "安岳",
+    parent_id: "WMXX1090"
+}, {
+    id: "WMXX1243",
+    name: "乐至",
+    parent_id: "WMXX1090"
+}, {
+    id: "0837",
+    name: "阿坝",
+    parent_id: "23"
+}, {
+    id: "CHXX0348",
+    name: "马尔康",
+    parent_id: "0837"
+}, {
+    id: "WMXX2436",
+    name: "汶川",
+    parent_id: "0837"
+}, {
+    id: "WMXX2437",
+    name: "理县",
+    parent_id: "0837"
+}, {
+    id: "WMXX2438",
+    name: "茂县",
+    parent_id: "0837"
+}, {
+    id: "CHXX0349",
+    name: "松潘",
+    parent_id: "0837"
+}, {
+    id: "WMXX2439",
+    name: "九寨沟",
+    parent_id: "0837"
+}, {
+    id: "WMXX1244",
+    name: "金川",
+    parent_id: "0837"
+}, {
+    id: "WMXX2440",
+    name: "小金",
+    parent_id: "0837"
+}, {
+    id: "WMXX2441",
+    name: "黑水",
+    parent_id: "0837"
+}, {
+    id: "WMXX2442",
+    name: "壤塘",
+    parent_id: "0837"
+}, {
+    id: "WMXX2443",
+    name: "阿坝县",
+    parent_id: "0837"
+}, {
+    id: "CHXX0338",
+    name: "若尔盖",
+    parent_id: "0837"
+}, {
+    id: "WMXX2444",
+    name: "红原",
+    parent_id: "0837"
+}, {
+    id: "0836",
+    name: "甘孜",
+    parent_id: "23"
+}, {
+    id: "CHXX0358",
+    name: "康定",
+    parent_id: "0836"
+}, {
+    id: "WMXX2445",
+    name: "泸定",
+    parent_id: "0836"
+}, {
+    id: "WMXX1245",
+    name: "丹巴",
+    parent_id: "0836"
+}, {
+    id: "CHXX0361",
+    name: "九龙",
+    parent_id: "0836"
+}, {
+    id: "WMXX2446",
+    name: "雅江",
+    parent_id: "0836"
+}, {
+    id: "CHXX0347",
+    name: "道孚",
+    parent_id: "0836"
+}, {
+    id: "WMXX2447",
+    name: "炉霍",
+    parent_id: "0836"
+}, {
+    id: "CHXX0345",
+    name: "甘孜县",
+    parent_id: "0836"
+}, {
+    id: "WMXX2448",
+    name: "新龙",
+    parent_id: "0836"
+}, {
+    id: "CHXX0344",
+    name: "德格",
+    parent_id: "0836"
+}, {
+    id: "WMXX2449",
+    name: "白玉",
+    parent_id: "0836"
+}, {
+    id: "WMXX2450",
+    name: "石渠",
+    parent_id: "0836"
+}, {
+    id: "CHXX0346",
+    name: "色达",
+    parent_id: "0836"
+}, {
+    id: "CHXX0353",
+    name: "理塘",
+    parent_id: "0836"
+}, {
+    id: "CHXX0352",
+    name: "巴塘",
+    parent_id: "0836"
+}, {
+    id: "WMXX2451",
+    name: "乡城",
+    parent_id: "0836"
+}, {
+    id: "CHXX0357",
+    name: "稻城",
+    parent_id: "0836"
+}, {
+    id: "WMXX2452",
+    name: "得荣",
+    parent_id: "0836"
+}, {
+    id: "0834",
+    name: "凉山",
+    parent_id: "23"
+}, {
+    id: "CHXX0363",
+    name: "西昌",
+    parent_id: "0834"
+}, {
+    id: "WMXX2453",
+    name: "盐源",
+    parent_id: "0834"
+}, {
+    id: "WMXX1246",
+    name: "德昌",
+    parent_id: "0834"
+}, {
+    id: "CHXX0366",
+    name: "会理",
+    parent_id: "0834"
+}, {
+    id: "WMXX2454",
+    name: "会东",
+    parent_id: "0834"
+}, {
+    id: "WMXX1247",
+    name: "宁南",
+    parent_id: "0834"
+}, {
+    id: "WMXX1248",
+    name: "普格",
+    parent_id: "0834"
+}, {
+    id: "WMXX1249",
+    name: "布拖",
+    parent_id: "0834"
+}, {
+    id: "WMXX1250",
+    name: "金阳",
+    parent_id: "0834"
+}, {
+    id: "WMXX1251",
+    name: "昭觉",
+    parent_id: "0834"
+}, {
+    id: "WMXX2455",
+    name: "喜德",
+    parent_id: "0834"
+}, {
+    id: "WMXX2456",
+    name: "冕宁",
+    parent_id: "0834"
+}, {
+    id: "WMXX2457",
+    name: "越西",
+    parent_id: "0834"
+}, {
+    id: "WMXX2458",
+    name: "甘洛",
+    parent_id: "0834"
+}, {
+    id: "WMXX2459",
+    name: "美姑",
+    parent_id: "0834"
+}, {
+    id: "WMXX2460",
+    name: "雷波",
+    parent_id: "0834"
+}, {
+    id: "WMXX2461",
+    name: "木里",
+    parent_id: "0834"
+}, {
+    id: "CHXX0039",
+    name: "贵阳",
+    parent_id: "24"
+}, {
+    id: "WMXX2462",
+    name: "花溪",
+    parent_id: "CHXX0039"
+}, {
+    id: "WMXX2463",
+    name: "白云",
+    parent_id: "CHXX0039"
+}, {
+    id: "WMXX2464",
+    name: "清镇",
+    parent_id: "CHXX0039"
+}, {
+    id: "CHXX0073",
+    name: "开阳",
+    parent_id: "CHXX0039"
+}, {
+    id: "WMXX2465",
+    name: "息烽",
+    parent_id: "CHXX0039"
+}, {
+    id: "WMXX2466",
+    name: "修文",
+    parent_id: "CHXX0039"
+}, {
+    id: "WMXX1092",
+    name: "六盘水",
+    parent_id: "24"
+}, {
+    id: "WMXX2467",
+    name: "六枝",
+    parent_id: "WMXX1092"
+}, {
+    id: "WMXX2468",
+    name: "水城",
+    parent_id: "WMXX1092"
+}, {
+    id: "WMXX2469",
+    name: "盘县",
+    parent_id: "WMXX1092"
+}, {
+    id: "CHXX0419",
+    name: "遵义",
+    parent_id: "24"
+}, {
+    id: "WMXX2470",
+    name: "赤水",
+    parent_id: "CHXX0419"
+}, {
+    id: "WMXX2471",
+    name: "仁怀",
+    parent_id: "CHXX0419"
+}, {
+    id: "WMXX2472",
+    name: "遵义县",
+    parent_id: "CHXX0419"
+}, {
+    id: "WMXX2473",
+    name: "桐梓",
+    parent_id: "CHXX0419"
+}, {
+    id: "WMXX2474",
+    name: "绥阳",
+    parent_id: "CHXX0419"
+}, {
+    id: "WMXX2475",
+    name: "正安",
+    parent_id: "CHXX0419"
+}, {
+    id: "WMXX2476",
+    name: "凤冈",
+    parent_id: "CHXX0419"
+}, {
+    id: "WMXX2477",
+    name: "湄潭",
+    parent_id: "CHXX0419"
+}, {
+    id: "WMXX2478",
+    name: "余庆",
+    parent_id: "CHXX0419"
+}, {
+    id: "WMXX2479",
+    name: "习水",
+    parent_id: "CHXX0419"
+}, {
+    id: "WMXX2480",
+    name: "道真",
+    parent_id: "CHXX0419"
+}, {
+    id: "WMXX2481",
+    name: "务川",
+    parent_id: "CHXX0419"
+}, {
+    id: "CHXX0005",
+    name: "安顺",
+    parent_id: "24"
+}, {
+    id: "WMXX2482",
+    name: "平坝",
+    parent_id: "CHXX0005"
+}, {
+    id: "WMXX2483",
+    name: "普定",
+    parent_id: "CHXX0005"
+}, {
+    id: "WMXX2484",
+    name: "镇宁",
+    parent_id: "CHXX0005"
+}, {
+    id: "WMXX2485",
+    name: "关岭",
+    parent_id: "CHXX0005"
+}, {
+    id: "WMXX2486",
+    name: "紫云",
+    parent_id: "CHXX0005"
+}, {
+    id: "WMXX1091",
+    name: "铜仁",
+    parent_id: "24"
+}, {
+    id: "WMXX2487",
+    name: "江口",
+    parent_id: "WMXX1091"
+}, {
+    id: "WMXX2488",
+    name: "石阡",
+    parent_id: "WMXX1091"
+}, {
+    id: "CHXX0420",
+    name: "思南",
+    parent_id: "WMXX1091"
+}, {
+    id: "WMXX2489",
+    name: "德江",
+    parent_id: "WMXX1091"
+}, {
+    id: "WMXX2490",
+    name: "玉屏",
+    parent_id: "WMXX1091"
+}, {
+    id: "WMXX2491",
+    name: "印江",
+    parent_id: "WMXX1091"
+}, {
+    id: "WMXX2492",
+    name: "沿河",
+    parent_id: "WMXX1091"
+}, {
+    id: "WMXX2493",
+    name: "松桃",
+    parent_id: "WMXX1091"
+}, {
+    id: "WMXX2494",
+    name: "万山",
+    parent_id: "WMXX1091"
+}, {
+    id: "CHXX0418",
+    name: "毕节",
+    parent_id: "24"
+}, {
+    id: "WMXX2495",
+    name: "大方",
+    parent_id: "CHXX0418"
+}, {
+    id: "WMXX2496",
+    name: "黔西",
+    parent_id: "CHXX0418"
+}, {
+    id: "WMXX2497",
+    name: "金沙",
+    parent_id: "CHXX0418"
+}, {
+    id: "WMXX2498",
+    name: "织金",
+    parent_id: "CHXX0418"
+}, {
+    id: "WMXX2499",
+    name: "纳雍",
+    parent_id: "CHXX0418"
+}, {
+    id: "WMXX2500",
+    name: "赫章",
+    parent_id: "CHXX0418"
+}, {
+    id: "CHXX0368",
+    name: "威宁",
+    parent_id: "CHXX0418"
+}, {
+    id: "0859",
+    name: "黔西南",
+    parent_id: "24"
+}, {
+    id: "WMXX1094",
+    name: "兴义",
+    parent_id: "0859"
+}, {
+    id: "CHXX0430",
+    name: "兴仁",
+    parent_id: "0859"
+}, {
+    id: "WMXX2501",
+    name: "普安",
+    parent_id: "0859"
+}, {
+    id: "WMXX2502",
+    name: "晴隆",
+    parent_id: "0859"
+}, {
+    id: "WMXX2503",
+    name: "贞丰",
+    parent_id: "0859"
+}, {
+    id: "WMXX2504",
+    name: "望谟",
+    parent_id: "0859"
+}, {
+    id: "WMXX2505",
+    name: "册亨",
+    parent_id: "0859"
+}, {
+    id: "WMXX2506",
+    name: "安龙",
+    parent_id: "0859"
+}, {
+    id: "0855",
+    name: "黔东南",
+    parent_id: "24"
+}, {
+    id: "WMXX1093",
+    name: "凯里",
+    parent_id: "0855"
+}, {
+    id: "WMXX2507",
+    name: "黄平",
+    parent_id: "0855"
+}, {
+    id: "WMXX2508",
+    name: "施秉",
+    parent_id: "0855"
+}, {
+    id: "CHXX0426",
+    name: "三穗",
+    parent_id: "0855"
+}, {
+    id: "WMXX2509",
+    name: "镇远",
+    parent_id: "0855"
+}, {
+    id: "WMXX2510",
+    name: "岑巩",
+    parent_id: "0855"
+}, {
+    id: "WMXX2511",
+    name: "天柱",
+    parent_id: "0855"
+}, {
+    id: "WMXX2512",
+    name: "锦屏",
+    parent_id: "0855"
+}, {
+    id: "WMXX2513",
+    name: "剑河",
+    parent_id: "0855"
+}, {
+    id: "WMXX2514",
+    name: "台江",
+    parent_id: "0855"
+}, {
+    id: "WMXX2515",
+    name: "黎平",
+    parent_id: "0855"
+}, {
+    id: "CHXX0433",
+    name: "榕江",
+    parent_id: "0855"
+}, {
+    id: "WMXX2516",
+    name: "从江",
+    parent_id: "0855"
+}, {
+    id: "WMXX2517",
+    name: "雷山",
+    parent_id: "0855"
+}, {
+    id: "WMXX2518",
+    name: "麻江",
+    parent_id: "0855"
+}, {
+    id: "WMXX2519",
+    name: "丹寨",
+    parent_id: "0855"
+}, {
+    id: "0854",
+    name: "黔南",
+    parent_id: "24"
+}, {
+    id: "WMXX1095",
+    name: "都匀",
+    parent_id: "0854"
+}, {
+    id: "WMXX2520",
+    name: "福泉",
+    parent_id: "0854"
+}, {
+    id: "WMXX2521",
+    name: "荔波",
+    parent_id: "0854"
+}, {
+    id: "CHXX0038",
+    name: "贵定",
+    parent_id: "0854"
+}, {
+    id: "WMXX2522",
+    name: "瓮安",
+    parent_id: "0854"
+}, {
+    id: "CHXX0432",
+    name: "独山",
+    parent_id: "0854"
+}, {
+    id: "WMXX2523",
+    name: "平塘",
+    parent_id: "0854"
+}, {
+    id: "CHXX0431",
+    name: "罗甸",
+    parent_id: "0854"
+}, {
+    id: "WMXX2524",
+    name: "长顺",
+    parent_id: "0854"
+}, {
+    id: "CHXX0084",
+    name: "龙里",
+    parent_id: "0854"
+}, {
+    id: "WMXX2525",
+    name: "惠水",
+    parent_id: "0854"
+}, {
+    id: "WMXX2526",
+    name: "三都",
+    parent_id: "0854"
+}, {
+    id: "CHXX0076",
+    name: "昆明",
+    parent_id: "25"
+}, {
+    id: "WMXX2527",
+    name: "东川",
+    parent_id: "CHXX0076"
+}, {
+    id: "CHXX0003",
+    name: "安宁",
+    parent_id: "CHXX0076"
+}, {
+    id: "WMXX2528",
+    name: "呈贡",
+    parent_id: "CHXX0076"
+}, {
+    id: "CHXX0077",
+    name: "晋宁",
+    parent_id: "CHXX0076"
+}, {
+    id: "WMXX2529",
+    name: "富民",
+    parent_id: "CHXX0076"
+}, {
+    id: "WMXX2530",
+    name: "宜良",
+    parent_id: "CHXX0076"
+}, {
+    id: "WMXX2531",
+    name: "嵩明",
+    parent_id: "CHXX0076"
+}, {
+    id: "WMXX2532",
+    name: "石林",
+    parent_id: "CHXX0076"
+}, {
+    id: "WMXX2533",
+    name: "禄劝",
+    parent_id: "CHXX0076"
+}, {
+    id: "WMXX2534",
+    name: "寻甸",
+    parent_id: "CHXX0076"
+}, {
+    id: "WMXX1096",
+    name: "曲靖",
+    parent_id: "25"
+}, {
+    id: "WMXX2535",
+    name: "宣威",
+    parent_id: "WMXX1096"
+}, {
+    id: "WMXX2536",
+    name: "马龙",
+    parent_id: "WMXX1096"
+}, {
+    id: "WMXX2537",
+    name: "陆良",
+    parent_id: "WMXX1096"
+}, {
+    id: "WMXX2538",
+    name: "师宗",
+    parent_id: "WMXX1096"
+}, {
+    id: "WMXX2539",
+    name: "罗平",
+    parent_id: "WMXX1096"
+}, {
+    id: "WMXX2540",
+    name: "富源",
+    parent_id: "WMXX1096"
+}, {
+    id: "CHXX0367",
+    name: "会泽",
+    parent_id: "WMXX1096"
+}, {
+    id: "CHXX0374",
+    name: "沾益",
+    parent_id: "WMXX1096"
+}, {
+    id: "WMXX1284",
+    name: "玉溪",
+    parent_id: "25"
+}, {
+    id: "WMXX2541",
+    name: "江川",
+    parent_id: "WMXX1284"
+}, {
+    id: "WMXX2542",
+    name: "澄江",
+    parent_id: "WMXX1284"
+}, {
+    id: "WMXX2543",
+    name: "通海",
+    parent_id: "WMXX1284"
+}, {
+    id: "WMXX2544",
+    name: "华宁",
+    parent_id: "WMXX1284"
+}, {
+    id: "WMXX2545",
+    name: "易门",
+    parent_id: "WMXX1284"
+}, {
+    id: "WMXX2546",
+    name: "峨山",
+    parent_id: "WMXX1284"
+}, {
+    id: "WMXX2547",
+    name: "新平",
+    parent_id: "WMXX1284"
+}, {
+    id: "CHXX0382",
+    name: "元江",
+    parent_id: "WMXX1284"
+}, {
+    id: "CHXX0370",
+    name: "保山",
+    parent_id: "25"
+}, {
+    id: "WMXX2548",
+    name: "施甸",
+    parent_id: "CHXX0370"
+}, {
+    id: "CHXX0369",
+    name: "腾冲",
+    parent_id: "CHXX0370"
+}, {
+    id: "WMXX2549",
+    name: "龙陵",
+    parent_id: "CHXX0370"
+}, {
+    id: "WMXX2550",
+    name: "昌宁",
+    parent_id: "CHXX0370"
+}, {
+    id: "CHXX0364",
+    name: "昭通",
+    parent_id: "25"
+}, {
+    id: "WMXX2551",
+    name: "鲁甸",
+    parent_id: "CHXX0364"
+}, {
+    id: "WMXX2552",
+    name: "巧家",
+    parent_id: "CHXX0364"
+}, {
+    id: "WMXX2553",
+    name: "盐津",
+    parent_id: "CHXX0364"
+}, {
+    id: "WMXX2554",
+    name: "大关",
+    parent_id: "CHXX0364"
+}, {
+    id: "WMXX2555",
+    name: "永善",
+    parent_id: "CHXX0364"
+}, {
+    id: "WMXX2556",
+    name: "绥江",
+    parent_id: "CHXX0364"
+}, {
+    id: "WMXX2557",
+    name: "镇雄",
+    parent_id: "CHXX0364"
+}, {
+    id: "WMXX2558",
+    name: "彝良",
+    parent_id: "CHXX0364"
+}, {
+    id: "WMXX2559",
+    name: "威信",
+    parent_id: "CHXX0364"
+}, {
+    id: "WMXX2560",
+    name: "水富",
+    parent_id: "CHXX0364"
+}, {
+    id: "CHXX0365",
+    name: "丽江",
+    parent_id: "25"
+}, {
+    id: "WMXX2561",
+    name: "永胜",
+    parent_id: "CHXX0365"
+}, {
+    id: "WMXX2562",
+    name: "华坪",
+    parent_id: "CHXX0365"
+}, {
+    id: "WMXX2564",
+    name: "宁蒗",
+    parent_id: "CHXX0365"
+}, {
+    id: "CHXX0381",
+    name: "普洱",
+    parent_id: "25"
+}, {
+    id: "WMXX2565",
+    name: "思茅",
+    parent_id: "CHXX0381"
+}, {
+    id: "WMXX2566",
+    name: "宁洱",
+    parent_id: "CHXX0381"
+}, {
+    id: "WMXX2567",
+    name: "墨江",
+    parent_id: "CHXX0381"
+}, {
+    id: "WMXX1324",
+    name: "景东",
+    parent_id: "CHXX0381"
+}, {
+    id: "WMXX2568",
+    name: "景谷",
+    parent_id: "CHXX0381"
+}, {
+    id: "WMXX2569",
+    name: "镇沅",
+    parent_id: "CHXX0381"
+}, {
+    id: "CHXX0384",
+    name: "江城",
+    parent_id: "CHXX0381"
+}, {
+    id: "WMXX2570",
+    name: "孟连",
+    parent_id: "CHXX0381"
+}, {
+    id: "CHXX0379",
+    name: "澜沧",
+    parent_id: "CHXX0381"
+}, {
+    id: "WMXX2571",
+    name: "西盟",
+    parent_id: "CHXX0381"
+}, {
+    id: "CHXX0378",
+    name: "临沧",
+    parent_id: "25"
+}, {
+    id: "WMXX2572",
+    name: "凤庆",
+    parent_id: "CHXX0378"
+}, {
+    id: "WMXX2573",
+    name: "云县",
+    parent_id: "CHXX0378"
+}, {
+    id: "WMXX2574",
+    name: "永德",
+    parent_id: "CHXX0378"
+}, {
+    id: "WMXX2575",
+    name: "镇康",
+    parent_id: "CHXX0378"
+}, {
+    id: "WMXX2576",
+    name: "双江",
+    parent_id: "CHXX0378"
+}, {
+    id: "CHXX0377",
+    name: "耿马",
+    parent_id: "CHXX0378"
+}, {
+    id: "WMXX2577",
+    name: "沧源",
+    parent_id: "CHXX0378"
+}, {
+    id: "WMXX1285",
+    name: "文山",
+    parent_id: "25"
+}, {
+    id: "WMXX2578",
+    name: "砚山",
+    parent_id: "WMXX1285"
+}, {
+    id: "WMXX2579",
+    name: "西畴",
+    parent_id: "WMXX1285"
+}, {
+    id: "WMXX2580",
+    name: "麻栗坡",
+    parent_id: "WMXX1285"
+}, {
+    id: "WMXX2581",
+    name: "马关",
+    parent_id: "WMXX1285"
+}, {
+    id: "WMXX2582",
+    name: "丘北",
+    parent_id: "WMXX1285"
+}, {
+    id: "CHXX0477",
+    name: "广南",
+    parent_id: "WMXX1285"
+}, {
+    id: "WMXX2583",
+    name: "富宁",
+    parent_id: "WMXX1285"
+}, {
+    id: "0873",
+    name: "红河",
+    parent_id: "25"
+}, {
+    id: "CHXX0385",
+    name: "蒙自",
+    parent_id: "0873"
+}, {
+    id: "WMXX2584",
+    name: "个旧",
+    parent_id: "0873"
+}, {
+    id: "WMXX2585",
+    name: "开远",
+    parent_id: "0873"
+}, {
+    id: "WMXX2586",
+    name: "绿春",
+    parent_id: "0873"
+}, {
+    id: "WMXX2587",
+    name: "建水",
+    parent_id: "0873"
+}, {
+    id: "WMXX2588",
+    name: "石屏",
+    parent_id: "0873"
+}, {
+    id: "WMXX2589",
+    name: "弥勒",
+    parent_id: "0873"
+}, {
+    id: "CHXX0376",
+    name: "泸西",
+    parent_id: "0873"
+}, {
+    id: "WMXX2590",
+    name: "元阳",
+    parent_id: "0873"
+}, {
+    id: "WMXX2591",
+    name: "红河县",
+    parent_id: "0873"
+}, {
+    id: "WMXX2592",
+    name: "金平",
+    parent_id: "0873"
+}, {
+    id: "WMXX2593",
+    name: "河口",
+    parent_id: "0873"
+}, {
+    id: "WMXX2594",
+    name: "屏边",
+    parent_id: "0873"
+}, {
+    id: "0691",
+    name: "西双版纳",
+    parent_id: "25"
+}, {
+    id: "CHXX0380",
+    name: "景洪",
+    parent_id: "0691"
+}, {
+    id: "WMXX2595",
+    name: "勐海",
+    parent_id: "0691"
+}, {
+    id: "CHXX0383",
+    name: "勐腊",
+    parent_id: "0691"
+}, {
+    id: "CHXX0373",
+    name: "楚雄",
+    parent_id: "25"
+}, {
+    id: "WMXX2596",
+    name: "双柏",
+    parent_id: "CHXX0373"
+}, {
+    id: "WMXX2597",
+    name: "牟定",
+    parent_id: "CHXX0373"
+}, {
+    id: "WMXX2598",
+    name: "南华",
+    parent_id: "CHXX0373"
+}, {
+    id: "WMXX2599",
+    name: "姚安",
+    parent_id: "CHXX0373"
+}, {
+    id: "WMXX2600",
+    name: "大姚",
+    parent_id: "CHXX0373"
+}, {
+    id: "WMXX2601",
+    name: "永仁",
+    parent_id: "CHXX0373"
+}, {
+    id: "CHXX0372",
+    name: "元谋",
+    parent_id: "CHXX0373"
+}, {
+    id: "WMXX2602",
+    name: "武定",
+    parent_id: "CHXX0373"
+}, {
+    id: "WMXX2603",
+    name: "禄丰",
+    parent_id: "CHXX0373"
+}, {
+    id: "CHXX0371",
+    name: "大理",
+    parent_id: "25"
+}, {
+    id: "WMXX2604",
+    name: "祥云",
+    parent_id: "CHXX0371"
+}, {
+    id: "WMXX2605",
+    name: "宾川",
+    parent_id: "CHXX0371"
+}, {
+    id: "WMXX2606",
+    name: "弥渡",
+    parent_id: "CHXX0371"
+}, {
+    id: "WMXX2607",
+    name: "永平",
+    parent_id: "CHXX0371"
+}, {
+    id: "WMXX2608",
+    name: "云龙",
+    parent_id: "CHXX0371"
+}, {
+    id: "WMXX2609",
+    name: "洱源",
+    parent_id: "CHXX0371"
+}, {
+    id: "WMXX2610",
+    name: "剑川",
+    parent_id: "CHXX0371"
+}, {
+    id: "WMXX2611",
+    name: "鹤庆",
+    parent_id: "CHXX0371"
+}, {
+    id: "WMXX2612",
+    name: "漾濞",
+    parent_id: "CHXX0371"
+}, {
+    id: "WMXX2613",
+    name: "南涧",
+    parent_id: "CHXX0371"
+}, {
+    id: "WMXX2614",
+    name: "巍山",
+    parent_id: "CHXX0371"
+}, {
+    id: "0692",
+    name: "德宏",
+    parent_id: "25"
+}, {
+    id: "WMXX1121",
+    name: "芒市",
+    parent_id: "0692"
+}, {
+    id: "CHXX0375",
+    name: "瑞丽",
+    parent_id: "0692"
+}, {
+    id: "WMXX2615",
+    name: "梁河",
+    parent_id: "0692"
+}, {
+    id: "WMXX2616",
+    name: "盈江",
+    parent_id: "0692"
+}, {
+    id: "WMXX2617",
+    name: "陇川",
+    parent_id: "0692"
+}, {
+    id: "0886",
+    name: "怒江",
+    parent_id: "25"
+}, {
+    id: "WMXX1286",
+    name: "泸水",
+    parent_id: "0886"
+}, {
+    id: "WMXX2618",
+    name: "福贡",
+    parent_id: "0886"
+}, {
+    id: "WMXX2619",
+    name: "贡山",
+    parent_id: "0886"
+}, {
+    id: "WMXX2620",
+    name: "兰坪",
+    parent_id: "0886"
+}, {
+    id: "0887",
+    name: "迪庆",
+    parent_id: "25"
+}, {
+    id: "WMXX2621",
+    name: "香格里拉",
+    parent_id: "0887"
+}, {
+    id: "CHXX0360",
+    name: "德钦",
+    parent_id: "0887"
+}, {
+    id: "WMXX2622",
+    name: "维西",
+    parent_id: "0887"
+}, {
+    id: "CHXX0080",
+    name: "拉萨",
+    parent_id: "26"
+}, {
+    id: "WMXX2623",
+    name: "林周",
+    parent_id: "CHXX0080"
+}, {
+    id: "WMXX2624",
+    name: "当雄",
+    parent_id: "CHXX0080"
+}, {
+    id: "WMXX2625",
+    name: "尼木",
+    parent_id: "CHXX0080"
+}, {
+    id: "WMXX2626",
+    name: "曲水",
+    parent_id: "CHXX0080"
+}, {
+    id: "WMXX2627",
+    name: "堆龙德庆",
+    parent_id: "CHXX0080"
+}, {
+    id: "WMXX2628",
+    name: "达孜",
+    parent_id: "CHXX0080"
+}, {
+    id: "WMXX2629",
+    name: "墨竹工卡",
+    parent_id: "CHXX0080"
+}, {
+    id: "CHXX0343",
+    name: "昌都",
+    parent_id: "26"
+}, {
+    id: "WMXX2630",
+    name: "江达",
+    parent_id: "CHXX0343"
+}, {
+    id: "WMXX2631",
+    name: "贡觉",
+    parent_id: "CHXX0343"
+}, {
+    id: "WMXX2632",
+    name: "类乌齐",
+    parent_id: "CHXX0343"
+}, {
+    id: "CHXX0342",
+    name: "丁青",
+    parent_id: "CHXX0343"
+}, {
+    id: "WMXX2633",
+    name: "察雅",
+    parent_id: "CHXX0343"
+}, {
+    id: "WMXX2634",
+    name: "八宿",
+    parent_id: "CHXX0343"
+}, {
+    id: "WMXX2635",
+    name: "左贡",
+    parent_id: "CHXX0343"
+}, {
+    id: "WMXX2636",
+    name: "芒康",
+    parent_id: "CHXX0343"
+}, {
+    id: "WMXX2637",
+    name: "洛隆",
+    parent_id: "CHXX0343"
+}, {
+    id: "WMXX2638",
+    name: "边坝",
+    parent_id: "CHXX0343"
+}, {
+    id: "WMXX1287",
+    name: "山南",
+    parent_id: "26"
+}, {
+    id: "WMXX2639",
+    name: "扎囊",
+    parent_id: "WMXX1287"
+}, {
+    id: "CHXX0034",
+    name: "贡嘎",
+    parent_id: "WMXX1287"
+}, {
+    id: "WMXX2640",
+    name: "桑日",
+    parent_id: "WMXX1287"
+}, {
+    id: "WMXX2641",
+    name: "琼结",
+    parent_id: "WMXX1287"
+}, {
+    id: "WMXX2642",
+    name: "曲松",
+    parent_id: "WMXX1287"
+}, {
+    id: "WMXX2643",
+    name: "措美",
+    parent_id: "WMXX1287"
+}, {
+    id: "WMXX2644",
+    name: "洛扎",
+    parent_id: "WMXX1287"
+}, {
+    id: "WMXX2645",
+    name: "加查",
+    parent_id: "WMXX1287"
+}, {
+    id: "CHXX0329",
+    name: "隆子",
+    parent_id: "WMXX1287"
+}, {
+    id: "WMXX2646",
+    name: "错那",
+    parent_id: "WMXX1287"
+}, {
+    id: "WMXX2647",
+    name: "浪卡子",
+    parent_id: "WMXX1287"
+}, {
+    id: "CHXX0145",
+    name: "日喀则",
+    parent_id: "26"
+}, {
+    id: "WMXX2648",
+    name: "南木林",
+    parent_id: "CHXX0145"
+}, {
+    id: "WMXX1288",
+    name: "江孜",
+    parent_id: "CHXX0145"
+}, {
+    id: "CHXX0328",
+    name: "定日",
+    parent_id: "CHXX0145"
+}, {
+    id: "WMXX2649",
+    name: "萨迦",
+    parent_id: "CHXX0145"
+}, {
+    id: "WMXX2650",
+    name: "拉孜",
+    parent_id: "CHXX0145"
+}, {
+    id: "WMXX2651",
+    name: "昂仁",
+    parent_id: "CHXX0145"
+}, {
+    id: "WMXX2652",
+    name: "谢通门",
+    parent_id: "CHXX0145"
+}, {
+    id: "WMXX2653",
+    name: "白朗",
+    parent_id: "CHXX0145"
+}, {
+    id: "WMXX2654",
+    name: "仁布",
+    parent_id: "CHXX0145"
+}, {
+    id: "WMXX2655",
+    name: "康马",
+    parent_id: "CHXX0145"
+}, {
+    id: "WMXX2656",
+    name: "定结",
+    parent_id: "CHXX0145"
+}, {
+    id: "WMXX2657",
+    name: "仲巴",
+    parent_id: "CHXX0145"
+}, {
+    id: "CHXX0330",
+    name: "亚东",
+    parent_id: "CHXX0145"
+}, {
+    id: "WMXX2658",
+    name: "吉隆",
+    parent_id: "CHXX0145"
+}, {
+    id: "WMXX2659",
+    name: "聂拉木",
+    parent_id: "CHXX0145"
+}, {
+    id: "WMXX2660",
+    name: "萨嘎",
+    parent_id: "CHXX0145"
+}, {
+    id: "WMXX2661",
+    name: "岗巴",
+    parent_id: "CHXX0145"
+}, {
+    id: "CHXX0325",
+    name: "那曲",
+    parent_id: "26"
+}, {
+    id: "WMXX2662",
+    name: "嘉黎",
+    parent_id: "CHXX0325"
+}, {
+    id: "WMXX2663",
+    name: "比如",
+    parent_id: "CHXX0325"
+}, {
+    id: "WMXX2664",
+    name: "聂荣",
+    parent_id: "CHXX0325"
+}, {
+    id: "WMXX2665",
+    name: "安多",
+    parent_id: "CHXX0325"
+}, {
+    id: "CHXX0326",
+    name: "申扎",
+    parent_id: "CHXX0325"
+}, {
+    id: "CHXX0341",
+    name: "索县",
+    parent_id: "CHXX0325"
+}, {
+    id: "CHXX0324",
+    name: "班戈",
+    parent_id: "CHXX0325"
+}, {
+    id: "WMXX2666",
+    name: "巴青",
+    parent_id: "CHXX0325"
+}, {
+    id: "WMXX2667",
+    name: "尼玛",
+    parent_id: "CHXX0325"
+}, {
+    id: "0897",
+    name: "阿里",
+    parent_id: "26"
+}, {
+    id: "CHXX0323",
+    name: "噶尔",
+    parent_id: "0897"
+}, {
+    id: "WMXX2669",
+    name: "普兰",
+    parent_id: "0897"
+}, {
+    id: "WMXX2670",
+    name: "札达",
+    parent_id: "0897"
+}, {
+    id: "WMXX2671",
+    name: "日土",
+    parent_id: "0897"
+}, {
+    id: "WMXX2672",
+    name: "革吉",
+    parent_id: "0897"
+}, {
+    id: "WMXX2673",
+    name: "改则",
+    parent_id: "0897"
+}, {
+    id: "WMXX2674",
+    name: "措勤",
+    parent_id: "0897"
+}, {
+    id: "CHXX0356",
+    name: "林芝",
+    parent_id: "26"
+}, {
+    id: "WMXX2675",
+    name: "工布江达",
+    parent_id: "CHXX0356"
+}, {
+    id: "WMXX2676",
+    name: "米林",
+    parent_id: "CHXX0356"
+}, {
+    id: "WMXX2677",
+    name: "墨脱",
+    parent_id: "CHXX0356"
+}, {
+    id: "WMXX2678",
+    name: "波密",
+    parent_id: "CHXX0356"
+}, {
+    id: "WMXX2679",
+    name: "察隅",
+    parent_id: "CHXX0356"
+}, {
+    id: "WMXX2680",
+    name: "朗县",
+    parent_id: "CHXX0356"
+}, {
+    id: "CHXX0141",
+    name: "西安",
+    parent_id: "27"
+}, {
+    id: "CHXX0082",
+    name: "临潼",
+    parent_id: "CHXX0141"
+}, {
+    id: "WMXX2681",
+    name: "长安",
+    parent_id: "CHXX0141"
+}, {
+    id: "WMXX2682",
+    name: "蓝田",
+    parent_id: "CHXX0141"
+}, {
+    id: "WMXX2683",
+    name: "周至",
+    parent_id: "CHXX0141"
+}, {
+    id: "WMXX2684",
+    name: "户县",
+    parent_id: "CHXX0141"
+}, {
+    id: "WMXX2685",
+    name: "高陵",
+    parent_id: "CHXX0141"
+}, {
+    id: "WMXX1289",
+    name: "铜川",
+    parent_id: "27"
+}, {
+    id: "WMXX2686",
+    name: "宜君",
+    parent_id: "WMXX1289"
+}, {
+    id: "CHXX0387",
+    name: "宝鸡",
+    parent_id: "27"
+}, {
+    id: "WMXX2687",
+    name: "陈仓",
+    parent_id: "CHXX0387"
+}, {
+    id: "WMXX2688",
+    name: "凤翔",
+    parent_id: "CHXX0387"
+}, {
+    id: "WMXX2689",
+    name: "岐山",
+    parent_id: "CHXX0387"
+}, {
+    id: "WMXX2690",
+    name: "扶风",
+    parent_id: "CHXX0387"
+}, {
+    id: "WMXX2691",
+    name: "眉县",
+    parent_id: "CHXX0387"
+}, {
+    id: "WMXX2692",
+    name: "陇县",
+    parent_id: "CHXX0387"
+}, {
+    id: "WMXX2693",
+    name: "千阳",
+    parent_id: "CHXX0387"
+}, {
+    id: "WMXX2694",
+    name: "麟游",
+    parent_id: "CHXX0387"
+}, {
+    id: "WMXX2695",
+    name: "凤县",
+    parent_id: "CHXX0387"
+}, {
+    id: "WMXX2696",
+    name: "太白",
+    parent_id: "CHXX0387"
+}, {
+    id: "CHXX0143",
+    name: "咸阳",
+    parent_id: "27"
+}, {
+    id: "WMXX2697",
+    name: "兴平",
+    parent_id: "CHXX0143"
+}, {
+    id: "WMXX2698",
+    name: "三原",
+    parent_id: "CHXX0143"
+}, {
+    id: "WMXX2699",
+    name: "泾阳",
+    parent_id: "CHXX0143"
+}, {
+    id: "WMXX2700",
+    name: "乾县",
+    parent_id: "CHXX0143"
+}, {
+    id: "WMXX2701",
+    name: "礼泉",
+    parent_id: "CHXX0143"
+}, {
+    id: "WMXX2702",
+    name: "永寿",
+    parent_id: "CHXX0143"
+}, {
+    id: "WMXX2703",
+    name: "彬县",
+    parent_id: "CHXX0143"
+}, {
+    id: "WMXX2704",
+    name: "长武",
+    parent_id: "CHXX0143"
+}, {
+    id: "WMXX2705",
+    name: "旬邑",
+    parent_id: "CHXX0143"
+}, {
+    id: "WMXX2706",
+    name: "淳化",
+    parent_id: "CHXX0143"
+}, {
+    id: "WMXX2707",
+    name: "武功",
+    parent_id: "CHXX0143"
+}, {
+    id: "CHXX0137",
+    name: "渭南",
+    parent_id: "27"
+}, {
+    id: "WMXX2708",
+    name: "韩城",
+    parent_id: "CHXX0137"
+}, {
+    id: "WMXX2709",
+    name: "华阴",
+    parent_id: "CHXX0137"
+}, {
+    id: "WMXX2710",
+    name: "华县",
+    parent_id: "CHXX0137"
+}, {
+    id: "WMXX2711",
+    name: "潼关",
+    parent_id: "CHXX0137"
+}, {
+    id: "WMXX2712",
+    name: "大荔",
+    parent_id: "CHXX0137"
+}, {
+    id: "WMXX2713",
+    name: "合阳",
+    parent_id: "CHXX0137"
+}, {
+    id: "WMXX2714",
+    name: "澄城",
+    parent_id: "CHXX0137"
+}, {
+    id: "WMXX2715",
+    name: "蒲城",
+    parent_id: "CHXX0137"
+}, {
+    id: "WMXX2716",
+    name: "白水",
+    parent_id: "CHXX0137"
+}, {
+    id: "WMXX2717",
+    name: "富平",
+    parent_id: "CHXX0137"
+}, {
+    id: "CHXX0267",
+    name: "延安",
+    parent_id: "27"
+}, {
+    id: "WMXX2718",
+    name: "延长",
+    parent_id: "CHXX0267"
+}, {
+    id: "WMXX2719",
+    name: "延川",
+    parent_id: "CHXX0267"
+}, {
+    id: "WMXX2720",
+    name: "子长",
+    parent_id: "CHXX0267"
+}, {
+    id: "WMXX2721",
+    name: "安塞",
+    parent_id: "CHXX0267"
+}, {
+    id: "WMXX2722",
+    name: "志丹",
+    parent_id: "CHXX0267"
+}, {
+    id: "WMXX2723",
+    name: "吴起",
+    parent_id: "CHXX0267"
+}, {
+    id: "WMXX2724",
+    name: "甘泉",
+    parent_id: "CHXX0267"
+}, {
+    id: "WMXX2725",
+    name: "富县",
+    parent_id: "CHXX0267"
+}, {
+    id: "WMXX2726",
+    name: "洛川",
+    parent_id: "CHXX0267"
+}, {
+    id: "WMXX2727",
+    name: "宜川",
+    parent_id: "CHXX0267"
+}, {
+    id: "WMXX2728",
+    name: "黄龙",
+    parent_id: "CHXX0267"
+}, {
+    id: "WMXX2729",
+    name: "黄陵",
+    parent_id: "CHXX0267"
+}, {
+    id: "CHXX0390",
+    name: "汉中",
+    parent_id: "27"
+}, {
+    id: "WMXX2730",
+    name: "南郑",
+    parent_id: "CHXX0390"
+}, {
+    id: "WMXX2731",
+    name: "城固",
+    parent_id: "CHXX0390"
+}, {
+    id: "WMXX2732",
+    name: "洋县",
+    parent_id: "CHXX0390"
+}, {
+    id: "WMXX2733",
+    name: "西乡",
+    parent_id: "CHXX0390"
+}, {
+    id: "WMXX2734",
+    name: "勉县",
+    parent_id: "CHXX0390"
+}, {
+    id: "WMXX2735",
+    name: "宁强",
+    parent_id: "CHXX0390"
+}, {
+    id: "WMXX2736",
+    name: "略阳",
+    parent_id: "CHXX0390"
+}, {
+    id: "WMXX2737",
+    name: "镇巴",
+    parent_id: "CHXX0390"
+}, {
+    id: "WMXX2738",
+    name: "留坝",
+    parent_id: "CHXX0390"
+}, {
+    id: "WMXX2739",
+    name: "佛坪",
+    parent_id: "CHXX0390"
+}, {
+    id: "CHXX0260",
+    name: "榆林",
+    parent_id: "27"
+}, {
+    id: "WMXX2740",
+    name: "神木",
+    parent_id: "CHXX0260"
+}, {
+    id: "WMXX2741",
+    name: "府谷",
+    parent_id: "CHXX0260"
+}, {
+    id: "WMXX2742",
+    name: "横山",
+    parent_id: "CHXX0260"
+}, {
+    id: "WMXX2743",
+    name: "靖边",
+    parent_id: "CHXX0260"
+}, {
+    id: "WMXX2744",
+    name: "定边",
+    parent_id: "CHXX0260"
+}, {
+    id: "WMXX2745",
+    name: "绥德",
+    parent_id: "CHXX0260"
+}, {
+    id: "WMXX2746",
+    name: "米脂",
+    parent_id: "CHXX0260"
+}, {
+    id: "WMXX2747",
+    name: "佳县",
+    parent_id: "CHXX0260"
+}, {
+    id: "WMXX2748",
+    name: "吴堡",
+    parent_id: "CHXX0260"
+}, {
+    id: "WMXX2749",
+    name: "清涧",
+    parent_id: "CHXX0260"
+}, {
+    id: "WMXX2750",
+    name: "子洲",
+    parent_id: "CHXX0260"
+}, {
+    id: "CHXX0394",
+    name: "安康",
+    parent_id: "27"
+}, {
+    id: "WMXX2751",
+    name: "汉阴",
+    parent_id: "CHXX0394"
+}, {
+    id: "WMXX2752",
+    name: "石泉",
+    parent_id: "CHXX0394"
+}, {
+    id: "WMXX2753",
+    name: "宁陕",
+    parent_id: "CHXX0394"
+}, {
+    id: "WMXX2754",
+    name: "紫阳",
+    parent_id: "CHXX0394"
+}, {
+    id: "WMXX2755",
+    name: "岚皋",
+    parent_id: "CHXX0394"
+}, {
+    id: "WMXX2756",
+    name: "平利",
+    parent_id: "CHXX0394"
+}, {
+    id: "WMXX2757",
+    name: "镇坪",
+    parent_id: "CHXX0394"
+}, {
+    id: "WMXX2758",
+    name: "旬阳",
+    parent_id: "CHXX0394"
+}, {
+    id: "WMXX2759",
+    name: "白河",
+    parent_id: "CHXX0394"
+}, {
+    id: "WMXX1290",
+    name: "商洛",
+    parent_id: "27"
+}, {
+    id: "WMXX2760",
+    name: "洛南",
+    parent_id: "WMXX1290"
+}, {
+    id: "WMXX2761",
+    name: "丹凤",
+    parent_id: "WMXX1290"
+}, {
+    id: "WMXX2762",
+    name: "商南",
+    parent_id: "WMXX1290"
+}, {
+    id: "WMXX2763",
+    name: "山阳",
+    parent_id: "WMXX1290"
+}, {
+    id: "WMXX2764",
+    name: "镇安",
+    parent_id: "WMXX1290"
+}, {
+    id: "WMXX2765",
+    name: "柞水",
+    parent_id: "WMXX1290"
+}, {
+    id: "WMXX2967",
+    name: "杨凌",
+    parent_id: "27"
+}, {
+    id: "CHXX0079",
+    name: "兰州",
+    parent_id: "28"
+}, {
+    id: "WMXX2766",
+    name: "永登",
+    parent_id: "CHXX0079"
+}, {
+    id: "WMXX2767",
+    name: "皋兰",
+    parent_id: "CHXX0079"
+}, {
+    id: "WMXX2768",
+    name: "榆中",
+    parent_id: "CHXX0079"
+}, {
+    id: "WMXX1098",
+    name: "嘉峪关",
+    parent_id: "28"
+}, {
+    id: "WMXX1099",
+    name: "金昌",
+    parent_id: "28"
+}, {
+    id: "WMXX2769",
+    name: "永昌",
+    parent_id: "WMXX1099"
+}, {
+    id: "CHXX0006",
+    name: "白银",
+    parent_id: "28"
+}, {
+    id: "CHXX0066",
+    name: "靖远",
+    parent_id: "CHXX0006"
+}, {
+    id: "CHXX0239",
+    name: "会宁",
+    parent_id: "CHXX0006"
+}, {
+    id: "WMXX2770",
+    name: "景泰",
+    parent_id: "CHXX0006"
+}, {
+    id: "CHXX0386",
+    name: "天水",
+    parent_id: "28"
+}, {
+    id: "WMXX2771",
+    name: "清水",
+    parent_id: "CHXX0386"
+}, {
+    id: "WMXX2772",
+    name: "秦安",
+    parent_id: "CHXX0386"
+}, {
+    id: "CHXX0032",
+    name: "甘谷",
+    parent_id: "CHXX0386"
+}, {
+    id: "WMXX2773",
+    name: "武山",
+    parent_id: "CHXX0386"
+}, {
+    id: "WMXX2774",
+    name: "张家川",
+    parent_id: "CHXX0386"
+}, {
+    id: "WMXX1100",
+    name: "武威",
+    parent_id: "28"
+}, {
+    id: "CHXX0229",
+    name: "民勤",
+    parent_id: "WMXX1100"
+}, {
+    id: "WMXX2775",
+    name: "古浪",
+    parent_id: "WMXX1100"
+}, {
+    id: "CHXX0233",
+    name: "天祝",
+    parent_id: "WMXX1100"
+}, {
+    id: "CHXX0228",
+    name: "张掖",
+    parent_id: "28"
+}, {
+    id: "WMXX2776",
+    name: "民乐",
+    parent_id: "CHXX0228"
+}, {
+    id: "WMXX2777",
+    name: "临泽",
+    parent_id: "CHXX0228"
+}, {
+    id: "WMXX2778",
+    name: "高台",
+    parent_id: "CHXX0228"
+}, {
+    id: "WMXX2779",
+    name: "山丹",
+    parent_id: "CHXX0228"
+}, {
+    id: "WMXX2780",
+    name: "肃南",
+    parent_id: "CHXX0228"
+}, {
+    id: "CHXX0270",
+    name: "平凉",
+    parent_id: "28"
+}, {
+    id: "WMXX2781",
+    name: "泾川",
+    parent_id: "CHXX0270"
+}, {
+    id: "WMXX2782",
+    name: "灵台",
+    parent_id: "CHXX0270"
+}, {
+    id: "WMXX2783",
+    name: "崇信",
+    parent_id: "CHXX0270"
+}, {
+    id: "WMXX2784",
+    name: "华亭",
+    parent_id: "CHXX0270"
+}, {
+    id: "WMXX2785",
+    name: "庄浪",
+    parent_id: "CHXX0270"
+}, {
+    id: "WMXX2786",
+    name: "静宁",
+    parent_id: "CHXX0270"
+}, {
+    id: "CHXX0226",
+    name: "酒泉",
+    parent_id: "28"
+}, {
+    id: "CHXX0224",
+    name: "玉门",
+    parent_id: "CHXX0226"
+}, {
+    id: "CHXX0223",
+    name: "敦煌",
+    parent_id: "CHXX0226"
+}, {
+    id: "WMXX2787",
+    name: "金塔",
+    parent_id: "CHXX0226"
+}, {
+    id: "WMXX2788",
+    name: "瓜州",
+    parent_id: "CHXX0226"
+}, {
+    id: "WMXX2789",
+    name: "肃北",
+    parent_id: "CHXX0226"
+}, {
+    id: "WMXX2790",
+    name: "阿克塞",
+    parent_id: "CHXX0226"
+}, {
+    id: "CHXX0271",
+    name: "庆阳",
+    parent_id: "28"
+}, {
+    id: "WMXX2791",
+    name: "庆城",
+    parent_id: "CHXX0271"
+}, {
+    id: "WMXX2792",
+    name: "环县",
+    parent_id: "CHXX0271"
+}, {
+    id: "WMXX2793",
+    name: "华池",
+    parent_id: "CHXX0271"
+}, {
+    id: "WMXX2794",
+    name: "合水",
+    parent_id: "CHXX0271"
+}, {
+    id: "WMXX2795",
+    name: "正宁",
+    parent_id: "CHXX0271"
+}, {
+    id: "WMXX2796",
+    name: "宁县",
+    parent_id: "CHXX0271"
+}, {
+    id: "WMXX2797",
+    name: "镇原",
+    parent_id: "CHXX0271"
+}, {
+    id: "CHXX0024",
+    name: "定西",
+    parent_id: "28"
+}, {
+    id: "WMXX2798",
+    name: "通渭",
+    parent_id: "CHXX0024"
+}, {
+    id: "WMXX2799",
+    name: "陇西",
+    parent_id: "CHXX0024"
+}, {
+    id: "WMXX2800",
+    name: "渭源",
+    parent_id: "CHXX0024"
+}, {
+    id: "WMXX2801",
+    name: "临洮",
+    parent_id: "CHXX0024"
+}, {
+    id: "WMXX2802",
+    name: "漳县",
+    parent_id: "CHXX0024"
+}, {
+    id: "WMXX2803",
+    name: "岷县",
+    parent_id: "CHXX0024"
+}, {
+    id: "02935",
+    name: "陇南",
+    parent_id: "28"
+}, {
+    id: "CHXX0340",
+    name: "武都",
+    parent_id: "02935"
+}, {
+    id: "WMXX2804",
+    name: "成县",
+    parent_id: "02935"
+}, {
+    id: "WMXX2805",
+    name: "文县",
+    parent_id: "02935"
+}, {
+    id: "WMXX2806",
+    name: "宕昌",
+    parent_id: "02935"
+}, {
+    id: "WMXX2807",
+    name: "康县",
+    parent_id: "02935"
+}, {
+    id: "WMXX2808",
+    name: "西和",
+    parent_id: "02935"
+}, {
+    id: "WMXX2809",
+    name: "礼县",
+    parent_id: "02935"
+}, {
+    id: "WMXX2810",
+    name: "徽县",
+    parent_id: "02935"
+}, {
+    id: "WMXX2811",
+    name: "两当",
+    parent_id: "02935"
+}, {
+    id: "WMXX1097",
+    name: "临夏",
+    parent_id: "28"
+}, {
+    id: "WMXX2812",
+    name: "康乐",
+    parent_id: "WMXX1097"
+}, {
+    id: "WMXX2813",
+    name: "永靖",
+    parent_id: "WMXX1097"
+}, {
+    id: "WMXX2814",
+    name: "广河",
+    parent_id: "WMXX1097"
+}, {
+    id: "WMXX2815",
+    name: "和政",
+    parent_id: "WMXX1097"
+}, {
+    id: "WMXX2816",
+    name: "东乡",
+    parent_id: "WMXX1097"
+}, {
+    id: "WMXX2817",
+    name: "积石山",
+    parent_id: "WMXX1097"
+}, {
+    id: "0941",
+    name: "甘南",
+    parent_id: "28"
+}, {
+    id: "CHXX0339",
+    name: "合作",
+    parent_id: "0941"
+}, {
+    id: "WMXX2818",
+    name: "临潭",
+    parent_id: "0941"
+}, {
+    id: "WMXX2819",
+    name: "卓尼",
+    parent_id: "0941"
+}, {
+    id: "WMXX2820",
+    name: "舟曲",
+    parent_id: "0941"
+}, {
+    id: "WMXX2821",
+    name: "迭部",
+    parent_id: "0941"
+}, {
+    id: "WMXX2822",
+    name: "玛曲",
+    parent_id: "0941"
+}, {
+    id: "WMXX2823",
+    name: "碌曲",
+    parent_id: "0941"
+}, {
+    id: "WMXX2824",
+    name: "夏河",
+    parent_id: "0941"
+}, {
+    id: "CHXX0236",
+    name: "西宁",
+    parent_id: "30"
+}, {
+    id: "WMXX2825",
+    name: "湟中",
+    parent_id: "CHXX0236"
+}, {
+    id: "WMXX2826",
+    name: "湟源",
+    parent_id: "CHXX0236"
+}, {
+    id: "WMXX2827",
+    name: "大通",
+    parent_id: "CHXX0236"
+}, {
+    id: "WMXX2828",
+    name: "海东",
+    parent_id: "30"
+}, {
+    id: "WMXX2829",
+    name: "乐都",
+    parent_id: "WMXX2828"
+}, {
+    id: "WMXX2830",
+    name: "民和",
+    parent_id: "WMXX2828"
+}, {
+    id: "WMXX2831",
+    name: "互助",
+    parent_id: "WMXX2828"
+}, {
+    id: "WMXX2832",
+    name: "化隆",
+    parent_id: "WMXX2828"
+}, {
+    id: "WMXX2833",
+    name: "循化",
+    parent_id: "WMXX2828"
+}, {
+    id: "WMXX2834",
+    name: "海北",
+    parent_id: "30"
+}, {
+    id: "WMXX1291",
+    name: "海晏",
+    parent_id: "WMXX2834"
+}, {
+    id: "WMXX2835",
+    name: "祁连",
+    parent_id: "WMXX2834"
+}, {
+    id: "CHXX0232",
+    name: "刚察",
+    parent_id: "WMXX2834"
+}, {
+    id: "WMXX2836",
+    name: "门源",
+    parent_id: "WMXX2834"
+}, {
+    id: "WMXX2837",
+    name: "黄南",
+    parent_id: "30"
+}, {
+    id: "WMXX2838",
+    name: "同仁",
+    parent_id: "WMXX2837"
+}, {
+    id: "WMXX2839",
+    name: "尖扎",
+    parent_id: "WMXX2837"
+}, {
+    id: "WMXX2840",
+    name: "泽库",
+    parent_id: "WMXX2837"
+}, {
+    id: "CHXX0337",
+    name: "河南",
+    parent_id: "WMXX2837"
+}, {
+    id: "WMXX2841",
+    name: "海南",
+    parent_id: "30"
+}, {
+    id: "WMXX2842",
+    name: "共和",
+    parent_id: "WMXX2841"
+}, {
+    id: "WMXX2843",
+    name: "同德",
+    parent_id: "WMXX2841"
+}, {
+    id: "WMXX2844",
+    name: "贵德",
+    parent_id: "WMXX2841"
+}, {
+    id: "WMXX2845",
+    name: "兴海",
+    parent_id: "WMXX2841"
+}, {
+    id: "WMXX2846",
+    name: "贵南",
+    parent_id: "WMXX2841"
+}, {
+    id: "WMXX2847",
+    name: "果洛",
+    parent_id: "30"
+}, {
+    id: "WMXX2848",
+    name: "玛沁",
+    parent_id: "WMXX2847"
+}, {
+    id: "WMXX2849",
+    name: "班玛",
+    parent_id: "WMXX2847"
+}, {
+    id: "WMXX2850",
+    name: "甘德",
+    parent_id: "WMXX2847"
+}, {
+    id: "CHXX0336",
+    name: "达日",
+    parent_id: "WMXX2847"
+}, {
+    id: "WMXX2851",
+    name: "久治",
+    parent_id: "WMXX2847"
+}, {
+    id: "CHXX0335",
+    name: "玛多",
+    parent_id: "WMXX2847"
+}, {
+    id: "CHXX0334",
+    name: "玉树",
+    parent_id: "30"
+}, {
+    id: "CHXX0332",
+    name: "杂多",
+    parent_id: "CHXX0334"
+}, {
+    id: "WMXX2852",
+    name: "称多",
+    parent_id: "CHXX0334"
+}, {
+    id: "WMXX2853",
+    name: "治多",
+    parent_id: "CHXX0334"
+}, {
+    id: "WMXX2854",
+    name: "囊谦",
+    parent_id: "CHXX0334"
+}, {
+    id: "CHXX0333",
+    name: "曲麻莱",
+    parent_id: "CHXX0334"
+}, {
+    id: "WMXX2855",
+    name: "海西",
+    parent_id: "30"
+}, {
+    id: "CHXX0231",
+    name: "德令哈",
+    parent_id: "WMXX2855"
+}, {
+    id: "CHXX0234",
+    name: "格尔木",
+    parent_id: "WMXX2855"
+}, {
+    id: "WMXX2856",
+    name: "乌兰",
+    parent_id: "WMXX2855"
+}, {
+    id: "CHXX0235",
+    name: "都兰",
+    parent_id: "WMXX2855"
+}, {
+    id: "WMXX2857",
+    name: "天峻",
+    parent_id: "WMXX2855"
+}, {
+    id: "CHXX0227",
+    name: "冷湖",
+    parent_id: "WMXX2855"
+}, {
+    id: "CHXX0230",
+    name: "大柴旦",
+    parent_id: "WMXX2855"
+}, {
+    id: "CHXX0217",
+    name: "茫崖",
+    parent_id: "WMXX2855"
+}, {
+    id: "CHXX0259",
+    name: "银川",
+    parent_id: "29"
+}, {
+    id: "WMXX2858",
+    name: "永宁",
+    parent_id: "CHXX0259"
+}, {
+    id: "WMXX2859",
+    name: "贺兰",
+    parent_id: "CHXX0259"
+}, {
+    id: "WMXX2860",
+    name: "灵武",
+    parent_id: "CHXX0259"
+}, {
+    id: "WMXX1101",
+    name: "石嘴山",
+    parent_id: "29"
+}, {
+    id: "WMXX2861",
+    name: "惠农",
+    parent_id: "WMXX1101"
+}, {
+    id: "WMXX2862",
+    name: "平罗",
+    parent_id: "WMXX1101"
+}, {
+    id: "WMXX1102",
+    name: "吴忠",
+    parent_id: "29"
+}, {
+    id: "CHXX0263",
+    name: "盐池",
+    parent_id: "WMXX1102"
+}, {
+    id: "WMXX2863",
+    name: "同心",
+    parent_id: "WMXX1102"
+}, {
+    id: "WMXX2864",
+    name: "青铜峡",
+    parent_id: "WMXX1102"
+}, {
+    id: "WMXX1103",
+    name: "固原",
+    parent_id: "29"
+}, {
+    id: "WMXX2865",
+    name: "西吉",
+    parent_id: "WMXX1103"
+}, {
+    id: "WMXX2866",
+    name: "隆德",
+    parent_id: "WMXX1103"
+}, {
+    id: "WMXX2867",
+    name: "泾源",
+    parent_id: "WMXX1103"
+}, {
+    id: "WMXX2868",
+    name: "彭阳",
+    parent_id: "WMXX1103"
+}, {
+    id: "WMXX1104",
+    name: "中卫",
+    parent_id: "29"
+}, {
+    id: "CHXX0262",
+    name: "中宁",
+    parent_id: "WMXX1104"
+}, {
+    id: "WMXX2869",
+    name: "海原",
+    parent_id: "WMXX1104"
+}, {
+    id: "CHXX0135",
+    name: "乌鲁木齐",
+    parent_id: "31"
+}, {
+    id: "WMXX2870",
+    name: "达坂城",
+    parent_id: "CHXX0135"
+}, {
+    id: "CHXX0200",
+    name: "克拉玛依",
+    parent_id: "31"
+}, {
+    id: "CHXX0207",
+    name: "吐鲁番",
+    parent_id: "31"
+}, {
+    id: "WMXX2871",
+    name: "鄯善",
+    parent_id: "CHXX0207"
+}, {
+    id: "WMXX2872",
+    name: "托克逊",
+    parent_id: "CHXX0207"
+}, {
+    id: "CHXX0219",
+    name: "哈密",
+    parent_id: "31"
+}, {
+    id: "CHXX0218",
+    name: "伊吾",
+    parent_id: "CHXX0219"
+}, {
+    id: "WMXX2873",
+    name: "巴里坤",
+    parent_id: "CHXX0219"
+}, {
+    id: "CHXX0216",
+    name: "和田",
+    parent_id: "31"
+}, {
+    id: "WMXX2874",
+    name: "墨玉",
+    parent_id: "CHXX0216"
+}, {
+    id: "CHXX0215",
+    name: "皮山",
+    parent_id: "CHXX0216"
+}, {
+    id: "WMXX2875",
+    name: "洛浦",
+    parent_id: "CHXX0216"
+}, {
+    id: "WMXX2876",
+    name: "策勒",
+    parent_id: "CHXX0216"
+}, {
+    id: "WMXX2877",
+    name: "于田",
+    parent_id: "CHXX0216"
+}, {
+    id: "WMXX2878",
+    name: "民丰",
+    parent_id: "CHXX0216"
+}, {
+    id: "WMXX1117",
+    name: "阿克苏",
+    parent_id: "31"
+}, {
+    id: "WMXX2879",
+    name: "温宿",
+    parent_id: "WMXX1117"
+}, {
+    id: "CHXX0208",
+    name: "库车",
+    parent_id: "WMXX1117"
+}, {
+    id: "WMXX2880",
+    name: "沙雅",
+    parent_id: "WMXX1117"
+}, {
+    id: "WMXX1130",
+    name: "新和",
+    parent_id: "WMXX1117"
+}, {
+    id: "WMXX2881",
+    name: "拜城",
+    parent_id: "WMXX1117"
+}, {
+    id: "WMXX2882",
+    name: "乌什",
+    parent_id: "WMXX1117"
+}, {
+    id: "WMXX2883",
+    name: "阿瓦提",
+    parent_id: "WMXX1117"
+}, {
+    id: "WMXX2884",
+    name: "柯坪",
+    parent_id: "WMXX1117"
+}, {
+    id: "CHXX0074",
+    name: "喀什",
+    parent_id: "31"
+}, {
+    id: "WMXX2885",
+    name: "疏附",
+    parent_id: "CHXX0074"
+}, {
+    id: "CHXX0125",
+    name: "疏勒",
+    parent_id: "CHXX0074"
+}, {
+    id: "WMXX1132",
+    name: "英吉沙",
+    parent_id: "CHXX0074"
+}, {
+    id: "WMXX1123",
+    name: "泽普",
+    parent_id: "CHXX0074"
+}, {
+    id: "CHXX0115",
+    name: "莎车",
+    parent_id: "CHXX0074"
+}, {
+    id: "WMXX2886",
+    name: "叶城",
+    parent_id: "CHXX0074"
+}, {
+    id: "WMXX2887",
+    name: "麦盖提",
+    parent_id: "CHXX0074"
+}, {
+    id: "WMXX2888",
+    name: "岳普湖",
+    parent_id: "CHXX0074"
+}, {
+    id: "WMXX2889",
+    name: "伽师",
+    parent_id: "CHXX0074"
+}, {
+    id: "CHXX0211",
+    name: "巴楚",
+    parent_id: "CHXX0074"
+}, {
+    id: "WMXX2890",
+    name: "塔什库尔干",
+    parent_id: "CHXX0074"
+}, {
+    id: "0908",
+    name: "克孜勒苏",
+    parent_id: "31"
+}, {
+    id: "WMXX1118",
+    name: "阿图什",
+    parent_id: "0908"
+}, {
+    id: "WMXX2891",
+    name: "阿克陶",
+    parent_id: "0908"
+}, {
+    id: "CHXX0210",
+    name: "阿合奇",
+    parent_id: "0908"
+}, {
+    id: "WMXX2892",
+    name: "乌恰",
+    parent_id: "0908"
+}, {
+    id: "0996",
+    name: "巴音郭楞",
+    parent_id: "31"
+}, {
+    id: "CHXX0209",
+    name: "库尔勒",
+    parent_id: "0996"
+}, {
+    id: "WMXX2893",
+    name: "轮台",
+    parent_id: "0996"
+}, {
+    id: "WMXX2894",
+    name: "尉犁",
+    parent_id: "0996"
+}, {
+    id: "CHXX0214",
+    name: "若羌",
+    parent_id: "0996"
+}, {
+    id: "WMXX2895",
+    name: "且末",
+    parent_id: "0996"
+}, {
+    id: "WMXX2896",
+    name: "焉耆",
+    parent_id: "0996"
+}, {
+    id: "WMXX2897",
+    name: "和静",
+    parent_id: "0996"
+}, {
+    id: "WMXX2898",
+    name: "和硕",
+    parent_id: "0996"
+}, {
+    id: "WMXX1120",
+    name: "博湖",
+    parent_id: "0996"
+}, {
+    id: "CHXX0206",
+    name: "巴音布鲁克",
+    parent_id: "0996"
+}, {
+    id: "CHXX0011",
+    name: "昌吉",
+    parent_id: "31"
+}, {
+    id: "WMXX2899",
+    name: "天池",
+    parent_id: "CHXX0011"
+}, {
+    id: "WMXX2900",
+    name: "阜康",
+    parent_id: "CHXX0011"
+}, {
+    id: "WMXX2901",
+    name: "呼图壁",
+    parent_id: "CHXX0011"
+}, {
+    id: "CHXX0089",
+    name: "玛纳斯",
+    parent_id: "CHXX0011"
+}, {
+    id: "CHXX0113",
+    name: "奇台",
+    parent_id: "CHXX0011"
+}, {
+    id: "WMXX2902",
+    name: "吉木萨尔",
+    parent_id: "CHXX0011"
+}, {
+    id: "WMXX2903",
+    name: "木垒",
+    parent_id: "CHXX0011"
+}, {
+    id: "CHXX0095",
+    name: "米泉",
+    parent_id: "CHXX0011"
+}, {
+    id: "0909",
+    name: "博尔塔拉",
+    parent_id: "31"
+}, {
+    id: "WMXX1292",
+    name: "博乐",
+    parent_id: "0909"
+}, {
+    id: "CHXX0202",
+    name: "精河",
+    parent_id: "0909"
+}, {
+    id: "WMXX2904",
+    name: "温泉",
+    parent_id: "0909"
+}, {
+    id: "0999",
+    name: "伊犁",
+    parent_id: "31"
+}, {
+    id: "CHXX0203",
+    name: "伊宁",
+    parent_id: "0999"
+}, {
+    id: "WMXX2905",
+    name: "奎屯",
+    parent_id: "0999"
+}, {
+    id: "WMXX2906",
+    name: "伊宁县",
+    parent_id: "0999"
+}, {
+    id: "WMXX2907",
+    name: "霍城",
+    parent_id: "0999"
+}, {
+    id: "WMXX2908",
+    name: "巩留",
+    parent_id: "0999"
+}, {
+    id: "WMXX2909",
+    name: "新源",
+    parent_id: "0999"
+}, {
+    id: "WMXX2910",
+    name: "昭苏",
+    parent_id: "0999"
+}, {
+    id: "WMXX2911",
+    name: "特克斯",
+    parent_id: "0999"
+}, {
+    id: "WMXX2912",
+    name: "尼勒克",
+    parent_id: "0999"
+}, {
+    id: "WMXX2913",
+    name: "察布查尔",
+    parent_id: "0999"
+}, {
+    id: "CHXX0198",
+    name: "塔城",
+    parent_id: "31"
+}, {
+    id: "CHXX0136",
+    name: "乌苏",
+    parent_id: "CHXX0198"
+}, {
+    id: "WMXX1143",
+    name: "额敏",
+    parent_id: "CHXX0198"
+}, {
+    id: "WMXX2914",
+    name: "沙湾",
+    parent_id: "CHXX0198"
+}, {
+    id: "WMXX1142",
+    name: "托里",
+    parent_id: "CHXX0198"
+}, {
+    id: "WMXX2915",
+    name: "裕民",
+    parent_id: "CHXX0198"
+}, {
+    id: "CHXX0199",
+    name: "和布克赛尔",
+    parent_id: "CHXX0198"
+}, {
+    id: "CHXX0196",
+    name: "阿勒泰",
+    parent_id: "31"
+}, {
+    id: "WMXX2916",
+    name: "布尔津",
+    parent_id: "CHXX0196"
+}, {
+    id: "CHXX0197",
+    name: "富蕴",
+    parent_id: "CHXX0196"
+}, {
+    id: "WMXX2917",
+    name: "福海",
+    parent_id: "CHXX0196"
+}, {
+    id: "CHXX0195",
+    name: "哈巴河",
+    parent_id: "CHXX0196"
+}, {
+    id: "WMXX2918",
+    name: "青河",
+    parent_id: "CHXX0196"
+}, {
+    id: "WMXX2919",
+    name: "吉木乃",
+    parent_id: "CHXX0196"
+}, {
+    id: "WMXX1119",
+    name: "石河子",
+    parent_id: "31"
+}, {
+    id: "CHXX0212",
+    name: "阿拉尔",
+    parent_id: "31"
+}, {
+    id: "WMXX2922",
+    name: "蔡家湖",
+    parent_id: "31"
+}, {
+    id: "WMXX2923",
+    name: "莫索湾",
+    parent_id: "31"
+}, {
+    id: "WMXX2924",
+    name: "塔中",
+    parent_id: "31"
+}, {
+    id: "WMXX5999",
+    name: "三棵树",
+    parent_id: "31"
+}, {
+    id: "CHXX0133",
+    name: "天津",
+    parent_id: "3"
+}, {
+    id: "CHXX0130",
+    name: "塘沽",
+    parent_id: "CHXX0133"
+}, {
+    id: "CHXX0043",
+    name: "汉沽",
+    parent_id: "CHXX0133"
+}, {
+    id: "WMXX2925",
+    name: "大港",
+    parent_id: "CHXX0133"
+}, {
+    id: "WMXX2926",
+    name: "东丽",
+    parent_id: "CHXX0133"
+}, {
+    id: "WMXX2927",
+    name: "西青",
+    parent_id: "CHXX0133"
+}, {
+    id: "WMXX2928",
+    name: "津南",
+    parent_id: "CHXX0133"
+}, {
+    id: "WMXX2929",
+    name: "北辰",
+    parent_id: "CHXX0133"
+}, {
+    id: "WMXX1323",
+    name: "武清",
+    parent_id: "CHXX0133"
+}, {
+    id: "WMXX2930",
+    name: "宝坻",
+    parent_id: "CHXX0133"
+}, {
+    id: "WMXX2931",
+    name: "宁河",
+    parent_id: "CHXX0133"
+}, {
+    id: "CHXX0065",
+    name: "静海",
+    parent_id: "CHXX0133"
+}, {
+    id: "WMXX2932",
+    name: "蓟县",
+    parent_id: "CHXX0133"
+}, {
+    id: "CHXX0017",
+    name: "重庆",
+    parent_id: "4"
+}, {
+    id: "WMXX2933",
+    name: "北碚",
+    parent_id: "CHXX0017"
+}, {
+    id: "WMXX2934",
+    name: "万盛",
+    parent_id: "CHXX0017"
+}, {
+    id: "WMXX2935",
+    name: "渝北",
+    parent_id: "CHXX0017"
+}, {
+    id: "WMXX2936",
+    name: "巴南",
+    parent_id: "CHXX0017"
+}, {
+    id: "WMXX1105",
+    name: "万州",
+    parent_id: "CHXX0017"
+}, {
+    id: "WMXX1106",
+    name: "涪陵",
+    parent_id: "CHXX0017"
+}, {
+    id: "WMXX2937",
+    name: "黔江",
+    parent_id: "CHXX0017"
+}, {
+    id: "WMXX2938",
+    name: "长寿",
+    parent_id: "CHXX0017"
+}, {
+    id: "CHXX0057",
+    name: "江津",
+    parent_id: "CHXX0017"
+}, {
+    id: "CHXX0047",
+    name: "合川",
+    parent_id: "CHXX0017"
+}, {
+    id: "CHXX0157",
+    name: "永川",
+    parent_id: "CHXX0017"
+}, {
+    id: "WMXX2939",
+    name: "南川",
+    parent_id: "CHXX0017"
+}, {
+    id: "WMXX2940",
+    name: "綦江",
+    parent_id: "CHXX0017"
+}, {
+    id: "WMXX1107",
+    name: "潼南",
+    parent_id: "CHXX0017"
+}, {
+    id: "WMXX2941",
+    name: "铜梁",
+    parent_id: "CHXX0017"
+}, {
+    id: "WMXX1309",
+    name: "大足",
+    parent_id: "CHXX0017"
+}, {
+    id: "WMXX1310",
+    name: "荣昌",
+    parent_id: "CHXX0017"
+}, {
+    id: "WMXX2942",
+    name: "璧山",
+    parent_id: "CHXX0017"
+}, {
+    id: "CHXX0405",
+    name: "梁平",
+    parent_id: "CHXX0017"
+}, {
+    id: "WMXX1108",
+    name: "城口",
+    parent_id: "CHXX0017"
+}, {
+    id: "WMXX2943",
+    name: "丰都",
+    parent_id: "CHXX0017"
+}, {
+    id: "WMXX2944",
+    name: "垫江",
+    parent_id: "CHXX0017"
+}, {
+    id: "WMXX2945",
+    name: "武隆",
+    parent_id: "CHXX0017"
+}, {
+    id: "WMXX1109",
+    name: "忠县",
+    parent_id: "CHXX0017"
+}, {
+    id: "WMXX1110",
+    name: "开县",
+    parent_id: "CHXX0017"
+}, {
+    id: "WMXX1111",
+    name: "云阳",
+    parent_id: "CHXX0017"
+}, {
+    id: "CHXX0401",
+    name: "奉节",
+    parent_id: "CHXX0017"
+}, {
+    id: "WMXX1311",
+    name: "巫山",
+    parent_id: "CHXX0017"
+}, {
+    id: "WMXX2946",
+    name: "巫溪",
+    parent_id: "CHXX0017"
+}, {
+    id: "WMXX1112",
+    name: "石柱",
+    parent_id: "CHXX0017"
+}, {
+    id: "WMXX2947",
+    name: "秀山",
+    parent_id: "CHXX0017"
+}, {
+    id: "CHXX0414",
+    name: "酉阳",
+    parent_id: "CHXX0017"
+}, {
+    id: "WMXX1113",
+    name: "彭水",
+    parent_id: "CHXX0017"
+}, {
+    id: "CHXX0049",
+    name: "香港",
+    parent_id: "32"
+}, {
+    id: "CHXX0075",
+    name: "九龙",
+    parent_id: "32"
+}, {
+    id: "WMXX2948",
+    name: "新界",
+    parent_id: "32"
+}, {
+    id: "CHXX0512",
+    name: "澳门",
+    parent_id: "33"
+}, {
+    id: "TWXX0021",
+    name: "台北",
+    parent_id: "34"
+}, {
+    id: "TWXX0010",
+    name: "新店",
+    parent_id: "TWXX0021"
+}, {
+    id: "TWXX0024",
+    name: "淡水",
+    parent_id: "TWXX0021"
+}, {
+    id: "TWXX0005",
+    name: "芝山",
+    parent_id: "TWXX0021"
+}, {
+    id: "TWXX0013",
+    name: "高雄",
+    parent_id: "34"
+}, {
+    id: "TWXX0003",
+    name: "基隆",
+    parent_id: "34"
+}, {
+    id: "TWXX0019",
+    name: "台中",
+    parent_id: "34"
+}, {
+    id: "TWXX0007",
+    name: "豐原市",
+    parent_id: "TWXX0019"
+}, {
+    id: "TWXX0020",
+    name: "台南",
+    parent_id: "34"
+}, {
+    id: "TWXX0009",
+    name: "新竹",
+    parent_id: "34"
+}, {
+    id: "TWXX0006",
+    name: "竹東",
+    parent_id: "TWXX0009"
+}, {
+    id: "TWXX0002",
+    name: "嘉義",
+    parent_id: "34"
+}, {
+    id: "TWXX0025",
+    name: "桃園",
+    parent_id: "34"
+}, {
+    id: "TWXX0014",
+    name: "苗栗",
+    parent_id: "34"
+}, {
+    id: "TWXX0001",
+    name: "彰化",
+    parent_id: "34"
+}, {
+    id: "TWXX0011",
+    name: "花蓮",
+    parent_id: "34"
+}, {
+    id: "TWXX0015",
+    name: "屏東",
+    parent_id: "34"
+}, {
+    id: "TWXX0023",
+    name: "台東",
+    parent_id: "34"
+}, {
+    id: "TWXX0026",
+    name: "大武",
+    parent_id: "TWXX0023"
+}, {
+    id: "WMXX2976",
+    name: "钓鱼岛",
+    parent_id: "34"
+}];

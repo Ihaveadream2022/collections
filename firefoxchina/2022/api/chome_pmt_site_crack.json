@@ -1,0 +1,45 @@
+{
+	"created_at": "2020-11-01 00:00:03",
+	"data": {
+		"id": 465,
+		"title": "网址夹缝-推广-数据列表",
+		"remark": "intro 为ready时表示开启",
+		"data": [{
+			"id": 468,
+			"title": "天猫双11",
+			"imgurl": "\/\/static.firefoxchina.cn\/img\/201906\/7_5d08af8a6628d0.png",
+			"data": [{
+				"id": 470,
+				"title": "服饰鞋品",
+				"url": "https:\/\/m.baidu.com\/?from=1000969a&normalload=1#",
+				"imgurl": "\/\/static.firefoxchina.cn\/img\/201906\/4_5d09cfe127ba30.png",
+				"imgurl_https": "https:\/\/static.firefoxchina.cn\/img\/201906\/4_5d09cfe127ba30.png"
+			}, {
+				"id": 471,
+				"title": "母婴玩具",
+				"url": "https:\/\/m.baidu.com\/?from=1000969a&normalload=1#",
+				"imgurl": "\/\/static.firefoxchina.cn\/img\/201906\/4_5d09cfe127ba30.png",
+				"imgurl_https": "https:\/\/static.firefoxchina.cn\/img\/201906\/4_5d09cfe127ba30.png"
+			}, {
+				"id": 472,
+				"title": "酒水饮料",
+				"url": "https:\/\/s.click.taobao.com\/t?e=m=2&s=j8xfyvR1TIUcQipKwQzePCperVdZeJviK7Vc7tFgwiFRAdhuF14FMQi/Fo7xrfGglovu/CElQOtoVxuUFnM6iMUjUj9sJ/OjW3NSbDu/deDT7areERwKJJ3PLI70IiRVfkwHTg4TQaeOJ2XZVrYPybh9YVht/lWEjPobR+9Wl+oDZZ8w6LKUEUtRIy3Y8lGD8HTPyqWu/6OW40TDkQBfP99kJUfav0XV3DIVHTTCqAgqQl/kAeeHjBHZgxICYlSSfE+H0gbC0KpP0bJfNEbCCd5BcN4TYKqVwuFIwfmXUgSnbw+guORYC2fws0NOTMEvomfkDJRs+hU=",
+				"imgurl": "\/\/static.firefoxchina.cn\/img\/201906\/3_5d020042b0cb90.png",
+				"imgurl_https": "https:\/\/static.firefoxchina.cn\/img\/201906\/3_5d020042b0cb90.png"
+			}, {
+				"id": 473,
+				"title": "数码潮玩",
+				"url": "https:\/\/sina.cn\/?wm=3299&vt=4&urlHistory=sina",
+				"imgurl": "\/\/static.firefoxchina.cn\/img\/201906\/4_5d09cfe127ba30.png",
+				"imgurl_https": "https:\/\/static.firefoxchina.cn\/img\/201906\/4_5d09cfe127ba30.png"
+			}, {
+				"id": 474,
+				"title": "大牌家电",
+				"url": "https:\/\/sina.cn\/?wm=3299&vt=4&urlHistory=sina",
+				"imgurl": "\/\/static.firefoxchina.cn\/img\/201906\/4_5d09cfe127ba30.png",
+				"imgurl_https": "https:\/\/static.firefoxchina.cn\/img\/201906\/4_5d09cfe127ba30.png"
+			}],
+			"imgurl_https": "https:\/\/static.firefoxchina.cn\/img\/201906\/7_5d08af8a6628d0.png"
+		}]
+	}
+}
