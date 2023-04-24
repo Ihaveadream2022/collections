@@ -9,6 +9,7 @@ $(document).ready(function () {
         that.pluginLocalStorage = localStoragePlugin.getInstance();
         that.IDTimeout = 0;
         that.IDInterval = 0;
+        that.searchEngine = $(".search-engine"); // 搜索区域顶级容器
         that.engineFloat = $("#search-engine-flip"); // 搜索-浮动搜索框
         that.adText = $(".search-engine").find(".slink-list"); // 搜索-右侧文字广告
         that.emailBtn = $(".search-engine").find(".btn-email-show"); // 搜索-邮箱按钮
@@ -75,7 +76,8 @@ $(document).ready(function () {
                     let dataList = display.querySelector(".data-list");
                     if (!data[type].length) {
                         $.ajax({
-                            url: "/api?feeds=1&tab=" + type,
+                            url: "/2022/api/data/feeds_" + type + ".json?" + Math.random(),
+                            // url: "/api?feeds=1&tab=" + type,
                             type: "get",
                             dataType: "json",
                             timeout: 10000,
@@ -474,9 +476,9 @@ $(document).ready(function () {
                     that.weatherMenu.find(".weather-detail-info").show().siblings().hide();
                     that.weatherMenu.find(".weather-title b").html(cityName);
                     $.ajax({
-                        url: "/api",
-                        data: { weather: "yes", citycode: cityCode },
-                        type: "post",
+                        url: "/2022/api/data/" + cityCode + ".json",
+                        //data: { weather: "yes", citycode: cityCode },
+                        type: "get",
                         dataType: "json",
                         success: function (data) {
                             var weatherShowMod = that.weatherMenu.find(".weather-detail");
@@ -737,27 +739,216 @@ $(document).ready(function () {
             });
 
             //处理默认状态下的显示
-            $(".engine-key-hidden").attr("name", "q");
-            $(".engine-key").removeAttr("name");
-            //2013-12-12 end
-            EngineWidget.build({
-                wrapper: $("#engine-top"),
-                formEle: $("#search-form"),
-                navEle: $("#search-nav"),
-                logoShowEle: $("#search-logo"),
-                keyEle: $("#search-key"),
+            // $(".engine-key-hidden").attr("name", "q");
+            // $(".engine-key").removeAttr("name");
+            // //2013-12-12 end
+            // EngineWidget.build({
+            //     wrapper: $("#engine-top"),
+            //     formEle: $("#search-form"),
+            //     navEle: $("#search-nav"),
+            //     logoShowEle: $("#search-logo"),
+            //     keyEle: $("#search-key"),
 
-                radioEle: $("#search-radio"),
-                logoMoreEle: $("#engine-logo-expand"),
-                logoListEle: $("#engine-logos-list"),
-                tipEle: $("#engine-tip-show"),
-                tipKeySelector: ".search-engine .engine-key",
-                tipShowSelector: ".engine-tip-list",
-                curEle: $("#search-current"),
-                hotBtnEle: $("#btn-engine-hot"),
-                bubbleEle: $("#btn-engine-bubble"),
-                hotListEle: $("#engine-hot-show"),
-            });
+            //     radioEle: $("#search-radio"),
+            //     logoMoreEle: $("#engine-logo-expand"),
+            //     logoListEle: $("#engine-logos-list"),
+            //     tipEle: $("#engine-tip-show"),
+            //     tipKeySelector: ".search-engine .engine-key",
+            //     tipShowSelector: ".engine-tip-list",
+            //     curEle: $("#search-current"),
+            //     hotBtnEle: $("#btn-engine-hot"),
+            //     bubbleEle: $("#btn-engine-bubble"),
+            //     hotListEle: $("#engine-hot-show"),
+            // });
+
+            (function () {
+                var engineTop = that.searchEngine.find("#engine-top"); // 在网页里的搜索区域容器
+                var hotBtn = that.searchEngine.find("#btn-engine-hot"); // 热门搜索下拉按钮
+                var engineHotShow = that.searchEngine.find("#engine-hot-show"); // 热词提示列表
+                var engineHotTips = that.searchEngine.find("#engine-tip-show"); // 搜索词提示列表
+                var searchInput = engineTop.find("#search-key");
+                var formElem = that.searchEngine.find("#search-form");
+
+                // 绑定事件-----------------------------------------------------------------------
+                // 热门搜索下拉按钮
+                hotBtn.click(function (evt) {
+                    evt.preventDefault();
+                    engineHotTips.hide(); // 隐藏 提示词列表
+                    if (engineTop.hasClass("expand")) {
+                        engineTop.removeClass("expand");
+                    } else {
+                        engineTop.addClass("expand");
+                    }
+                });
+                // 关闭所有提示下拉框
+                formElem.submit(function () {
+                    engineHotTips.hide(); // 隐藏 提示词列表
+                    engineTop.removeClass("expand"); // 隐藏 热搜列表
+                });
+                // 热门搜索下拉按钮 - 点击热词
+                engineHotShow.find("li").click(function (evt) {
+                    var btn = $(this);
+                    var keyword = $.trim(btn.find("span").text());
+                    searchInput.val(keyword);
+                    formElem.submit();
+                    engineTop.removeClass("expand");
+                    searchInput.val("");
+                    evt.preventDefault();
+                });
+                // 搜索词提示
+                searchInput.keyup(function (evt) {
+                    evt.stopPropagation();
+                    engineTop.removeClass("expand"); // 隐藏 热搜列表
+                    var inputElem = $(this);
+                    console.log(inputElem);
+                    showInputTips(inputElem.val(), function (sug) {
+                        console.log(sug);
+                        if (engineHotTips.length && sug && sug.s) {
+                            var tipHtm = "",
+                                tlen = sug.s.length,
+                                tindex = 0;
+                            engineHotTips.empty();
+                            if (tlen) {
+                                tipHtm += "<ul>";
+                                for (; tindex < tlen; tindex++) {
+                                    tipHtm += "<li><span>" + sug.s[tindex] + "</span></li>";
+                                }
+                                tipHtm += "</ul>";
+                                engineHotTips.html(tipHtm);
+                                engineHotTips.show();
+                                // 热门搜索下拉按钮 - 点击热词
+                                engineHotTips.find("li").click(function (evt) {
+                                    var btn = $(this);
+                                    var keyword = $.trim(btn.find("span").text());
+                                    searchInput.val(keyword);
+                                    formElem.submit();
+                                    engineHotTips.hide(); // 隐藏 提示词列表
+                                    engineTop.removeClass("expand");
+                                    searchInput.val("");
+                                    evt.preventDefault();
+                                });
+                            } else {
+                                engineHotTips.hide();
+                            }
+                        }
+                    });
+
+                    //         keyCode = evt.keyCode,
+                    //         btnParent = btn.parent(),
+                    //         tipEle = btnParent.find(tipShowSelector),
+                    //         hotEle = btnParent.find(".engine-hot-list"),
+                    //         tips = tipEle.find("li"),
+                    //         tlen = tips.length,
+                    //         selectTip = tipEle.find("." + tipSelectClass),
+                    //         selVal = "",
+                    //         selectIndex = -1,
+                    //         changeIndex = 0;
+
+                    //     selectTip.length && (selectIndex = selectTip.eq(0).index());
+                    //     //Up
+                    //     if (keyCode == 38) {
+                    //         changeIndex = selectIndex > 0 ? selectIndex - 1 : tlen - 1;
+                    //         //tips.eq(changeIndex).addClass(tipSelectClass).siblings().removeClass(tipSelectClass);
+                    //         searchTips
+                    //             .find("li:eq(" + changeIndex + ")")
+                    //             .addClass(tipSelectClass)
+                    //             .siblings()
+                    //             .removeClass(tipSelectClass);
+                    //         //selVal = $.trim(tipEle.find("li."+tipSelectClass+" span").html());
+                    //         selVal = tipEle.find("li." + tipSelectClass + " span").html();
+                    //         //btn.val(selVal);
+                    //         //同步显示两个engine-key里的input内容
+                    //         searchKeys.val(selVal);
+                    //         that.lastword = selVal;
+                    //         //Down
+                    //     } else if (keyCode == 40) {
+                    //         changeIndex = selectIndex < tlen - 1 ? selectIndex + 1 : 0;
+                    //         //tips.eq(changeIndex).addClass(tipSelectClass).siblings().removeClass(tipSelectClass);
+                    //         searchTips
+                    //             .find("li:eq(" + changeIndex + ")")
+                    //             .addClass(tipSelectClass)
+                    //             .siblings()
+                    //             .removeClass(tipSelectClass);
+                    //         //selVal = $.trim(tipEle.find("li."+tipSelectClass+" span").html());
+                    //         selVal = tipEle.find("li." + tipSelectClass + " span").html();
+                    //         //btn.val(selVal);
+                    //         //同步显示两个engine-key里的input内容
+                    //         searchKeys.val(selVal);
+                    //         that.lastword = selVal;
+                    //     } else if (keyCode == 13) {
+                    //         //回车
+                    //         //tipEle.hide();
+                    //         searchTips.hide();
+                    //     } else {
+                    //         var val = $.trim(btn.val());
+                    //         if (!val && that.showAuto && that.showHotBtn && that.initiated) {
+                    //             //显示热门推荐搜索
+                    //             hotEle.length && that.showHotRecommend();
+                    //         } else {
+                    //             hotEle.length && that.hideHotRecommend();
+                    //             searchTips.hide();
+                    //             that.showSearchTips($(this), tipEle);
+                    //         }
+                    //     }
+                });
+                // 函数
+                // function showSearchTips(btn, tipShowEle) {
+                //     var that = this,
+                //         settings = that.settings,
+                //         tipKeySelector = settings.tipKeySelector,
+                //         tipShowSelector = settings.tipShowSelector,
+                //         searchTips = $(tipShowSelector),
+                //         searchKeys = $(tipKeySelector),
+                //         btnVal = btn.val(),
+                //         word = $.trim(btnVal);
+                //     if (word && word != that.lastWord) {
+                //         that.lastword = word;
+                //         //同步显示两个engine-key里的input内容
+                //         searchKeys.val(btnVal);
+
+                //         showInputTips(tipShowEle, word, function (sug) {
+                //             if (tipShowEle.length && sug && sug.s) {
+                //                 var tipHtm = "",
+                //                     tlen = sug.s.length,
+                //                     tindex = 0;
+                //                 tipShowEle.empty();
+                //                 if (tlen) {
+                //                     tipHtm += "<ul>";
+                //                     for (; tindex < tlen; tindex++) {
+                //                         tipHtm += "<li><span>" + sug.s[tindex] + "</span></li>";
+                //                     }
+                //                     tipHtm += "</ul>";
+                //                     searchTips.html(tipHtm);
+                //                     tipShowEle.show();
+                //                 } else {
+                //                     tipShowEle.hide();
+                //                 }
+                //             }
+                //         });
+                //     }
+                // }
+            })();
+
+            function showInputTips(word, callback) {
+                // 百度搜索提示
+                window.baidu = {
+                    sug: function (sug) {
+                        callback && callback.call(null, sug);
+                    },
+                };
+                if (word) {
+                    $.ajax({
+                        url: "//www.baidu.com/su?ie=utf-8&wd=" + encodeURIComponent(word),
+                        type: "get",
+                        dataType: "script",
+                        scriptCharset: "gbk",
+                        timeout: 15000,
+                        error: function (xhr, status, error) {
+                            console.log(error);
+                        },
+                    });
+                }
+            }
 
             //初始化个人定制网站
             SiteWidget.build({
@@ -853,20 +1044,6 @@ $(document).ready(function () {
             addPromoteTrace();
 
             !NEW_EXTENSION && TraceWidget.loadChannel();
-
-            //自动登录
-            var userData = CookieWidget.getItem("n_user_data");
-
-            //暂时清除登录-2014-05-14
-            var lastTime = StorageWidget.getItem("n_s_version");
-            if (userData && lastTime != __version__) {
-                // CookieWidget.setItem("n_user_data","");
-            }
-
-            if (MozillaTool.checkLogin() && userData) {
-                var userArea = $("#user-area-info");
-                userArea.html("<p class='user-login-status'><span>" + userData.uname + "</span><a href='javascript:;' class='btn-pop-win' data-type='logout'>退出</a></p>");
-            }
 
             //处理主页修复
             var repair_url = MozillaTool.getRepairURL();

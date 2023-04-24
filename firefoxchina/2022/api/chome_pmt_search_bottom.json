@@ -1,0 +1,31 @@
+{
+  "created_at": "2021-07-12 14:13:47",
+  "data": {
+    "id": 430,
+    "title": "搜索框下部推广",
+    "intro": "ready",
+    "remark": "intro 为ready时表示开启",
+    "data": [{
+      "id": 464,
+      "title": "天猫双11家具生活",
+      "url": "https:\/\/s.click.taobao.com\/AVzvIvu",
+      "imgurl": "\/\/admin.firefoxchina.cn:8080\/images\/static\/capture1.jpg",
+      "meta": "{\"pmtPos\": \"0\", \"isFixed\": \"true\"}",
+      "imgurl_https": "https:\/\/static.firefoxchina.cn\/202011\/nvrIdqr0H3VnbMBD4fJfLBRUFHBcWYvKD25Rg58m.png"
+    }, {
+      "id": 2102,
+      "title": "天猫双11零食饮品",
+      "url": "https:\/\/s.click.taobao.com\/AVzvIvu",
+      "imgurl": "\/\/admin.firefoxchina.cn:8080\/images\/static\/capture3.jpg",
+      "meta": "{\"pmtPos\": \"0\", \"isFixed\": \"true\"}",
+      "imgurl_https": "https:\/\/static.firefoxchina.cn\/202011\/DhTiDRklypP3YXmmIvOuXF1AnRkhvHRHbZhJcnAE.png"
+    }, {
+      "id": 463,
+      "title": "运动户外 年终狂欢",
+      "url": "https:\/\/u.jd.com\/tlXzM46",
+      "imgurl": "\/\/static.firefoxchina.cn\/202011\/zp1AYeIaMMJDWN0cM9XGssQAGgwaSNJkrHR0ReAE.jpeg",
+      "meta": "{\"pmtPos\": \"1\", \"isFixed\": \"true\"}",
+      "imgurl_https": "https:\/\/static.firefoxchina.cn\/202011\/zp1AYeIaMMJDWN0cM9XGssQAGgwaSNJkrHR0ReAE.jpeg"
+    }]
+  }
+}

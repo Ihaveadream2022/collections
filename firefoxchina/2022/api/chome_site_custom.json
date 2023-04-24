@@ -1,0 +1,195 @@
+{
+  "created_at": "2022-05-12 10:59:16",
+  "data": {
+    "id": 289,
+    "title": "【网址-自定义】",
+    "data": [
+      {
+        "id": 490,
+        "title": "精选网址",
+        "data": [
+          {
+            "id": 495,
+            "title": "百度",
+            "url": "https://www.baidu.com/index.php?tn=monline_3_dg"
+          },
+          {
+            "id": 496,
+            "title": "贴吧",
+            "url": "http://tieba.baidu.com/"
+          },
+          {
+            "id": 497,
+            "title": "哔哩哔哩",
+            "url": "http://www.bilibili.com/"
+          },
+          {
+            "id": 500,
+            "title": "虎扑体育",
+            "url": "http://www.hupu.com/"
+          },
+          {
+            "id": 504,
+            "title": "今日头条",
+            "url": "http://www.toutiao.com/"
+          }
+        ]
+      },
+      {
+        "id": 491,
+        "title": "资讯",
+        "data": [
+          {
+            "id": 578,
+            "title": "人民网",
+            "url": "http://www.people.com.cn/"
+          },
+          {
+            "id": 579,
+            "title": "联合早报",
+            "url": "http://www.zaobao.com.sg/"
+          },
+          {
+            "id": 580,
+            "title": "NBA中文网",
+            "url": "http://china.nba.com/"
+          },
+          {
+            "id": 581,
+            "title": "观察者网",
+            "url": "http://www.guancha.cn/"
+          },
+          {
+            "id": 582,
+            "title": "财新网",
+            "url": "http://www.caixin.com/"
+          }
+        ]
+      },
+      {
+        "id": 492,
+        "title": "生活",
+        "data": [
+          {
+            "id": 583,
+            "title": "世纪佳缘网",
+            "url": "http://www.jiayuan.com/"
+          },
+          {
+            "id": 584,
+            "title": "赶集网",
+            "url": "http://www.ganji.com/"
+          },
+          {
+            "id": 585,
+            "title": "易车网",
+            "url": "http://www.bitauto.com/"
+          },
+          {
+            "id": 586,
+            "title": "爱卡汽车",
+            "url": "http://www.xcar.com.cn/"
+          },
+          {
+            "id": 587,
+            "title": "什么值得买",
+            "url": "http://www.smzdm.com/"
+          }
+        ]
+      },
+      {
+        "id": 493,
+        "title": "影音",
+        "data": [
+          {
+            "id": 588,
+            "title": "央视网",
+            "url": "http://www.cctv.com/"
+          },
+          {
+            "id": 589,
+            "title": "芒果TV",
+            "url": "http://www.hunantv.com/"
+          },
+          {
+            "id": 590,
+            "title": "虎牙直播",
+            "url": "http://www.huya.com/"
+          },
+          {
+            "id": 591,
+            "title": "网易云音乐",
+            "url": "http://music.163.com/"
+          },
+          {
+            "id": 592,
+            "title": "虾米音乐",
+            "url": "http://www.xiami.com/"
+          }
+        ]
+      },
+      {
+        "id": 494,
+        "title": "娱乐",
+        "data": [
+          {
+            "id": 2624,
+            "title": "新浪",
+            "url": "https://ent.sina.com.cn/"
+          },
+          {
+            "id": 593,
+            "title": "起点中文网",
+            "url": "http://www.qidian.com/"
+          },
+          {
+            "id": 594,
+            "title": "7k7k",
+            "url": "http://www.7k7k.com/"
+          },
+          {
+            "id": 595,
+            "title": "糗事百科",
+            "url": "http://www.qiushibaike.com/"
+          },
+          {
+            "id": 596,
+            "title": "暴走漫画",
+            "url": "http://baozoumanhua.com/"
+          }
+        ]
+      },
+      {
+        "id": 1154,
+        "title": "工具",
+        "data": [
+          {
+            "id": 1155,
+            "title": "学信网",
+            "url": "https://www.chsi.com.cn/"
+          },
+          {
+            "id": 1156,
+            "title": "天眼查",
+            "url": "https://www.tianyancha.com/"
+          },
+          {
+            "id": 1157,
+            "title": "一键改图",
+            "url": "https://yijiangaitu.com/"
+          },
+          {
+            "id": 1158,
+            "title": "查快递",
+            "url": "http://www.guoguo-app.com/"
+          },
+          {
+            "id": 1159,
+            "title": "火车票",
+            "url": "https://www.12306.cn/index/"
+          }
+        ]
+      }
+    ]
+  }
+}

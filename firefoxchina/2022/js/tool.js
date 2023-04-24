@@ -30,62 +30,6 @@ var MOZ_INFO = {
     OPERATE_STR: "<div class='loading'><span>正在操作，请耐心等候...</span></div>",
     SECRET_MODE: "您开启了【秘密浏览】模式，可能导致某些功能无法正常使用",
 };
-/*
- * Cookie存储 - 适用于存储具有时限的暂时数据
- */
-(function () {
-    var CookieWidget = {
-        __backend__: {
-            setItem: function (key, value, expire) {
-                var date;
-                if (expire) {
-                    date = new Date();
-                    date.setTime(expire);
-                } else {
-                    date = MOZ_INFO.DEFAULT_COOKIE_EXPIRE;
-                }
-                try {
-                    document.cookie = key + "=" + escape(value + "") + "; path=/; domain=" + DOMAIN_TOP + "; expires=" + date.toGMTString();
-                } catch (e) {}
-            },
-            getItem: function (key, defaultValue) {
-                var resVal = defaultValue != undefined ? defaultValue : undefined;
-                try {
-                    var seq = document.cookie.split(";"),
-                        re = new RegExp("^ ?" + key + "="),
-                        i;
-                    for (i in seq) {
-                        if (re.test(seq[i])) {
-                            var str = seq[i];
-                            resVal = unescape(str.substr(str.indexOf("=") + 1));
-                        }
-                    }
-                } catch (e) {}
-                return resVal;
-            },
-        },
-        getItem: function (k, d) {
-            var v = null;
-            try {
-                v = this.__backend__.getItem(k);
-                if (v !== null) {
-                    v = JSON.parse(v + "") || d;
-                } else {
-                    v = d;
-                }
-            } catch (ex) {
-                v = d;
-            }
-            return v;
-        },
-        setItem: function (k, v, expire) {
-            try {
-                this.__backend__.setItem(k, JSON.stringify(v), expire);
-            } catch (ex) {}
-        },
-    };
-    if (!window.CookieWidget) window.CookieWidget = CookieWidget;
-})();
 
 /*
  * Storage存储 - 适用于存储不具有时限的永久数据
@@ -884,31 +828,31 @@ var MOZ_INFO = {
             $(document).on("click", "a", function (evt) {
                 linkTrace($(this));
             });
-            $(document).on("submit", "form", function (evt) {
-                var form = $(this),
-                    //更改search key 值
-                    engineKey = form.find(".engine-key"),
-                    engineKeyHidden = form.find(".engine-key-hidden"),
-                    title = engineKey.val() || "无关键字",
-                    url = form.attr("trace-url"),
-                    key = form.attr("trace-key") || form.attr("track-key");
-                if (engineKey.length && engineKeyHidden.length) {
-                    engineKeyHidden.val(engineKey.val());
-                    //engineKey.val("");
-                    $(".search-engine .engine-key").val("");
-                }
-                //处理搜索form
-                if (form.hasClass("engine-trace-form")) {
-                    var action = form.attr("action"),
-                        engine = $.trim(form.find(".engine-type").val());
-                    url = action + "?q=" + title + "&engine=" + engine;
-                }
-                form.attr({
-                    "trace-title": title,
-                    "trace-url": url,
-                });
-                trace(title, url, key);
-            });
+            //$(document).on("submit", "form", function (evt) {
+            //    var form = $(this),
+            //        //更改search key 值
+            //        engineKey = form.find(".engine-key"),
+            //        engineKeyHidden = form.find(".engine-key-hidden"),
+            //        title = engineKey.val() || "无关键字",
+            //        url = form.attr("trace-url"),
+            //        key = form.attr("trace-key") || form.attr("track-key");
+            //    if (engineKey.length && engineKeyHidden.length) {
+            //        engineKeyHidden.val(engineKey.val());
+            //        //engineKey.val("");
+            //        $(".search-engine .engine-key").val("");
+            //    }
+            //    //处理搜索form
+            //    if (form.hasClass("engine-trace-form")) {
+            //        var action = form.attr("action"),
+            //            engine = $.trim(form.find(".engine-type").val());
+            //        url = action + "?q=" + title + "&engine=" + engine;
+            //    }
+            //    form.attr({
+            //        "trace-title": title,
+            //        "trace-url": url,
+            //    });
+            //    trace(title, url, key);
+            //});
         };
         /*
          * 快速添加单个链接日志
@@ -1069,172 +1013,9 @@ var MOZ_INFO = {
                         classname: "google-logo",
                         href: "https://www.google.com/",
                         charset: "utf-8",
-                        /* "title":"谷歌",
-                            "cls":"google-logo",
-                            "url": "https://www.google.com/",
-                            "action": "https://i.g-fox.cn/search",
-                            "engine":"google_web",
-                            "traceKey":"search_web_google"*/
                     },
                 ],
             },
-            /*{
-                    name: "news",
-                    label: "新闻",
-                    lists: [{
-                          name: 'baidu_news',
-                          traceKey: 'search_news_baidu',
-                          label: '百度',
-                          url: '//i.g-fox.cn/search',
-                          classname: 'baidu-logo',
-                          href: 'http://news.baidu.com/',
-                          charset: 'utf-8'
-                        }, 
-                        {
-                          name: 'google_news',
-                          traceKey: 'search_news_google',
-                          label: '谷歌',
-                          url: '//i.g-fox.cn/search',
-                          classname: 'google-logo',
-                          href: 'http://news.google.com.hk/nwshp?hl=zh-CN&tab=in&client=aff-priustest&channel=hotlink',
-                          charset: 'utf-8'
-                        }]
-                  },
-                  {
-                    name: "map",
-                    label: "地图",
-                    lists: [
-                              {
-                                  name: 'baidu_map',
-                                  traceKey: 'search_map_baidu',
-                                  label: '百度',
-                                  url: '//i.g-fox.cn/search',
-                                  classname: 'baidu-logo',
-                                  href: 'http://map.baidu.com/',
-                                  charset: 'utf-8'
-                              },
-                              {
-                                  name: 'google_map',
-                                  traceKey: 'search_map_google',
-                                  label: '谷歌',
-                                  url: '//i.g-fox.cn/search',
-                                  classname: 'google-logo',
-                                  href: 'http://ditu.google.cn/maps?hl=zh-CN&tab=il&client=aff-priustest&channel=hotlink',
-                                  charset: 'utf-8'
-                              },
-                              {
-                                 name: 'gaode_map',
-                                 traceKey: 'search_map_gaode',
-                                 label: '高德',
-                                 url: '//i.g-fox.cn/search',
-                                 classname: 'gaode-logo',
-                                 href: 'http://www.amap.com/?src=firefox',
-                                 charset: 'utf-8'
-                              }
-                          ]
-                  },
-                  {
-                    name: "video",
-                    label: "视频",
-                    lists: [ 
-                        {
-                          name: 'baidu_video',
-                          traceKey: 'search_video_baidu',
-                          label: '百度',
-                          url: '//i.g-fox.cn/search',
-                          classname: 'baidu-logo',
-                          href: 'http://video.baidu.com/',
-                          charset: 'utf-8'
-                        },
-                        {
-                          name: 'google_video',
-                          traceKey: 'search_video_google',
-                          label: '谷歌',
-                          url: '//i.g-fox.cn/search',
-                          classname: 'google-logo',
-                          href: 'http://www.google.com.hk/videohp?hl=zh-CN&ned=cn&tab=nv&client=aff-priustest&channel=hotlink',
-                          charset: 'utf-8'
-                        }
-                        ]
-                  },
-                  {
-                    name: "image",
-                    label: "图片",
-                    lists: [{
-                          name: 'baidu_image',
-                          traceKey: 'search_image_baidu',
-                          label: '百度',
-                          url: '//i.g-fox.cn/search',
-                          classname: 'baidu-logo',
-                          href: 'http://image.baidu.com/',
-                          charset: 'utf-8'
-                        }, 
-                        {
-                          name: 'google_image',
-                          traceKey: 'search_image_google',
-                          label: '谷歌',
-                          url: '//i.g-fox.cn/search',
-                          classname: 'google-logo',
-                          href: 'http://www.google.com.hk/imghp?hl=zh-CN&tab=wi&client=aff-priustest&channel=hotlink',
-                          charset: 'utf-8'
-                        }]
-                  },
-                  {
-                    name: "music",
-                    label: "音乐",
-                    lists: [{
-                          name: 'baidu_music',
-                          traceKey: 'search_music_baidu',
-                          label: '百度',
-                          url: '//i.g-fox.cn/search',
-                          classname: 'baidu-logo',
-                          href: 'http://music.baidu.com/',
-                          charset: 'utf-8'
-                        }]
-                  },
-                  {
-                    name: "shopping",
-                    label: "购物",
-                    lists: [{
-                          name: 'taobao_shopping',
-                          traceKey:"search_shopping_taobao",
-                          label: '淘宝',
-                          url: '//i.g-fox.cn/search',
-                          classname: 'taobao-logo',
-                          href: 'http://ai.taobao.com?pid=mm_28347190_2425761_13466329',
-                          charset: 'utf-8'
-                        },
-                        {
-                          name: 'amazon_shopping',
-                          traceKey:"search_shopping_amazon",
-                          label: '亚马逊',
-                          url: '//i.g-fox.cn/search',
-                          classname: 'amazon-logo',
-                          href: 'http://www.amazon.cn/?source=Mozilla'
-                        }, 
-                        {
-                          name: 'jingdong_shopping',
-                          traceKey:'search_shopping_jd',
-                          label: '京东',
-                          url: '//i.g-fox.cn/search',
-                          classname: 'jingdong-logo',
-                          href: 'http://union.click.jd.com/jdc?e=&p=AyICZRprEAIQA1MaWBYyVlgNRQQlW1dCFBBFC0RUQUpADgpQTFtLKwRLR1NaBVMDQDITN1YYWhEBEwVcHmslY2A3HnVeFQAWAVQYWA%3D%3D&t=W1dCFBBFC0RUQUpADgpQTFtL',
-                          charset: 'gbk'
-                        }]
-                  },
-                  {
-                    name: "zhidao",
-                    label: "知道",
-                    lists: [{
-                          name: 'baidu_zhidao',
-                          traceKey: 'search_know_baidu',
-                          label: '知道',
-                          url: '//i.g-fox.cn/search',
-                          classname: 'baidu-logo',
-                          href: 'http://zhidao.baidu.com/',
-                          charset: 'utf-8'
-                        }]
-                  }*/
         ];
         var SearchEngine = function (options) {
             var that = this;
@@ -1462,18 +1243,6 @@ var MOZ_INFO = {
                 (sBubble = StorageWidget.getItem("n_2014_s_bubble", 0)), //区分于2013
                     (hotAuto = StorageWidget.getItem("n_2014_hot_auto", -1)), //区分于2013
                     (engineIndex = StorageWidget.getItem("n_2014_engine_index", 0)); //保存本地的搜索配置
-                //that.bubbleExpire = bubbleExpire*1000; //保存bubble有效时间
-                //初始化热门搜索气泡的显示和存储
-                /*if(sBubble!=undefined){//初始存储 
-                   if(bubbleEle.length){
-                      switch(sBubble){
-                          case 1:  bubbleEle.show(); break;
-                          default: that.showBubble = false;bubbleEle.remove(); break;
-                      }
-                   }
-                }else{
-                    bubbleEle.length && bubbleEle.show();
-                }*/
                 if (!sBubble) {
                     bubbleEle.length && bubbleEle.show();
                     StorageWidget.setItem("n_2014_s_bubble", "");
@@ -1763,64 +1532,64 @@ var MOZ_INFO = {
     //皮肤列表
     var SKIN = [
         {
-            img: "img/thumbs/default.jpg",
+            img: "2022/images/thumbs/default.jpg",
             name: "默认皮肤",
             title: "蓝色海洋",
             type: "blue",
             classname: "skin-default",
         },
         {
-            img: "img/thumbs/firefox.jpg",
+            img: "2022/images/thumbs/firefox.jpg",
             name: "火狐萌萌哒",
             type: "firefox",
         },
         {
-            img: "img/thumbs/s-autumn.jpg",
+            img: "2022/images/thumbs/s-autumn.jpg",
             name: "春花秋色",
             type: "s-autumn",
         },
         {
-            img: "img/thumbs/cloud.jpg",
+            img: "2022/images/thumbs/cloud.jpg",
             name: "漫游云端",
             type: "cloud",
         },
         {
-            img: "img/thumbs/firefox.jpg",
+            img: "2022/images/thumbs/firefox.jpg",
             name: "火狐萌萌哒",
             type: "firefox",
         },
         {
-            img: "img/thumbs/firefox.jpg",
+            img: "2022/images/thumbs/firefox.jpg",
             name: "火狐萌萌哒",
             type: "firefox",
         },
         {
-            img: "img/thumbs/firefox.jpg",
+            img: "2022/images/thumbs/firefox.jpg",
             name: "火狐萌萌哒",
             type: "firefox",
         },
         {
-            img: "img/thumbs/firefox.jpg",
+            img: "2022/images/thumbs/firefox.jpg",
             name: "火狐萌萌哒",
             type: "firefox",
         },
         {
-            img: "img/thumbs/firefox.jpg",
+            img: "2022/images/thumbs/firefox.jpg",
             name: "火狐萌萌哒",
             type: "firefox",
         },
         {
-            img: "img/thumbs/firefox.jpg",
+            img: "2022/images/thumbs/firefox.jpg",
             name: "火狐萌萌哒",
             type: "firefox",
         },
         {
-            img: "img/thumbs/firefox.jpg",
+            img: "2022/images/thumbs/firefox.jpg",
             name: "火狐萌萌哒",
             type: "firefox",
         },
         {
-            img: "img/thumbs/firefox.jpg",
+            img: "2022/images/thumbs/firefox.jpg",
             name: "火狐萌萌哒",
             type: "firefox",
         },
@@ -1927,7 +1696,7 @@ var MOZ_INFO = {
             var that = this;
             //modified by winter start
             var defaultData = StorageWidget.getItem("n_2014_skin", {
-                img: "img/thumbs/default.jpg",
+                img: "2022/images/thumbs/default.jpg",
                 name: "默认皮肤",
                 title: "蓝色海洋",
                 type: "blue",
@@ -2034,7 +1803,7 @@ var MOZ_INFO = {
                 displayWrapper = settings.displayWrapper,
                 skinEle = settings.skinEle,
                 skin = skin != undefined ? skin : "blue",
-                url = skin ? (skin == "blue" ? "" : (__tflag__ ? "srcode/2019/" : "2019/") + "css/skin/" + skin + (__tflag__ ? "" : SOURCE_SUFFIX) + ".css?" + __skversion__) : "";
+                url = skin ? (skin == "blue" ? "" : (__tflag__ ? "srcode/2019/" : "2022/") + "css/skin/" + skin + (__tflag__ ? "" : SOURCE_SUFFIX) + ".css?" + __skversion__) : "";
             skinEle.attr("href", url);
             that.tempSkin = { title: btn.attr("data-title") || "无关键字", type: skin, url: skin };
 
