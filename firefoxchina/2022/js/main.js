@@ -76,7 +76,7 @@ $(document).ready(function () {
                     let dataList = display.querySelector(".data-list");
                     if (!data[type].length) {
                         $.ajax({
-                            url: "/2022/api/data/feeds_" + type + ".json?" + Math.random(),
+                            url: "2022/api/data/feeds_" + type + ".json?" + Math.random(),
                             // url: "/api?feeds=1&tab=" + type,
                             type: "get",
                             dataType: "json",
